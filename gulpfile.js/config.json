@@ -1,0 +1,81 @@
+{
+    "root": {
+        "src": "./src",
+        "dest": "./public"
+    },
+
+    "tasks": {
+        "browserSync": {
+            "server": {
+                "baseDir": "public"
+            }
+        },
+
+        "static": {
+            "src": "assets/static",
+            "dest": "assets/static/"
+        },
+
+        "js": {
+            "src": "assets/js",
+            "dest": "assets/js",
+            "extractSharedJs": true,
+            "entries": {
+                "app": ["./app.js"],
+                "page": ["./page.js"]
+            },
+            "extensions": ["js"]
+        },
+
+        "css": {
+            "src": "assets/css",
+            "dest": "assets/css",
+            "autoprefixer": {
+                "browsers": ["last 3 version"]
+            },
+            "sass": {
+                "indentedSyntax": true
+            },
+            "extensions": ["sass", "scss", "css"]
+        },
+
+        "html": {
+            "src": "html",
+            "dest": "./",
+            "dataFile": "data/global.json",
+            "htmlmin": {
+                "collapseWhitespace": true
+            },
+            "jade": {
+                "pretty": true
+            },
+            "extensions": ["jade", "json"],
+            "excludeFolders": ["templates", "shared", "macros", "data"]
+        },
+
+        "images": {
+            "src": "assets/img",
+            "dest": "assets/img",
+            "extensions": ["jpg", "png", "svg", "gif"]
+        },
+
+        "fonts": {
+            "src": "assets/fonts",
+            "dest": "assets/fonts",
+            "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+        },
+
+        "iconFont": {
+            "src": "assets/icons",
+            "dest": "assets/fonts",
+            "sassDest": "generated",
+            "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+        },
+
+        "svgSprite": {
+            "src": "assets/sprites",
+            "dest": "assets/img",
+            "extensions": ["svg"]
+        }
+    }
+}
