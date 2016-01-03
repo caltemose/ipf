@@ -1,0 +1,28 @@
+extends ../../templates/layout.jade
+
+block title
+    title #{globals.ipf.title} | Events | Music
+
+block contents
+
+    .u-container
+    
+        h1 Live Music at the Inman Park Festival
+        
+        mixin tertiaryNav(globals.events.nav, "music")
+    
+    .Hero
+        p Band/Stage promos
+        
+    ul.MusicDates
+        
+        //- Saturday bands by stage
+        mixin musicday("Saturday", music.stages, music.saturday)
+
+        //- Sunday bands by stage
+        mixin musicday("Sunday", music.stages, music.sunday)
+        
+    
+    script.
+        var ipf = {};
+        ipf.page = 'music';

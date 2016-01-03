@@ -1,0 +1,9 @@
+.u-container {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: $site-max-width;
+
+    @media screen and (min-width: $site-max-width - 1em) {
+        padding: 0;
+    }
+}

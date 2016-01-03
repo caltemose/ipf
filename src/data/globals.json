@@ -1,0 +1,115 @@
+{
+    "ipf": {
+        "title": "Inman Park Festival",
+        "date": {
+            "annual": "45",
+            "year": "2016",
+            "friday": {
+                "date": "April 29",
+                "hours": "12PM - 4PM"
+            },
+            "saturday": {
+                "date": "April 30",
+                "hours": "12PM - 6PM"
+            },
+            "sunday": {
+                "date": "May 1",
+                "hours": "12PM - 6PM"
+            }
+        }
+    },
+    "tour": {
+        "active": false,
+        "cost": {
+            "advance": "15",
+            "door": "20"
+        }
+    },
+    "nav": [
+        {
+            "title": "Home",
+            "href": "/"
+        }, {
+            "title": "About",
+            "href": "/about"
+        }, {
+            "title": "Market",
+            "href": "/market"
+        }, {
+            "title": "Events",
+            "href": "/events"
+        }, {
+            "title": "Food",
+            "href": "/food"
+        }, {
+            "title": "Sponsors",
+            "href": "/sponsors"
+        }, {
+            "title": "Volunteer",
+            "href": "/volunteer"
+        }
+    ],
+    "utilities": [
+        {
+            "title": "Map",
+            "href": "/map"
+        }, {
+            "title": "Directions",
+            "href": "/directions"
+        }, {
+            "title": "Parking",
+            "href": "/parking"
+        }, {
+            "title": "FAQ",
+            "href": "/about/faq"
+        }, {
+            "title": "Lost & Found",
+            "href": "/lost-and-found"
+        }
+    ],
+    "copyright": "Copyright © Inman Park Festival",
+    "vendors": {
+        "deadline": "March 11, 2016",
+        "notification": "April 6, 2016"
+    },
+    "events": {
+        "nav": [
+            {
+                "title": "Tour of Homes",
+                "href": "/events/tour-of-homes"
+            }, {
+                "title": "Parade",
+                "href": "/events/parade"
+            }, {
+                "title": "Music",
+                "href": "/events/music"
+            }, {
+                "title": "Dance",
+                "href": "/events/dance"
+            }, {
+                "title": "Kidzone",
+                "href": "/events/kidzone"
+            }
+        ],
+        "parade": {
+            "time": "2:00 PM"
+        }
+    },
+    "markets": {
+        "nav": [
+            {
+                "title": "Arts & Crafts",
+                "href": "/market/arts-crafts-market"
+            }, {
+                "title": "Street Market",
+                "href": "/market/street-market"
+            }, {
+                "title": "Community Corner",
+                "href": "/market/community-corner"
+            }, {
+                "title": "Become an Exhibitor",
+                "href": "/market/become-an-exhibitor"
+            }
+        ]
+    }
+}

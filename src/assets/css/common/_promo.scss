@@ -1,0 +1,35 @@
+.PromoGrid { // ul
+    list-style: none;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    // padding: 0;
+
+    @include clearfix();
+
+    // @media screen and (min-width: 768px) {
+    //     max-width: $site-max-width;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    // }
+
+    > li {
+        margin: 1em 0 0;
+        padding: 4em 0 0;
+        width: 100%;
+        // temporary styling for dev
+        min-height: 8em;
+        text-align: center;
+        background: #ddd;
+
+        @media screen and (min-width: 768px) {
+            width: 32%;
+            margin-right: 2%;
+            float: left;
+            min-height: 6em;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

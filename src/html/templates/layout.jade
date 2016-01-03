@@ -1,14 +1,57 @@
+include ./mixins
+
 doctype html
 html(lang="en")
+    block pageVars
+
     head
-    
-    block title
-        title Gulp Starter Test
+
+        block title
         
-    meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
-    meta(content="width=device-width" name="viewport")
-    link(href='/assets/css/global.css', rel='stylesheet')
-    
+        meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+        meta(content="width=device-width" name="viewport")
+
+        link(href='/assets/css/main.css', rel='stylesheet')
+            
+
     body
-    
-        block contents
+        
+        header
+            .u-container
+                nav.NavPrimary
+                    each item in globals.nav
+                        if item.title.toLowerCase() === selectedNav
+                            a(href=item.href class="PipeNav PipeNav.is-selected")= item.title
+                        else
+                            a(href=item.href class="PipeNav")= item.title
+                
+                nav.NavSecondary
+                    each item in globals.utilities
+                        if item.title.toLowerCase() === selectedNav
+                            a(href=item.href class="PipeNav PipeNav.is-selected")= item.title
+                        else
+                            a(href=item.href class="PipeNav")= item.title
+            
+
+        main
+
+            block contents
+
+
+        footer
+            .u-container
+            
+                .sponsor-logos
+                    a(href="#") sponsor1
+                    a(href="#") sponsor2
+                    a(href="#") sponsor3
+                    a(href="#") sponsor4
+                    a(href="#") sponsor5
+            
+                nav.NavFooter
+                    a(href="/contact-us" class="PipeNav") Contact Us
+                    a(href="/terms-of-use" class="PipeNav") Terms of Use
+                    a(href="/privacy-policy" class="PipeNav") Privacy Policy
+                    a(href="/trademark" class="PipeNav") Trademark Use
+                
+                p.fineprint #{globals.copyright}

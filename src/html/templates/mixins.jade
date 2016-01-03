@@ -1,0 +1,42 @@
+//- used to create the pipe-delimited navigation menus for sectional subnav
+mixin tertiaryNav(nav, selected)
+    nav.NavTertiary
+        each item in nav
+            if item.title.toLowerCase() === selected
+                a(href=item.href class="PipeNav is-selected")= item.title
+            else
+                a(href=item.href class="PipeNav")= item.title
+
+//- the individual band summary list item
+mixin bandListing(band)
+    li
+        h4
+            = band.title
+            small= band.start
+        
+        p= band.description
+
+
+//- the listing of bands per stage for a single specified day
+mixin musicday(dayTitle, stages, day)
+    li.MusicDay
+
+        h2 #{dayTitle} Bands by Stage
+        
+        //- Delta Park bands
+        h3= stages.d
+        ul.MusicStage
+            each band in day.d
+                mixin bandListing(band)
+        
+        //- Euclid Avenue bands
+        h3= stages.e
+        ul.MusicStage
+            each band in day.e
+                mixin bandListing(band)
+        
+        //- WonderRoot bands
+        h3= stages.w
+        ul.MusicStage
+            each band in day.w
+                mixin bandListing(band)

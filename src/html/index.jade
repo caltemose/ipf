@@ -1,9 +1,53 @@
-extends ./templates/layout.jade
+extends templates/layout.jade
 
-block title 
-    title Gulp Starter Index
+block pageVars
+    - var selectedNav = 'home'
+
+block title
+    title The #{globals.ipf.date.year} #{globals.ipf.title}
 
 block contents
-    h1 Gulp Starter Index
+
+    .u-container
+
+        h2 Inman Park Festival #{globals.ipf.date.year}
+
+        h1 Welcome to Atlanta's Best Street Festival
+
+            
+    .Hero
     
-    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        p Tour of Homes Preview: Friday, #{globals.ipf.date.friday.date} (#{globals.ipf.date.friday.hours})
+
+        p Festival: Saturday #{globals.ipf.date.saturday.date} and Sunday #{globals.ipf.date.sunday.date}, #{globals.ipf.date.year} (#{globals.ipf.date.saturday.hours})
+
+                
+    .u-container
+
+            p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
+
+            p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
+
+                
+    ul.PromoGrid.u-container
+        li Volunteer Promo
+        li Announcements Promo 
+        li Call for Art Promo
+
+    
+    .u-container
+    
+        h3 Find Festival Elsewhere Online:
+
+        ul
+            li 
+                a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") FB
+            li 
+                a(href="http://twitter.com/InmanParkFest" target="_blank") Twitter
+            li 
+                a(href="http://www.flickr.com/photos/59326435@N04/" target="_blank") Flickr (maintained?)
+
+                
+    script.
+        var ipf = {};
+        ipf.page = 'index';

@@ -1,0 +1,83 @@
+$evenRowColor: #B7D6B4;
+$oddRowColor: #B4CED6;
+
+.MusicDates,
+.MusicStage {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+// Day Header: "Saturday Bands by Stage"
+.MusicDates {
+
+    h2 {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.25em;
+        background: $evenRowColor;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 0.5rem;
+        font-size: 1.0em;
+        text-align: center;
+        background: darken($evenRowColor, 20%);
+    }
+
+    h4 {
+        font-size: 1.25em;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    h4 > small {
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        font-size: 0.75em;
+        display: block;
+        color: #444;
+    }
+
+    .MusicDay:nth-child(even) {
+        h2 {
+            background: $oddRowColor;
+        }
+        h3 {
+            background: darken($oddRowColor, 20%);
+        }
+    }
+
+}
+
+.MusicDay {
+
+    margin-top: 4em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    h3,
+    .MusicStage {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h3:not(:nth-child(2)) {
+        margin-top: 1em;
+    }
+}
+
+.MusicStage {
+    margin: 0 0 2em;
+    padding: 0.25em 0 0;
+
+    p {
+        margin: 0;
+        font-size: 0.75em;
+    }
+}

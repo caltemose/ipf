@@ -19,15 +19,18 @@ var paths = {
     dest: path.join(config.root.dest, config.tasks.html.dest),
 }
 
-var getData = function(file) {
-    // var dataPath = path.resolve(config.root.src, config.tasks.html.src, config.tasks.html.dataFile)
-    var dataPath = path.resolve(config.root.src, config.tasks.html.dataFile)
-    return JSON.parse(fs.readFileSync(dataPath, 'utf8'))
+var getData = function() {
+    var data = {};
+    data.globals = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.globals, 'utf8'));
+    data.music = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.music, 'utf8'));
+    return data;
 }
 
 var htmlTask = function() {
+    var options = config.tasks.html.jade;
+    options.data = getData();
     return gulp.src(paths.src)
-        .pipe(jade(config.tasks.html.jade))
+        .pipe(jade(options))
         .on('error', handleErrors)
         // .pipe(gulpif(process.env.NODE_ENV == 'production', htmlmin(config.tasks.html.htmlmin)))
         .pipe(gulp.dest(config.root.dest))

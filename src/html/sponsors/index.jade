@@ -1,0 +1,56 @@
+extends ../templates/layout.jade
+
+block pageVars
+    - var selectedNav = 'sponsors'
+
+block title
+    title #{globals.ipf.title} | Sponsors
+
+block contents
+
+    .u-container
+
+        h1 Sponsors Section
+
+        h2 this section
+
+        ul
+            li sponsors list (this page)
+            li friends of festival
+
+        h2 notes
+
+        ul
+            li what's the best way to layout this info and satisify contractual requirements?
+            li document the contractual requirements
+
+
+        ul.Sponsors.Sponsors--gold
+            li
+                a(href="https://google.com" target="_blank")
+                    img(src="/assets/img/2015/sponsors/google-310x112.png" alt="Google")
+        
+        ul.Sponsors.Sponsors--silver
+            li
+                a(href="http://www.dewinterhomes.com/" target="_blank")
+                    img(src="/assets/img/2015/sponsors/AndreDeWinter.png" alt="Andre De Winter Realtor")
+            li
+                a(href="http://www.jimellishyundai.com/" target="_blank")
+                    img(src="/assets/img/2015/sponsors/Jim-Ellis-Hyundai1.png" alt="Jim Ellis Hyundai")
+            li
+                a(href="http://inmanquarter.com/" target="_blank")
+                    img(src="/assets/img/2015/sponsors/inman-quarter-big.png" alt="Inman Quarter")
+        
+        ul.Sponsors.Sponsors--bronze
+            li
+                a(href="" target="_blank")
+                    img(src="/assets/img/2015/sponsors/circuscamp-2014.jpg" alt="")
+            li
+                a(href="" target="_blank")
+                    img(src="/assets/img/2015/sponsors/mailchimp-2014.png" alt="")
+            li
+                a(href="" target="_blank")
+                    img(src="/assets/img/2015/sponsors/old-fourth-distillery.png" alt="")
+            li
+                a(href="" target="_blank")
+                    img(src="/assets/img/2015/sponsors/virgil-kaine.png" alt="")

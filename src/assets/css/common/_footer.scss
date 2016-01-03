@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    margin-top: 3em;
+    padding: 1em 0 12em;
+    background: rgb(230, 230, 230);
+
+    p {
+        font-size: 0.75em;
+        color: #777;
+    }
+}
+
+.NavFooter a {
+    font-size: 0.75em;
+}
+
+.sponsor-logos a {
+    display: inline-block;
+    padding-right: 1em;
+    font-size: 0.75em;
+}

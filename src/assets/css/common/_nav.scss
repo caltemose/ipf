@@ -1,0 +1,23 @@
+.PipeNav {
+    display: inline-block;
+    padding: 0 1em;
+    border-right: 1px solid grey;
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:last-child {
+        border-right: none;
+    }
+
+    &.is-selected {
+        text-decoration: underline;
+    }
+}
+
+.NavTertiary {
+    > a {
+        font-size: 0.875em;
+    }
+}
