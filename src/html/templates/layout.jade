@@ -11,27 +11,35 @@ html(lang="en")
         meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
         meta(content="width=device-width" name="viewport")
 
+        link(href='/assets/css/plugins.css', rel='stylesheet')
         link(href='/assets/css/main.css', rel='stylesheet')
             
 
     body
+
+        header#Header.u-clear
         
-        header
-            .u-container
-                nav.NavPrimary
+            input#Trigger(type='checkbox' name='trigger')
+            
+            .u-clear.u-container
+                label#TriggerLabel(for='Trigger') MENU
+                img#Logo(src="/assets/img/ipf-logo-web-black.svg")
+            
+            #NavHeader.u-clear
+                nav.NavPrimary.u-clear.u-container
                     each item in globals.nav
                         if item.title.toLowerCase() === selectedNav
-                            a(href=item.href class="PipeNav PipeNav.is-selected")= item.title
+                            a(href=item.href class="is-selected")= item.title
                         else
-                            a(href=item.href class="PipeNav")= item.title
+                            a(href=item.href class="")= item.title
                 
-                nav.NavSecondary
+                nav.NavSecondary.u-clear
                     each item in globals.utilities
                         if item.title.toLowerCase() === selectedNav
-                            a(href=item.href class="PipeNav PipeNav.is-selected")= item.title
+                            a(href=item.href class="is-selected")= item.title
                         else
-                            a(href=item.href class="PipeNav")= item.title
-            
+                            a(href=item.href class="")= item.title
+        
 
         main
 

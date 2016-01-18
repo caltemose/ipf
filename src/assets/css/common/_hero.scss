@@ -1,11 +1,15 @@
 .Hero {
     margin: 2em auto;
-    padding: 6em 3em;
+    // padding: 6em 3em;
     max-width: $site-hero-width;
     background: #ccc;
 
+    &.owl-carousel {
+        background: none;
+    }
+
     @media screen and (min-width: 768px) {
-        padding: 9em 6em;
+        // padding: 9em 6em;
     }
 
     > p {

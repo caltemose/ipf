@@ -26,6 +26,15 @@
             "extensions": ["js"]
         },
 
+        "jsplugins": {
+            "src": [
+                "bower_components/jquery/jquery.min.js",
+                "bower_components/OwlCarousel2/dist/owl.carousel.min.js"
+            ],
+            "file": "plugins.js",
+            "dest": "./public/assets/js/"
+        },
+
         "css": {
             "src": "assets/css",
             "dest": "assets/css",
@@ -36,6 +45,15 @@
                 "indentedSyntax": true
             },
             "extensions": ["sass", "scss", "css"]
+        },
+
+        "cssplugins": {
+            "src": [
+                "bower_components/OwlCarousel2/dist/assets/owl.carousel.min.css",
+                "bower_components/OwlCarousel2/dist/assets/owl.theme.default.min.css"
+            ],
+            "file": "plugins.css",
+            "dest": "./public/assets/css/"
         },
 
         "html": {

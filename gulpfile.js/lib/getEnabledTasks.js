@@ -3,14 +3,14 @@ var compact = require('lodash/array/compact')
 
 // Grouped by what can run in parallel
 var assetTasks = ['fonts', 'iconFont', 'images', 'svgSprite']
-var codeTasks = ['html', 'css', 'js']
+var codeTasks = ['html', 'css', 'cssplugins', 'jsplugins']
 
 module.exports = function(env) {
-  var jsTasks = {
-    watch: 'webpack:watch',
-    development: 'webpack:watch',
-    production: 'webpack:production'
-  }
+  // var jsTasks = {
+  //   watch: 'webpack:watch',
+  //   development: 'webpack:watch',
+  //   production: 'webpack:production'
+  // }
 
   var matchFilter = function(task) {
     if(config.tasks[task]) {

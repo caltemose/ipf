@@ -11,11 +11,18 @@ footer {
 }
 
 .NavFooter a {
+    margin: 1em 0 0;
     font-size: 0.75em;
 }
 
-.sponsor-logos a {
-    display: inline-block;
-    padding-right: 1em;
-    font-size: 0.75em;
+.sponsor-logos {
+    margin: 0 0 2em 0;
+
+    a {
+        display: inline-block;
+        margin-right: 0.5em;
+        padding: 1em 2em;
+        font-size: 0.75em;
+        border: 2px solid #999;
+    }
 }

@@ -3,7 +3,14 @@
     padding: 0 1em;
     max-width: $site-max-width;
 
-    @media screen and (min-width: $site-max-width - 1em) {
+    @media (min-width: $bp-lg) {
         padding: 0;
     }
+}
+
+.u-clear:after {
+    // clear floats
+    content: '';
+    display: table;
+    clear: both;
 }
