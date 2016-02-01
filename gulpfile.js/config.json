@@ -26,6 +26,12 @@
             "extensions": ["js"]
         },
 
+        "jspages": {
+            "src": "assets/js/pages",
+            "dest": "assets/js/pages",
+            "extensions": ["js"]
+        },
+
         "jsplugins": {
             "src": [
                 "bower_components/jquery/jquery.min.js",
@@ -61,7 +67,12 @@
             "dest": "./",
             "dataFiles": {
                 "globals": "./src/data/globals.json",
-                "music": "./src/data/music.json"
+                "music": "./src/data/music.json",
+                "vendors": {
+                    "ac": "./src/data/vendors-ac.json",
+                    "street": "./src/data/vendors-street.json",
+                    "cc": "./src/data/vendors-cc.json"
+                }
             },
             "htmlmin": {
                 "collapseWhitespace": true

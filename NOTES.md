@@ -1,29 +1,67 @@
 # IPF Site Notes
 
 
+## Global
+
+- sponsor images in footer
+
+
+
 ## Home
 
 
+## Contact
+
+- get current contact list/map
+- determine production solution for sending mail
 
 
+## Privacy Policy
+
+- ask Lisa/Jen if this is needed
+
+## Trademark
+
+- Logo files embedded/linked
+
+## Market Pages (arts, street, community)
+
+- Add one to show previous year's content and start building template
+- index should have Carousel
+
+## Events
+
+- index carousel images
+
+## Parade
+
+- carousel images
+
+## Dance
+
+- this year's text
+- photos for carousel
+
+## Kidzone
+
+- plan? carousel photos okay or no?
+
+
+## Sponsors
+
+- can we change the "send an email" approach?
+- add sidebar text from existing site to index or secondary page
 
 ---
 
-## Create pages and add content:
+## Missing Pages
 
 - sponsors/friends (do we keep this?)
-- about/faq
 - about/media
-
-## Add content to pages:
-
-- contact
-- sponsors
-- events/music (figure out layout, sorting/filtering/etc)
-- events/dance
-- events/kidzone
-- lost&found
-
+- map
+- directions
+- parking
+- lost & found
 
 ---
 

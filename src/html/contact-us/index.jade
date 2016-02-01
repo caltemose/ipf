@@ -10,4 +10,38 @@ block contents
 
         p If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. Thank you for your interest and we hope to see you at Festival!
 
+        
+        form(method="POST" action="").Form--contact#ContactForm
             
+            p 
+                strong All fields are required.
+            
+            label
+                | Your name:
+                input(type="text" name="name" required)
+            
+            label
+                | Your email address:
+                input(type="email" name="email" required)
+            
+            label
+                | Select a point of contact:
+                select(name="recipient" required)
+                    each contact in globals.contacts
+                        option(value=contact.label)= contact.label
+                        //- TODO update contact.values and fix this
+
+            label
+                | Your Message:
+                textarea(name="message" required)
+
+            label
+                input(type="checkbox" name="robot" required)
+                | I'm not a robot.
+            
+            input(type="submit" name="submit" value="Send Email")
+
+    script(src="/assets/js/plugins.js")
+    script(src="/assets/js/pages/contact.js")
+    script.
+        ipf.contact.init('ContactForm');

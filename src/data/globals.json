@@ -10,11 +10,11 @@
             },
             "saturday": {
                 "date": "April 30",
-                "hours": "12PM - 6PM"
+                "hours": "11PM - 6PM"
             },
             "sunday": {
                 "date": "May 1",
-                "hours": "12PM - 6PM"
+                "hours": "11PM - 6PM"
             }
         }
     },
@@ -111,5 +111,48 @@
                 "href": "/market/become-an-exhibitor"
             }
         ]
-    }
+    },
+    "contacts": [
+        {
+            "value": "",
+            "label": "Choose one..."
+        }, {
+            "value": "fc",
+            "label": "Festival Chair"
+        }, {
+            "value": "df",
+            "label": "Dance Festival"
+        }, {
+            "value": "acsm",
+            "label": "Arts & Crafts and Street Market"
+        }, {
+            "value": "p",
+            "label": "Parade"
+        }, {
+            "value": "fv",
+            "label": "Food Vendors"
+        }, {
+            "value": "mc",
+            "label": "Music Coordinator"
+        }, {
+            "value": "tt",
+            "label": "Home Tour Tickets"
+        }, {
+            "value": "s",
+            "label": "Sponsors"
+        }, {
+            "value": "v",
+            "label": "Volunteers"
+        }, {
+            "value": "pr",
+            "label": "Public Relations"
+        }, {
+            "value": "am",
+            "label": "Advertising and Marketing"
+        }, {
+            "value": "ff",
+            "label": "Friends of Festival"
+        }
+
+    ]
 }
