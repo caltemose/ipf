@@ -14,8 +14,14 @@ block contents
         
         mixin tertiaryNav(globals.events.nav)
         
-    .Hero
-        p This hero could contain images of any of the events and event areas for festival.
+    .Hero.owl-carousel.owl-theme
+            
+        div
+            img(src="/assets/img/fpo/dance-toes-930x450.jpg")
+        div
+            img(src="/assets/img/fpo/elvi-930x450.jpg")
+        div
+            img(src="/assets/img/fpo/painty-face-930x450.jpg")
             
     
     .u-container
@@ -43,3 +49,16 @@ block contents
                 span.Note this would only display when tickets are available to sell
                 | Ready to buy Tour of Homes tickets? 
                 a(href="#") Get them here.
+
+block scripts
+    script.
+        $('.owl-carousel').owlCarousel({
+            dots: true,
+            loop: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        });

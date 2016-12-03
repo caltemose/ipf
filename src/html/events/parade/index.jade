@@ -11,8 +11,14 @@ block contents
         
         mixin tertiaryNav(globals.events.nav, "parade")
     
-    .Hero
-        p Parade photos go here
+    .Hero.owl-carousel.owl-theme
+            
+        div
+            img(src="/assets/img/fpo/gnomes-930x450.jpg")
+        div
+            img(src="/assets/img/fpo/box-heros-930x450.jpg")
+        div
+            img(src="/assets/img/fpo/nicole-930x450.jpg")
     
     .u-container
     
@@ -30,4 +36,15 @@ block contents
             = ' '
             | if you'd like to register to march in the parade.
 
-    
+block scripts
+    script.
+        $('.owl-carousel').owlCarousel({
+            dots: true,
+            loop: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        });

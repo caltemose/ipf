@@ -11,9 +11,9 @@ html(lang="en")
         meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
         meta(content="width=device-width" name="viewport")
 
-        link(href='/assets/css/plugins.css', rel='stylesheet')
-        link(href='/assets/css/main.css', rel='stylesheet')
-            
+        link(href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Playfair+Display:400italic' rel='stylesheet' type='text/css')
+        link(href='/assets/css/plugins.css', rel='stylesheet' type='text/css')
+        link(href='/assets/css/main.css', rel='stylesheet' type='text/css')
 
     body
 
@@ -23,7 +23,7 @@ html(lang="en")
             
             .u-clear.u-container
                 label#TriggerLabel(for='Trigger') MENU
-                img#Logo(src="/assets/img/ipf-logo-web-black.svg")
+                img#Logo(src="/assets/img/ipf-logo-yellow-white.svg")
             
             #NavHeader.u-clear
                 nav.NavPrimary.u-clear.u-container
@@ -46,17 +46,17 @@ html(lang="en")
             block contents
 
 
-        footer
+        footer.Footer
             .u-container
             
-                .sponsor-logos
+                .Footer-sponsors
                     a(href="#") sponsor1
                     a(href="#") sponsor2
                     a(href="#") sponsor3
                     a(href="#") sponsor4
                     a(href="#") sponsor5
             
-                nav.NavFooter
+                nav.Footer-nav
                     a(href="/contact-us" class="PipeNav") Contact Us
                     a(href="/terms-of-use" class="PipeNav") Terms of Use
                     a(href="/privacy-policy" class="PipeNav") Privacy Policy

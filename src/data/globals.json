@@ -51,14 +51,8 @@
     ],
     "utilities": [
         {
-            "title": "Map",
+            "title": "Getting Here",
             "href": "/map"
-        }, {
-            "title": "Directions",
-            "href": "/directions"
-        }, {
-            "title": "Parking",
-            "href": "/parking"
         }, {
             "title": "FAQ",
             "href": "/about/faq"

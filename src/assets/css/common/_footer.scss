@@ -1,28 +1,51 @@
-footer {
+.Footer {
     width: 100%;
     margin-top: 3em;
-    padding: 1em 0 12em;
-    background: rgb(230, 230, 230);
+    padding: 2em 0 12em;
+    background: $brand-grey-dark;
+    color: rgb(114, 114, 114);
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+    a {
+        color: $base-font-color-inverse;
+    }
 
     p {
-        font-size: 0.75em;
-        color: #777;
+        font-size: 0.5em;
     }
 }
 
-.NavFooter a {
-    margin: 1em 0 0;
-    font-size: 0.75em;
-}
-
-.sponsor-logos {
+.Footer-sponsors {
     margin: 0 0 2em 0;
+    // text-align: center;
 
     a {
         display: inline-block;
         margin-right: 0.5em;
-        padding: 1em 2em;
+        margin-bottom: 0.75em;
+        padding: 0.5em 2em;
         font-size: 0.75em;
         border: 2px solid #999;
+        border-radius: 1em;
+    }
+}
+
+.Footer-nav {
+    margin: 0 0 1.5em 0;
+    padding: 0 2em;
+    font-size: 0.5em;
+
+    a {
+        margin-top: 0.5em;
+    }
+
+    @media (max-width: $bp-sm-max) {
+        a:nth-child(even) {
+            border-right: none;
+            // color: blue;
+        }
     }
 }

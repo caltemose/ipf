@@ -8,25 +8,32 @@ block title
 
 block contents
 
-    .u-container
-
-        h2 Inman Park Festival #{globals.ipf.date.year}
-
-        h1 Welcome to Atlanta's Best Street Festival
-
-            
     .Hero.owl-carousel.owl-theme
-    
-        //- p Tour of Homes Preview: Friday, #{globals.ipf.date.friday.date} (#{globals.ipf.date.friday.hours})
-        //- 
-        //- p Festival: Saturday #{globals.ipf.date.saturday.date} and Sunday #{globals.ipf.date.sunday.date}, #{globals.ipf.date.year} (#{globals.ipf.date.saturday.hours})
+            
+        div
+            img(src="/assets/img/fpo/box-heros-930x450.jpg")
         
         div
-            img(src="/assets/img/fpo/hero1.jpg")
+            img(src="/assets/img/fpo/elvi-930x450.jpg")
+        
         div
-            img(src="/assets/img/fpo/hero2.jpg")
+            img(src="/assets/img/fpo/big-house-930x450.jpg")
+
         div
-            img(src="/assets/img/fpo/hero3.jpg")
+            img(src="/assets/img/fpo/gnomes-930x450.jpg")
+
+
+    .u-container
+
+        //- h2 Inman Park Festival #{globals.ipf.date.year}
+
+        h1 Welcome to Atlanta's Favorite Street Festival
+
+            
+    
+    //- p Tour of Homes Preview: Friday, #{globals.ipf.date.friday.date} (#{globals.ipf.date.friday.hours})
+    //- 
+    //- p Festival: Saturday #{globals.ipf.date.saturday.date} and Sunday #{globals.ipf.date.sunday.date}, #{globals.ipf.date.year} (#{globals.ipf.date.saturday.hours})
 
                 
     .u-container
@@ -36,24 +43,45 @@ block contents
             p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
 
                 
-    ul.PromoGrid.u-container
-        li Volunteer Promo
-        li Announcements Promo 
-        li Call for Art Promo
+    ul.PromoGrid
 
-    
-    .u-container
-    
-        h3 Find Festival Elsewhere Online:
+        li.PromoItem
+            h4 Tour Homes
+            
+            p
+                a(href="/events/tour-of-homes") Preview the homes chosen for the 2016 Tour of Homes.
+            
+            .ArrowNav
+                a(href="#") &#9656;
 
-        ul
-            li 
-                a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") Facebook
-            li 
-                a(href="http://twitter.com/InmanParkFest" target="_blank") Twitter
-            li 
-                a(href="http://www.flickr.com/photos/59326435@N04/" target="_blank") Flickr (maintained?)
+        li.PromoItem.PromoItem--actionSecondary
+            h4 Join Our Volunteer Team Today.
+            
+            a(href="http://vols.pt/zbJaBt?utm_source=group-badge-signups-orange")
+                img(src="//vspot.s3.amazonaws.com/groups/sharing/button_orange.png" alt="Click to View Our Sign-ups on VolunteerSpot" style="max-width:90%;margin:0 auto")
 
+        li.PromoItem
+            h4 Festival Artwork Chosen
+            
+            p
+                a(href="/news/2016/festival-artist") Read the interview with local artist Cooper Pierce.
+            
+            .ArrowNav
+                a(href="#") &#9656;
+        
+        li.PromoItem.PromoItem--actionPrimary
+            h4 Find and Follow Festival Online
+            
+
+        //- ul
+        //-     li 
+        //-         a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") Facebook
+        //-     li 
+        //-         a(href="http://twitter.com/InmanParkFest" target="_blank") Twitter @inmanparkfest
+        //-     li 
+        //-         a(href="https://www.instagram.com/" target="_blank") Instagram @?
+
+block scripts
     //- script(src="/assets/js/home.js")
     script.
         var ipf = {};
@@ -61,6 +89,7 @@ block contents
         $('.owl-carousel').owlCarousel({
             dots: true,
             loop: true,
+            autoplay: true,
             responsive: {
                 0: {
                     items: 1

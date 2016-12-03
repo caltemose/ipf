@@ -1,35 +1,83 @@
-.PromoGrid { // ul
+$promo-padding: 3rem;
+
+.PromoGrid {
     list-style: none;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    // padding: 0;
+    margin: $promo-padding 0;
+    padding: 0;
 
     @include clearfix();
+}
 
-    // @media screen and (min-width: 768px) {
-    //     max-width: $site-max-width;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    // }
+.PromoItem {
+    margin: 0;
+    padding: $promo-padding 0 0;
+    width: 100%;
 
-    > li {
-        margin: 1em 0 0;
-        padding: 4em 0 0;
-        width: 100%;
-        // temporary styling for dev
-        min-height: 8em;
-        text-align: center;
-        background: #ddd;
+    h4 {
+        margin: 0 0 1em;
+        padding: 0 $promo-padding;
+        font-size: 3em;
 
         @media screen and (min-width: 768px) {
-            width: 32%;
-            margin-right: 2%;
-            float: left;
-            min-height: 6em;
+            // font-size: 0.9375em;
+        }
+    }
 
-            &:last-child {
-                margin-right: 0;
-            }
+    p {
+        margin: 0;
+        padding: 0 $promo-padding;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 32%;
+        margin-right: 2%;
+        float: left;
+        min-height: 9em;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.PromoItem--actionPrimary,
+.PromoItem--actionSecondary {
+    padding-bottom: $promo-padding;
+    color: $base-font-color-inverse;
+
+    h4 {
+        font-size: 1.5625em;
+        font-family: $base-font-family-sans-serif;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        line-height: 1.5em;
+    }
+}
+
+.PromoItem--actionPrimary {
+    background-color: $brand-yellow;
+}
+
+.PromoItem--actionSecondary {
+    background-color: $brand-green;
+}
+
+.ArrowNav {
+    text-align: right;
+
+    > a {
+        display: inline-block;
+        width: 3.75em;
+        height: 3.75em;
+        padding: 1.1em 0;
+        color: $brand-white;
+        background-color: $brand-grey-dark;
+        text-align: center;
+
+        &:hover {
+            background-color: lighten($brand-grey-dark, 30%);
+            text-decoration: none;
         }
     }
 }
