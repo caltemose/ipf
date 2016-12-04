@@ -1,9 +1,0 @@
-.DS_Store
-.sass-cache
-.publish
-bower_components
-public
-Desktop.ini
-node_modules
-**/generated/_icons.sass
-npm-debug.log
