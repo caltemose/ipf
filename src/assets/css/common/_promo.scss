@@ -40,6 +40,24 @@ $promo-padding: 3rem;
     }
 }
 
+.PromoItem:first-child {
+    padding-top: 0;
+}
+
+.PromoItem.PromoItem--threeCol {
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+
+        .PromoItem-titleImage {
+            width: 66%;
+            float: left;
+        }
+
+    }
+}
+
 .PromoItem--actionPrimary,
 .PromoItem--actionSecondary {
     padding-bottom: $promo-padding;
@@ -61,6 +79,14 @@ $promo-padding: 3rem;
 
 .PromoItem--actionSecondary {
     background-color: $brand-green;
+}
+
+.PromoItem-titleImage {
+    margin-bottom: 1em;
+    width: 100%;
+    @media screen and (min-width: $bp-md) {
+        margin-bottom: 0;
+    }
 }
 
 .ArrowNav {
