@@ -34,7 +34,7 @@
 
         "jsplugins": {
             "src": [
-                "bower_components/jquery/jquery.min.js",
+                "bower_components/jquery/dist/jquery.min.js",
                 "bower_components/OwlCarousel2/dist/owl.carousel.min.js",
                 "src/assets/js/picturefill.min.js"
             ],

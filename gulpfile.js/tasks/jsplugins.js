@@ -13,7 +13,7 @@ var jsPluginsTask = function () {
      */
     var prefs = config.tasks.jsplugins;
 
-    return gulp.src(["bower_components/jquery/dist/jquery.min.js", "bower_components/OwlCarousel2/dist/owl.carousel.min.js"])
+    return gulp.src(prefs.src)
         .pipe(concat('plugins.js'))
         .on('error', handleErrors)
         // .pipe(gulpif(process.env.NODE_ENV == 'production', htmlmin(config.tasks.html.htmlmin)))

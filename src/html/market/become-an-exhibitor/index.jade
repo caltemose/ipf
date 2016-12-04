@@ -11,18 +11,30 @@ block contents
         
         mixin tertiaryNav(globals.markets.nav, "become an exhibitor")
         
-        p To apply to become a vendor for the #{globals.ipf.date.year} #{globals.ipf.title}, fill out the initial vendor application and return it to the address specified in the application PDF. 
+        p We have moved the Inman Park Festival application process to ZAPPlication, and will no longer accept paper applications.
+
+        p 
+            | To apply to become a vendor for the #{globals.ipf.date.year} #{globals.ipf.title}, please use this link:
+            = " "
+            a(href="https://www.zapplication.org/event-info.php?ID=5363") https://www.zapplication.org/event-info.php?ID=5363
         
-        p For the #{globals.ipf.date.year} #{globals.ipf.title}:
+        p 
+            | If you have questions, please email us at:
+            = " "
+            a(href="mailto:artinmanpark@gmail.com") artinmanpark@gmail.com
+        
+        h2 Deadlines for the #{globals.ipf.date.year} #{globals.ipf.title}:
         
         ul
             li Application submissions must be postmarked by #{globals.vendors.deadline}
             li Vendors will be notified of acceptance no later than #{globals.vendors.notification}
-
-        p 
-            a(href="/assets/files/Vendor-Application-2016.pdf") Click here to download the Vendor Application PDF.
-
-        p 
-            | If you need the Adobe Acrobat Reader to view this PDF file, you can 
-            = ' '
-            a(href="https://get.adobe.com/reader" target="_blank") download it for free here.
+            
+        h2 Exhibitor Information
+        
+        p Here are some helpful documents for exhibitors:
+        
+        ul
+            li
+                a(href="/assets/static/archive/2017/2017-Exhibitor-Checkin-Map.pdf") 2017 Map with Exhibitor Check-in Locations (PDF)
+            li
+                a(href="/assets/static/archive/2017/2017-Inman-Park-Stores-And-Hotels.pdf") List of Stores and Hotels in the Area (PDF)

@@ -1,9 +1,17 @@
-#Header {
+.Header {
     position: relative;
     width: 100%;
     padding: 1em 0;
     background: $brand-grey-dark;
     color: $base-font-color-inverse;
+
+    a {
+        color: rgb(220, 220, 220);
+        &:hover, &:focus {
+            color: rgb(255, 255, 255);
+        }
+    }
+
 }
 
 #Logo {
