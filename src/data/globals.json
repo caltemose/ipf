@@ -2,18 +2,18 @@
     "ipf": {
         "title": "Inman Park Festival",
         "date": {
-            "annual": "45",
-            "year": "2016",
+            "annual": "46",
+            "year": "2017",
             "friday": {
-                "date": "April 29",
+                "date": "April 28",
                 "hours": "12PM - 4PM"
             },
             "saturday": {
-                "date": "April 30",
+                "date": "April 29",
                 "hours": "11PM - 6PM"
             },
             "sunday": {
-                "date": "May 1",
+                "date": "April 30",
                 "hours": "11PM - 6PM"
             }
         }
