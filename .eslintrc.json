@@ -14,14 +14,15 @@
         ],
         "semi": [
             2,
-            "never"
+            "always"
         ],
         "no-console": 1
     },
     "env": {
         "es6": true,
         "node": true,
-        "browser": true
+        "browser": true,
+        "jquery": true
     },
     "ecmaFeatures": {
         "modules": true

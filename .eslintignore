@@ -1,1 +1,8 @@
 src/assets/js/__tests__/**/*
+src/assets/js/picturefill.min.js
+public/assets/js/plugins.js
+bower_components/**/*
+data-processing/**/*
+gulpfile.js/**/*
+karma.conf.js
+webpack.config.js
