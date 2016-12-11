@@ -14,7 +14,7 @@ $base-font-family-serif: 'Playfair Display', serif;
 // BREAKPOINTS
 $bp-sm: 320px;
 $bp-md: 768px;
-$bp-lg: 1024;
+$bp-lg: 1024px;
 // $bp-xl: 1280;
 $bp-sm-max: $bp-md - 1px;
 $bp-md-max: $bp-lg - 1px;
@@ -22,4 +22,4 @@ $bp-md-max: $bp-lg - 1px;
 
 // SITE CONTAINER DIMENSIONS
 $site-max-width: 940px;
-$site-hero-width: 980px;
+$site-hero-width: 1024px;

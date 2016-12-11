@@ -34,46 +34,18 @@ block contents
                 p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
                 p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
 
-                
-    ul.PromoGrid.u-container-md
-
-        li.PromoItem.PromoItem--threeCol.u-clear
-            img.PromoItem-titleImage(src="assets/img/fpo/big-house.jpg" alt="Tour Home")
-
-            h4 Tour Homes
+    .PromotionItemHero.u-container.u-container--noPad
+        .PromotionItemHero-image
+            img(src="assets/img/fpo/big-house.jpg" alt="Tour Home")
             
-            p
-                a(href="/events/tour-of-homes") Preview the homes chosen for the 2016 Tour of Homes.
-            
+        .PromotionItemHero-text
+            section
+                h2 Tour Homes
+                p 
+                    a(href="/events/tour-of-homes") Preview the homes chosen for the #{globals.ipf.date.year} Tour of Homes.
             .ArrowNav
-                a(href="#") >
+                a(href="/events/tour-of-homes") >
 
-        li.PromoItem.PromoItem--actionSecondary
-            h4 Join Our Volunteer Team Today.
-            
-            a.u-blockCentered(href="http://vols.pt/zbJaBt?utm_source=group-badge-signups-orange")
-                img(src="//vspot.s3.amazonaws.com/groups/sharing/button_orange.png" alt="Click to View Our Sign-ups on VolunteerSpot" style="max-width:90%;margin:0 auto")
-
-        li.PromoItem
-            h4 Festival Artwork Chosen
-            
-            p
-                a(href="/news/2016/festival-artist") Read the interview with local artist Cooper Pierce.
-            
-            .ArrowNav
-                a(href="#") >
-        
-        li.PromoItem.PromoItem--actionPrimary
-            h4 Find and Follow Festival Online
-            
-
-        //- ul
-        //-     li 
-        //-         a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") Facebook
-        //-     li 
-        //-         a(href="http://twitter.com/InmanParkFest" target="_blank") Twitter @inmanparkfest
-        //-     li 
-        //-         a(href="https://www.instagram.com/" target="_blank") Instagram @?
 
 block scripts
     //- script(src="/assets/js/home.js")

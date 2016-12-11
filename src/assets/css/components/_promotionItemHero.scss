@@ -1,0 +1,44 @@
+.PromotionItemHero {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $bp-lg) {
+        align-items: stretch;
+        flex-direction: row;
+    }
+}
+
+.PromotionItemHero-image {
+    @media screen and (min-width: $bp-lg) {
+        flex-basis: 66%;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.PromotionItemHero-text {
+    position: relative;
+
+    > section {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    @media screen and (min-width: $bp-lg) {
+        flex-basis: 34%;
+
+        > section {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .ArrowNav {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
