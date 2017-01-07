@@ -1,11 +1,14 @@
 extends ../templates/layout.jade
 
+block pageVars
+    - var selectedNav = 'getting here'
+
 block title
     title #{globals.ipf.title} | Map
 
 block contents
 
-    .u-container
+    article.u-container
 
         h1 Getting to the Inman Park Festival
         
@@ -13,7 +16,7 @@ block contents
         
         ul
             li Walk/bike the beltline if you can – it’s really the best way to get here 
-            li Marta to the Inman Park/Reynoldstown Station/ 
+            li Marta to the Inman Park/Reynoldstown Station
             li Drive to a Marta station near Inman Park (Edgewood/Candler Park, East Lake) and then take Marta just 1 or 2 stops to our station
             li Lyft/Uber/Taxi
         

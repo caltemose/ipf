@@ -1,6 +1,8 @@
 @import 'mixins';
 @import 'variables';
 
+@import 'generated/_icons.sass';
+
 @import 'common/core';
 @import 'common/common';
 @import 'common/utilities';
@@ -11,6 +13,7 @@
 @import 'common/promo';
 @import 'common/forms';
 @import 'common/vendor';
+@import 'common/social-icons';
 
 @import 'components/pageIntro';
 @import 'components/promotions';

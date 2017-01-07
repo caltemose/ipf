@@ -1,11 +1,14 @@
 extends ../../templates/layout.jade
 
+block pageVars
+    - var selectedNav = 'faq'
+
 block title
     title #{globals.ipf.title} | Neighborhood History
 
 block contents
 
-    .u-container
+    article.u-container
 
         h1 Inman Park History
 

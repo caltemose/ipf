@@ -1,0 +1,68 @@
+.PromotionGrid {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @media screen and (min-width: $bp-lg) {
+        margin: 0 auto;
+        align-items: stretch;
+        flex-direction: row;
+    }
+}
+
+.PromotionItem {
+    position: relative;
+    margin-bottom: 0;
+
+    > section {
+        padding-left: $promotion-padding-sm;
+        padding-right: $promotion-padding-sm;
+    }
+
+    h3 {
+        font-size: 1.75em;
+    }
+
+    &.alt-primary, &.alt-secondary {
+        padding-bottom: $promotion-padding-sm;
+
+        h3 {
+            font-size: 1.5em;
+            font-family: $base-font-family-sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: uppercase;
+            color: $brand-white;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    &.alt-primary {
+        background-color: $brand-green;
+    }
+
+    &.alt-secondary {
+        background-color: $brand-yellow;
+    }
+
+    @media screen and (min-width: $bp-lg) {
+        width: 33.3333%;
+
+        > section {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        .ArrowNav {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

@@ -1,14 +1,18 @@
 extends ../../templates/layout.jade
 
+block pageVars
+    - var selectedNav = 'faq'
+
 block title
     title #{globals.ipf.title} | FAQ
 
 block contents
 
-    .u-container
+    article.u-container
 
         h1 Frequently-asked Questions
         
+        //- mixin tertiaryNav(globals.events.nav)
         
         h2 Festival 101
         

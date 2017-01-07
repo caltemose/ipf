@@ -5,7 +5,7 @@ block title
 
 block contents
 
-    .u-container
+    article.u-container
     
         h1 Tour of Homes
         
@@ -29,16 +29,16 @@ block contents
             h2 Last Year's Homes    
             p Next year's homes on tour will be posted once the list of homes is finalized.
         
-        ul.TourHomes
-            - var n = 0
-            while n < 6
-                - n++
-                li
-                    h3
-                        | Home Owner Names #{n}
-                        small Home Address #{n}
-                    
-                    .PlaceholderImage home image #{n}
-                    
-                    p Home descriptive text.
+    ul.TourHomes.u-container
+        - var n = 0
+        while n < 6
+            - n++
+            li
+                h3
+                    | Home Owner Names #{n}
+                    small Home Address #{n}
+                
+                .PlaceholderImage home image #{n}
+                
+                p Home descriptive text.
                             

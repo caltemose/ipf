@@ -13,8 +13,22 @@ main {
     // hackery garbage until we have all content in -
     // keeps page from being too short.
     min-height: 300px;
+
+    > article {
+        margin-bottom: 3em !important;
+    }
+
     @media (min-width: 768px) {
         min-height: 600px;
+
+        > article {
+            > p,
+            > ul,
+            > ol,
+            > blockquote {
+                margin-right: 10em;
+            }
+        }
     }
 }
 

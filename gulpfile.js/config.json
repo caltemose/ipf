@@ -102,12 +102,6 @@
             "dest": "assets/fonts",
             "sassDest": "generated",
             "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
-        },
-
-        "svgSprite": {
-            "src": "assets/sprites",
-            "dest": "assets/img",
-            "extensions": ["svg"]
         }
     }
 }

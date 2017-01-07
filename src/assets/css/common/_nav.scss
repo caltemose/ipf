@@ -1,3 +1,97 @@
+.NavPrimary, .NavSecondary {
+    clear: both;
+}
+
+.NavPrimary {
+    margin: 1em 0 0.5em;
+
+    @media (min-width: $bp-md) {
+        margin: 1em auto;
+    }
+
+    a {
+        margin-bottom: 0.375rem;
+        padding: 0.5rem 1rem;
+        float: left;
+        width: 33.33%;
+        font-size: 1em;
+        background: #333;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+
+        &.is-selected {
+            text-decoration: underline;
+        }
+
+        @media (max-width: ($bp-md - 1)) {
+            color: #ccc;
+        }
+
+        @media (min-width: $bp-md) {
+            float: none;
+            width: inherit;
+            text-align: left;
+            background: none;
+            border: none;
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+.NavSecondary {
+    margin: 1em 0;
+
+    @media (min-width: $bp-md) {
+        position: absolute;
+        top: 0;
+        right: 15%;
+        margin-right: 1rem;
+        text-align: right;
+    }
+
+    a {
+        margin-bottom: 0.375rem;
+        padding: 0.675rem 0.25rem;
+        float: left;
+        width: 25%;
+        background: #777;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        font-size: 0.75em;
+
+        &.is-selected {
+            text-decoration: underline;
+        }
+
+        @media (max-width: ($bp-md - 1)) {
+            color: #ccc;
+        }
+
+        @media (min-width: $bp-md) {
+            display: inline-block;
+            margin-left: 1em;
+            float: none;
+            width: inherit;
+            text-align: left;
+            background: none;
+            border: none;
+        }
+
+    }
+}
+
+.NavTertiary {
+    margin-bottom: 1.5em;
+    
+    > a {
+        font-size: 0.875em;
+    }
+}
+
 .PipeNav {
     display: inline-block;
     padding: 0 1em;
@@ -13,11 +107,5 @@
 
     &.is-selected {
         text-decoration: underline;
-    }
-}
-
-.NavTertiary {
-    > a {
-        font-size: 0.875em;
     }
 }
