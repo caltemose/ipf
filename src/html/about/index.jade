@@ -16,19 +16,23 @@ block contents
 
         p The festival offers something for everybody. Music, kids activities, a Tour of Homes, a marvelous street parade, an artists' market, some of the city's best people-watching. Come early, stay late, and be our guests at Atlanta's best street festival.
 
+    .PromotionItemSolo.u-container.u-container--noPad
+        .PromotionItemSolo-header
+            h3 Festival Dates & Times:
+        .PromotionItemSolo-content
+            ul
+                li 
+                    | Friday, #{globals.ipf.date.friday.date}: #{globals.ipf.date.friday.hours} 
+                    small (Tour of Homes preview only)
+                li Saturday, #{globals.ipf.date.saturday.date}: #{globals.ipf.date.saturday.hours}
+                li Sunday, #{globals.ipf.date.sunday.date}: #{globals.ipf.date.sunday.hours}
+
+    article.u-container
 
         h2 Important Festival Details
-        
-        h3 Festival hours are:
 
-        ul
-            li Friday, #{globals.ipf.date.friday.date}: #{globals.ipf.date.friday.hours} (Tour of Homes preview only)
-            li Saturday, #{globals.ipf.date.saturday.date}: #{globals.ipf.date.saturday.hours}
-            li Sunday, #{globals.ipf.date.sunday.date}: #{globals.ipf.date.sunday.hours}
-            
-        p Note that on Friday, no other festival activities will happen other than the Tour preview. 
+        p The only public Festival event on Friday is the Tour of Homes preview. Booths and other events start on Saturday.
 
-            
         h3 Admission
         
         p Admission to all Festival events, except the Tour of Homes, is free. Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
@@ -75,4 +79,35 @@ block contents
         
         p Browse many booths on the tree-shaded streets of Inman Park from 11AM to 6PM Saturday and Sunday during festival. The <a href="/market/arts-crafts-market">Arts & Crafts Market</a> is a juried selection of more than 150 artists showcasing their work in a variety of media including sculpture, painting and photography. The <a href="/market/street-market">Street Market</a> includes more than 250 booths of vendors selling antiques, handcrafted wares, clothing and a large variety of other items.
         
+
+    ul.PromotionGrid.u-container.u-container--noPad
+        li.PromotionItem.alt-primary
+            section
+                h3 Join Our Volunteer Team Today.
+                
+                a.u-blockCentered.volspot(href="http://vols.pt/zbJaBt?utm_source=group-badge-signups-orange")
+                    img(src="//vspot.s3.amazonaws.com/groups/sharing/button_orange.png" alt="Click to View Our Sign-ups on VolunteerSpot")
         
+        li.PromotionItem.alt-tertiary
+            section
+                h3 Festival Artwork Chosen
+                
+                p
+                    a(href="/news/2016/festival-artist") Read the interview with local artist Cooper Pierce.
+            
+            .ArrowNav
+                a(href="#") >
+
+        li.PromotionItem.alt-secondary
+            section
+                h3 Follow Festival Online
+                nav.social-icons
+                    a(href="https://www.facebook.com/InmanParkFestival/" target="_blank") 
+                        span.icon.-facebook
+                            span.u-visuallyhidden Facebook
+                    a(href="http://twitter.com/InmanParkFest" target="_blank") 
+                        span.icon.-twitter
+                            span.u-visuallyhidden Twitter: @inmanparkfest
+                    a(href="https://www.instagram.com/" target="_blank")
+                        span.icon.-instagram
+                            span.u-visuallyhidden Instagram

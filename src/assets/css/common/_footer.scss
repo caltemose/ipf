@@ -10,10 +10,17 @@
 
     a {
         color: $base-font-color-inverse;
+        &:hover, &:focus, &.is-selected {
+            background-color: darken($brand-grey-dark, 30%);
+        }
     }
 
     p {
         font-size: 0.5em;
+    }
+
+    @media (max-width: $bp-lg) {
+        min-height: 30em;
     }
 }
 

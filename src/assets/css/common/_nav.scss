@@ -63,8 +63,12 @@
         text-align: center;
         font-size: 0.75em;
 
+        &:hover, &:focus {
+            background-color: darken($brand-grey-dark, 30%);
+        }
+
         &.is-selected {
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         @media (max-width: ($bp-md - 1)) {
@@ -86,9 +90,12 @@
 
 .NavTertiary {
     margin-bottom: 1.5em;
-    
+
     > a {
         font-size: 0.875em;
+        &.is-selected {
+            text-decoration: none;
+        }
     }
 }
 

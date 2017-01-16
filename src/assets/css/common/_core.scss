@@ -25,6 +25,7 @@ main {
             > p,
             > ul,
             > ol,
+            > dl,
             > blockquote {
                 margin-right: 10em;
             }
@@ -82,14 +83,14 @@ p {
 
 a {
     color: rgb(85, 132, 46); // green
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
         color: rgb(50, 93, 15);
     }
 
-    &:hover {
-        text-decoration: underline;
+    &:hover, &:focus {
+        background: $link-hover-color;
     }
 }
 
