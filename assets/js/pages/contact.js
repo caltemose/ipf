@@ -1,3 +1,6 @@
+// eslint exception:
+/*global jQuery*/
+
 var ipf = ipf || {};
 
 ipf.contact = (function ($) {
@@ -5,7 +8,6 @@ ipf.contact = (function ($) {
     var $form, $name, $email, $recipient, $message, $robot;
 
     function initialize (form) {
-        console.log('ipf.contact.initialize');
         // form is passed through as an ID
         $form = $('#' + form);
 
@@ -47,7 +49,7 @@ ipf.contact = (function ($) {
         if (valid) {
             submitAjaxForm();
         } else {
-            alert('You must fill out all fields with valid values.')
+            alert('You must fill out all fields with valid values.');
         }
     }
 
@@ -56,12 +58,12 @@ ipf.contact = (function ($) {
     }
 
     function submitAjaxForm () {
-        var formData = {};
-        alert("(not really) sending to: " + $recipient.val());
+        // var formData = {};
+        alert('(not really) sending to: ' + $recipient.val());
     }
 
     return {
         init: initialize
-    }
+    };
 
 })(jQuery);
