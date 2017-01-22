@@ -1,5 +1,5 @@
 .TourHomes {
-    
+    margin-bottom: 3em;
     list-style: none;
 
     > li {
@@ -13,4 +13,8 @@
             display: block;
         }
     }
+}
+
+.TourHomeImage {
+    width: 100%;
 }
