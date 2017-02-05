@@ -1,11 +1,12 @@
 //- used to create the pipe-delimited navigation menus for sectional subnav
-mixin tertiaryNav(nav, selected)
-    nav.NavTertiary
-        each item in nav
-            if item.title.toLowerCase() === selected
-                a(href=item.href class="PipeNav is-selected")= item.title
-            else
-                a(href=item.href class="PipeNav")= item.title
+mixin secondaryNav(nav, selected)
+    .SecondaryNavContainer
+        nav.SecondaryNav
+            each item in nav
+                if item.title.toLowerCase() === selected
+                    a(href=item.href title=item.title class="is-selected")= item.title
+                else
+                    a(href=item.href title=item.title)= item.title
 
 //- the individual band summary list item
 mixin bandListing(band)
