@@ -16,7 +16,7 @@
     }
 
     p {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
 
     @media (max-width: $bp-lg) {
@@ -42,7 +42,7 @@
 .Footer-nav {
     margin: 0 0 1.5em 0;
     padding: 0 2em;
-    font-size: 0.5em;
+    font-size: 0.6em;
 
     a {
         margin-top: 0.5em;
@@ -54,4 +54,8 @@
             // color: blue;
         }
     }
+}
+
+.fineprint {
+    letter-spacing: 0;
 }

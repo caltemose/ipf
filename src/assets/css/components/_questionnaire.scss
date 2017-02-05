@@ -1,0 +1,31 @@
+// TODO Revisit serif font later.
+// Would like to use the serif font for the Q and A but the "Q" looks
+// too much like a "2".
+
+.Questionnaire {
+    margin-left: 1.5em;
+
+
+    dt {
+        margin-bottom: 0.25em;
+        color: $brand-grey;
+
+        &:before {
+            content: "Q:";
+            // font-family: $base-font-family-serif;
+            margin-left: -1.5em;
+            margin-right: 0.4em;
+        }
+    }
+
+    dd {
+        margin-bottom: 1.25em;
+
+        &:before {
+            content: "A:";
+            // font-family: $base-font-family-serif;
+            margin-left: -1.5em;
+            margin-right: 0.4em;
+        }
+    }
+}

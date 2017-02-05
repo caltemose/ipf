@@ -1,5 +1,6 @@
 .u-container {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 1.5em;
     max-width: $site-max-width;
 
@@ -45,13 +46,4 @@
     clip: rect(0 0 0 0);
     height: 1px; width: 1px;
     margin: -1px; padding: 0; border: 0;
-}
-
-.volspot {
-    display: block;
-    margin: 2em 0 1em;
-
-    img {
-        width: 95%;
-    }
 }

@@ -16,6 +16,7 @@ main {
     min-height: 300px;
 
     > article {
+        margin-top: 6em;
         margin-bottom: 3em !important;
     }
 
@@ -24,6 +25,8 @@ main {
         min-height: 600px;
 
         > article {
+            margin-top: 0;
+            
             > p,
             > ul,
             > ol,
