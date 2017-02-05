@@ -9,19 +9,14 @@ block title
 block contents
 
     .Hero.owl-carousel.owl-theme
-            
         div
-            img(src="/assets/img/fpo/box-heros-930x450.jpg")
-        
+            mixin slideImage('parade-block-heros_prqgxi')
         div
-            img(src="/assets/img/fpo/elvi-930x450.jpg")
-        
+            mixin slideImage('parade-elvises_cyaqbo')
         div
-            img(src="/assets/img/fpo/big-house-930x450.jpg")
-
+            mixin slideImage('painting-face_odgxph')
         div
-            img(src="/assets/img/fpo/gnomes-930x450.jpg")
-
+            mixin slideImage('homes-bighome')    
 
     .u-container
     
@@ -98,7 +93,7 @@ block scripts
         $('.owl-carousel').owlCarousel({
             dots: true,
             loop: true,
-            autoplay: true,
+            autoplay: false,
             responsive: {
                 0: {
                     items: 1

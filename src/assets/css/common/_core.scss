@@ -10,6 +10,7 @@ body {
 }
 
 main {
+    margin-top: 5.2em;
     // hackery garbage until we have all content in -
     // keeps page from being too short.
     min-height: 300px;
@@ -19,6 +20,7 @@ main {
     }
 
     @media (min-width: 768px) {
+        margin-top: 0;
         min-height: 600px;
 
         > article {

@@ -40,3 +40,6 @@ mixin musicday(dayTitle, stages, day)
         ul.MusicStage
             each band in day.w
                 mixin bandListing(band)
+
+mixin slideImage(imageName)
+    img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_256/ipf/#{imageName} 256w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_512/ipf/#{imageName} 512w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_768/ipf/#{imageName} 768w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_1024/ipf/#{imageName} 1024w" src="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_512/ipf/#{imageName}" alt)

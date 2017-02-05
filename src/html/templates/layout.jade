@@ -23,29 +23,33 @@ html(lang="en")
 
     body
 
-        header#Header.Header.u-clear
-        
-            input#Trigger(type='checkbox' name='trigger')
+        .SiteHeaderBackground
+            header.SiteHeader
             
-            .u-clear.u-container
-                label#TriggerLabel(for='Trigger') MENU
-                img#Logo(src="/assets/img/ipf-logo-yellow-white.svg")
-            
-            #NavHeader.u-clear
-                nav.NavPrimary.u-clear.u-container
-                    each item in globals.nav
-                        if item.title.toLowerCase() === selectedNav
-                            a(href=item.href class="is-selected")= item.title
-                        else
-                            a(href=item.href class="")= item.title
+                section.MastHead
+                    .SiteMenuToggle
+                        button.SiteMenuToggle-menu Menu
+                        button.SiteMenuToggle-close X
                 
-                nav.NavSecondary.u-clear
-                    each item in globals.utilities
-                        if item.title.toLowerCase() === selectedNav
-                            a(href=item.href class="is-selected")= item.title
-                        else
-                            a(href=item.href class="")= item.title
-        
+                    a.SiteLogo(href="/" title="Home Page")
+                        h1.u-visuallyhidden Inman Park Festival &amp; Tour of Homes
+                        img(src="/assets/img/ipf-logo-revised-large.svg" role="presentation")
+                
+                
+                .SiteNav#SiteNav
+                    nav.SiteNav-utilities
+                        each item in globals.utilities
+                            if item.title.toLowerCase() === selectedNav
+                                a(href=item.href class="is-selected")= item.title
+                            else
+                                a(href=item.href)= item.title
+
+                    nav.SiteNav-primary
+                        each item in globals.nav
+                            if item.title.toLowerCase() === selectedNav
+                                a(href=item.href class="is-selected")= item.title
+                            else
+                                a(href=item.href)= item.title
 
         main
 
@@ -71,4 +75,9 @@ html(lang="en")
                 p.fineprint #{globals.copyright}
 
         script(src="/assets/js/plugins.js")
+        script.
+            $('.SiteMenuToggle').click(function (e) {
+                console.log('click');
+                $('body').toggleClass('nav-open');
+            });
         block scripts
