@@ -74,6 +74,10 @@
         background-color: darken($brand-grey-dark, 5%);
     }
 
+    &:focus {
+        outline: 1px solid $brand-yellow;
+    }
+
     h1 {
         margin: 1em 0 0;
         font-size: 1em;
@@ -122,6 +126,10 @@
 .SiteNav a.is-selected {
     color: $brand-yellow;
     background-color: darken($brand-grey-dark, 20%);
+}
+
+.SiteNav a:focus {
+    outline: 1px solid $brand-yellow;
 }
 
 .SiteNav-utilities {
@@ -216,6 +224,9 @@
 
     &:hover, &:focus, &.is-selected {
         background-color: $brand-yellow;
+    }
+    &:focus {
+        outline: 1px solid $brand-yellow;
     }
 
     @media (min-width: $bp-md) {

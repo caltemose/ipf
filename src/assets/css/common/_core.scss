@@ -69,15 +69,32 @@ li {
     margin-bottom: 0.5em;
 }
 
+dl {
+    margin-left: 1.5em;
 
-dt {
-    font-weight: bold;
+    dt {
+        margin-bottom: 0.25em;
+        color: $brand-grey;
+
+        &:before {
+            content: "Q:";
+            // font-family: $base-font-family-serif;
+            margin-left: -1.5em;
+            margin-right: 0.4em;
+        }
+    }
+
+    dd {
+        margin: 0 0 1.25em 0;
+
+        &:before {
+            content: "A:";
+            // font-family: $base-font-family-serif;
+            margin-left: -1.5em;
+            margin-right: 0.4em;
+        }
+    }
 }
-
-dd {
-    margin: 0 0 1em 0;
-}
-
 
 p {
     line-height: 1.5em;
