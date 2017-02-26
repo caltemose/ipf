@@ -60,11 +60,13 @@ html(lang="en")
             .u-container
             
                 .Footer-sponsors
-                    a(href="#") sponsor1
-                    a(href="#") sponsor2
-                    a(href="#") sponsor3
-                    a(href="#") sponsor4
-                    a(href="#") sponsor5
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/sweetwater.png", "Sweetwater Brewing Co.", "http://sweetwaterbrew.com")
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/old-fourth-ward-distillery.png", "Old Fourth Ward Distillery", "http://www.old4th.com")
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/asw-distillery.png", "ASW Distillery", "http://www.aswdistillery.com")
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/terrapin.png", "Terrapin Beer Co.", "http://terrapinbeer.com/")
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/sierra-nevada.png", "Sierra Nevada Brewing", "http://www.sierranevada.com")
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/bluemoon.png", "Blue Moon Brewing", "https://www.bluemoonbrewingcompany.com")
+                    mixin footerSponsor("/assets/img/2017/sponsors/footer/northside-hospital.png", "Northside Hospital", "http://www.northside.com/")
             
                 nav.Footer-nav
                     a(href="/contact-us" class="PipeNav") Contact Us
