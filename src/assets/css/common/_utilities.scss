@@ -47,3 +47,23 @@
     height: 1px; width: 1px;
     margin: -1px; padding: 0; border: 0;
 }
+
+.u-namedLink {
+    @media (max-width: $bp-sm-max) {
+        position: relative;
+        border-top: 84px solid transparent;
+        margin-top: -84px !important;
+        background-clip: padding-box !important;
+        pointer-events: none;
+    }
+}
+
+.u-namedLink:before {
+    @media (max-width: $bp-sm-max) {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: 0;
+        right: 0;
+    }
+}

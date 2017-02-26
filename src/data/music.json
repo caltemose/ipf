@@ -9,56 +9,105 @@
             {
                 "start": "11:45AM",
                 "end": "12:45PM",
-                "title": "Book of Colors",
+                "title": "Rainmen",
                 "photo": "",
-                "description": "Psychedelic and soulful multi-instrumentalists"
+                "description": "Classic rock, Beatles covers"
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
-                "title": "Mr. Blue Sky",
+                "title": "Cledus Jeremiah Jones",
                 "photo": "",
-                "description": "Indie pop trio"
+                "description": "Hillbilly fusion, sorta"
             }, {
                 "start": "3:00PM",
                 "end": "4:00PM",
-                "title": "Myles Brown Band",
+                "title": "10 degrees Off",
                 "photo": "",
-                "description": "Funk-rock"
+                "description": "Blues, swing, rock and good-time covers/ originals"
+            }, {
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "Reign and Revelry",
+                "photo": "",
+                "description": "Country, y’all!"
+            }, {
+                "start": "5:30PM",
+                "end": "6:45PM",
+                "title": "Mudcat",
+                "photo": "",
+                "description": "Bluesy guitarist w/special guest Eddie Tigner"
+            }, {
+                "start": "7:00PM",
+                "end": "8:00PM",
+                "title": "Geoff Achison",
+                "photo": "",
+                "description": "Australian-Atlantan Blues phenom"
             }
         ],
         "e": [
             {
                 "start": "11:45AM",
                 "end": "12:45PM",
-                "title": "Georgia Tech Glee Club",
+                "title": "Balalaika Fantasie",
                 "photo": "",
-                "description": "A capella chorale"
+                "description": "Traditional Eastern European instruments/music"
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
-                "title": "Cooper Tisdale",
+                "title": "Bitteroots",
                 "photo": "",
-                "description": "Accomplished jazz/rock guitarist"
+                "description": "Soulful jam-rock"
             }, {
-                "start": "3:30PM",
-                "end": "4:30PM",
-                "title": "Bonaventure \"Quartet\"",
+                "start": "3:15PM",
+                "end": "4:15PM",
+                "title": "Solid State",
                 "photo": "",
-                "description": "Gypsy swing, a la Django Reinhardt"
+                "description": "Jazz by some of Atlanta’s best"
+            }, {
+                "start": "4:30PM",
+                "end": "5:30PM",
+                "title": "Webb Wilder",
+                "photo": "",
+                "description": "Americana - Last of the full-grown men..."
             }
         ],
         "w": [
             {
                 "start": "11:45AM",
-                "end": "12:30PM",
-                "title": "Merlins Electric Beard Band",
-                "photo": ""
-            }, {
-                "start": "12:45PM",
-                "end": "1:15PM",
-                "title": "Diamond Thief",
+                "end": "12:45PM",
+                "title": "TAYLOR ALXNDR*",
                 "photo": "",
-                "description": "Youthful and energetic punk rock"
+                "description": ""
+            }, {
+                "start": "1:00PM",
+                "end": "2:00PM",
+                "title": "Agyn*",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "3:30PM",
+                "end": "4:30PM",
+                "title": "Lightning Orchestra",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "4:45PM",
+                "end": "5:15PM",
+                "title": "Fit of Body*",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "5:15PM",
+                "end": "5:45PM",
+                "title": "Pamela and her sons*",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "6:00PM",
+                "end": "7:00PM",
+                "title": "Hank & Cupcakes",
+                "photo": "",
+                "description": "High-energy rock"
             }
         ]
     },
@@ -67,44 +116,93 @@
             {
                 "start": "12:30PM",
                 "end": "1:30PM",
-                "title": "Flat Rock Swing",
+                "title": "Uncle Don's Band",
                 "photo": "",
-                "description": "Americana/country-swing"
+                "description": "Classic rock/Americana"
             }, {
                 "start": "1:45PM",
                 "end": "2:45PM",
-                "title": "Black Lion",
+                "title": "gRUT",
                 "photo": "",
-                "description": "Reggae"
+                "description": "\"Experimental\" world/jazz/funk"
+            }, {
+                "start": "3:00PM",
+                "end": "4:00PM",
+                "title": "Southern Ska Syndicate",
+                "photo": "",
+                "description": "Ska, southern-style"
+            }, {
+                "start": "4:15PM",
+                "end": "5:15PM",
+                "title": "RUMOURS",
+                "photo": "",
+                "description": "Fleetwood Mac tribute band"
+            }, {
+                "start": "5:30PM",
+                "end": "6:30PM",
+                "title": "Morning Fatty",
+                "photo": "",
+                "description": "FRED (Funk/Rock/Electro/Dub)"
             }
         ],
         "e": [
             {
-                "start": "11:45PM",
-                "end": "12:45PM",
-                "title": "Rocket 88's",
+                "start": "12:00PM",
+                "end": "1:00PM",
+                "title": "Fare Thee Well Music Camp Kids",
                 "photo": "",
-                "description": "Classic rock and blues covers"
+                "description": ""
             }, {
-                "start": "1:00PM",
-                "end": "2:00PM",
-                "title": "the Back Yardbirds",
+                "start": "1:15PM",
+                "end": "2:15PM",
+                "title": "Merry Leigh Giarra with After Six",
                 "photo": "",
-                "description": "British Blues invasion covers"
+                "description": "Bonnie Raitt-ish"
+            }, {
+                "start": "2:30PM",
+                "end": "3:30PM",
+                "title": "The Norm",
+                "photo": "",
+                "description": "Funk/reggae/pop/rock/hip-hop fusion"
+            }, {
+                "start": "3:45PM",
+                "end": "4:45PM",
+                "title": "Georgia Soul Council",
+                "photo": "",
+                "description": "Horns & the whole funky shebang"
+            }, {
+                "start": "5:00PM",
+                "end": "6:00PM",
+                "title": "Joe Gransden and his 17-piece Big Band",
+                "photo": "",
+                "description": "Big band swing"
             }
         ],
         "w": [
             {
-                "start": "12:30PM",
-                "end": "1:30PM",
-                "title": "Sea Ghost",
-                "photo": ""
-            }, {
-                "start": "1:45PM",
-                "end": "2:45PM",
-                "title": "Woven In",
+                "start": "12:15PM",
+                "end": "1:15PM",
+                "title": "Dux*",
                 "photo": "",
-                "description": "Dark, twangy rock and goth-like vocals"
+                "description": ""
+            }, {
+                "start": "1:30PM",
+                "end": "2:30PM",
+                "title": "Bradley Cole Smith Band",
+                "photo": "",
+                "description": "Original country-flavored tunes"
+            }, {
+                "start": "2:45PM",
+                "end": "3:45PM",
+                "title": "10th Letter Ensemble*",
+                "photo": "",
+                "description": ""
+            }, {
+                "start": "4:00PM",
+                "end": "5:00PM",
+                "title": "Hoodoo Moon",
+                "photo": "",
+                "description": "Classic bayou funk, rock and southern soul."
             }
         ]
     }

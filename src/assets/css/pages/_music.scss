@@ -8,8 +8,23 @@ $oddRowColor: #B4CED6;
     padding-left: 0;
 }
 
+.MusicSelector {
+    width: 100%;
+    text-align: center;
+    
+    @media (min-width: $bp-md) {
+        text-align: left;
+    }
+}
+
 // Day Header: "Saturday Bands by Stage"
 .MusicDates {
+
+    @media (min-width: $bp-lg) {
+        max-width: $site-max-width;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     h2 {
         margin: 0;
@@ -80,4 +95,8 @@ $oddRowColor: #B4CED6;
         margin: 0;
         font-size: 0.75em;
     }
+}
+
+.MusicStage > li {
+    margin-bottom: 1em;
 }

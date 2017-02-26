@@ -10,40 +10,42 @@ block contents
 
     .u-container
 
-        h1 Sponsors Section
+        h1 Festival Sponsors
+        
+        p A big thanks to this year&rsquo;s festival sponsors:
 
-        ul
-            li what's the best way to layout this info and satisify contractual requirements?
-            li document the contractual requirements
-            li should we add a "Sponsor Info" page with these details to mitigate sending an email?
+    .SponsorsContainer
 
-
+        h2.SponsorsHeader.SponsorsHeader--gold Gold Sponsors
         ul.Sponsors.Sponsors--gold
-            li
-                a(href="https://google.com" target="_blank")
-                    img(src="/assets/img/2015/sponsors/google-310x112.png" alt="Google")
-        
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/sweetwater-brewing.png", "Sweetwater Brewing Co.", "http://sweetwaterbrew.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/blue-moon.png", "Blue Moon Brewing", "https://www.bluemoonbrewingcompany.com")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/old-fourth-ward-distillery.png", "Old Fourth Ward Distillery", "http://www.old4th.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/sierra-nevada.png", "Sierra Nevada Brewing", "http://www.sierranevada.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/terrapin.png", "Terrapin Beer Co.", "http://terrapinbeer.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/asw-distillery.png", "ASW Distillery", "http://www.aswdistillery.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/gold/northside-hospital.png", "Northside Hospital", "http://www.northside.com/")
+
+        h2.SponsorsHeader.SponsorsHeader--silver Silver Sponsors
         ul.Sponsors.Sponsors--silver
-            li
-                a(href="http://www.dewinterhomes.com/" target="_blank")
-                    img(src="/assets/img/2015/sponsors/AndreDeWinter.png" alt="Andre De Winter Realtor")
-            li
-                a(href="http://www.jimellishyundai.com/" target="_blank")
-                    img(src="/assets/img/2015/sponsors/Jim-Ellis-Hyundai1.png" alt="Jim Ellis Hyundai")
-            li
-                a(href="http://inmanquarter.com/" target="_blank")
-                    img(src="/assets/img/2015/sponsors/inman-quarter-big.png" alt="Inman Quarter")
-        
+            mixin sponsorGridImage("/assets/img/2017/sponsors/silver/andre-de-winter.png", "Andre de Winter", "http://www.dewinterhomes.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/silver/mailchimp.png", "MailChimp", "http://mailchimp.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/silver/publix.png", "Publix", "http://publix.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/silver/north-american-properties.png", "North American Properties", "http://www.naproperties.com/")
+
+
+        h2.SponsorsHeader.SponsorsHeader--bronze Bronze Sponsors
         ul.Sponsors.Sponsors--bronze
-            li
-                a(href="" target="_blank")
-                    img(src="/assets/img/2015/sponsors/circuscamp-2014.jpg" alt="")
-            li
-                a(href="" target="_blank")
-                    img(src="/assets/img/2015/sponsors/mailchimp-2014.png" alt="")
-            li
-                a(href="" target="_blank")
-                    img(src="/assets/img/2015/sponsors/old-fourth-distillery.png" alt="")
-            li
-                a(href="" target="_blank")
-                    img(src="/assets/img/2015/sponsors/virgil-kaine.png" alt="")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/bronze/atlanta-medical-center.png", "Atlanta Medical Center", "http://atlantamedcenter.com")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/bronze/whitten.jpg", "Whitten Management Services", "http://www.whittenmanagement.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/bronze/wrfg.png", "WRFG", "http://wrfg.org")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/bronze/ecotools.png", "Ecotools", "https://ecotools.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/bronze/peachskinsheets.png", "PeachSkinSheets", "http://www.peachskinsheets.com")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/bronze/renewal-andersen.png", "Renewal by Andersen", "http://www.rbaofatlanta.com/")
+
+        h2.SponsorsHeader.SponsorsHeader--other Other Sponsors
+        ul.Sponsors.Sponsors--other
+            mixin sponsorGridImage("/assets/img/2017/sponsors/toh/adam-stillman.png", "Adam Stillman", "http://adamstillman.net/index2.html")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/toh/dorsey-alston-realtors.png", "Dorsey Alston Realtors", "http://www.dorseyalston.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/toh/small-carpenters-at-large.png", "Small Carpenters at Large", "http://smallcarpenters.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/booth/power-home-remodeling.png", "Power Home Remodeling", "https://www.powerhrg.com")

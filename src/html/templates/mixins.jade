@@ -13,8 +13,11 @@ mixin bandListing(band)
     li
         h4
             = band.title
-            small= band.start
-        
+            small
+                | #{band.start}
+                = ' - '
+                | #{band.end}
+
         p= band.description
 
 
@@ -25,19 +28,22 @@ mixin musicday(dayTitle, stages, day)
         h2 #{dayTitle} Bands by Stage
         
         //- Delta Park bands
-        h3= stages.d
+        - var id = dayTitle + "Delta"
+        h3.u-namedLink(id=id)= stages.d
         ul.MusicStage
             each band in day.d
                 mixin bandListing(band)
         
         //- Euclid Avenue bands
-        h3= stages.e
+        - var id = dayTitle + "Euclid"
+        h3.u-namedLink(id=id)= stages.e
         ul.MusicStage
             each band in day.e
                 mixin bandListing(band)
         
         //- WonderRoot bands
-        h3= stages.w
+        - var id = dayTitle + "Wonderroot"
+        h3.u-namedLink(id=id)= stages.w
         ul.MusicStage
             each band in day.w
                 mixin bandListing(band)
@@ -47,3 +53,8 @@ mixin slideImage(imageName)
 
 mixin tourImage(imageName, alt)
     img(sizes="(min-width: 1024px) 940px, 100vw" srcset="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_234/ipf/#{imageName} 235w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_470/ipf/#{imageName} 470w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_705/ipf/#{imageName} 705w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_940/ipf/#{imageName} 940w" src="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_512/ipf/#{imageName}" alt=alt).TourHomeImage
+
+mixin sponsorGridImage(src, alt, url)
+    li
+        a(href=url target="_blank")
+            img(src=src alt=alt)

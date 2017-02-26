@@ -8,21 +8,42 @@ block contents
     mixin secondaryNav(globals.events.nav, "music")
 
     .u-container
-    
+
         h1 Live Music at the Inman Park Festival
-    
+
     .Hero
         p Band/Stage promos
-        
+
+    .u-container
+        select#musicSelector.MusicSelector
+            option(value="") Select Day &amp; Stage:
+            optgroup(label="Saturday")
+                option(value="SaturdayDelta") Delta Park
+                option(value="SaturdayEuclid") Euclid Ave
+                option(value="SaturdayWonderroot") WonderRoot
+            optgroup(label="Sunday")
+                option(value="SundayDelta") Delta Park
+                option(value="SundayEuclid") Euclid Ave
+                option(value="SundayWonderroot") WonderRoot
+
     ul.MusicDates
-        
         //- Saturday bands by stage
         mixin musicday("Saturday", music.stages, music.saturday)
 
         //- Sunday bands by stage
         mixin musicday("Sunday", music.stages, music.sunday)
-        
     
+    ul.BandDetails
+        li
+            p photo
+            h4 band name
+            article
+                p band details...
+
+block scripts
     script.
         var ipf = {};
         ipf.page = 'music';
+        $('#musicSelector').change(function handleMusicChange(event) {
+            window.location = '#' + event.target.value;
+        });
