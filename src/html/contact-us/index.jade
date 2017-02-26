@@ -5,13 +5,13 @@ block title
 
 block contents
 
-    .u-container
+    article.u-container
         h1 Contact Us
 
-        p If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. Thank you for your interest and we hope to see you at Festival!
+        p If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. Thank you for your interest and we hope to see you at Festival!
 
         
-        form(method="POST" action="").Form--contact#ContactForm
+        form(method="POST" action="contact.php").Form--contact#ContactForm
             
             p 
                 strong All fields are required.
@@ -28,8 +28,7 @@ block contents
                 | Select a point of contact:
                 select(name="recipient" required)
                     each contact in globals.contacts
-                        option(value=contact.label)= contact.label
-                        //- TODO update contact.values and fix this
+                        option(value=contact.value)= contact.label
 
             label
                 | Your Message:
@@ -41,7 +40,9 @@ block contents
             
             input(type="submit" name="submit" value="Send Email")
 
-    script(src="/assets/js/plugins.js")
+        p#successMessage Message sent - thanks for getting in touch. We'll respond as soon as we can.
+
+block scripts
     script(src="/assets/js/pages/contact.js")
     script.
         ipf.contact.init('ContactForm');

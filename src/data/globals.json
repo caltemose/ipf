@@ -58,7 +58,7 @@
             "href": "/lost-and-found"
         }
     ],
-    "copyright": "Copyright © Inman Park Festival",
+    "copyright": "Copyright &copy; Inman Park Festival",
     "volunteerSite": "http://signup.com/go/LQ1qm7",
     "vendors": {
         "deadline": "March 10, 2017",
@@ -109,42 +109,38 @@
             "value": "",
             "label": "Choose one..."
         }, {
-            "value": "fc",
+            "value": "chair",
             "label": "Festival Chair"
         }, {
-            "value": "df",
+            "value": "dance",
             "label": "Dance Festival"
         }, {
-            "value": "acsm",
+            "value": "market",
             "label": "Arts & Crafts and Street Market"
         }, {
-            "value": "p",
+            "value": "parade",
             "label": "Parade"
         }, {
-            "value": "fv",
+            "value": "food",
             "label": "Food Vendors"
         }, {
-            "value": "mc",
+            "value": "music",
             "label": "Music Coordinator"
         }, {
-            "value": "tt",
+            "value": "toh",
             "label": "Home Tour Tickets"
         }, {
-            "value": "s",
+            "value": "sponsors",
             "label": "Sponsors"
         }, {
-            "value": "v",
+            "value": "volunteers",
             "label": "Volunteers"
         }, {
             "value": "pr",
             "label": "Public Relations"
         }, {
-            "value": "am",
+            "value": "marketing",
             "label": "Advertising and Marketing"
-        }, {
-            "value": "ff",
-            "label": "Friends of Festival"
         }
-
     ]
 }

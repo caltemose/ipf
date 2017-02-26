@@ -16,7 +16,6 @@
         "deploy": "gulp deploy",
         "production": "gulp production",
         "demo": "gulp production && gulp server",
-        "gulp": "gulp",
         "development": "gulp",
         "test": "gulp production && karma start --single-run",
         "lint": "eslint .",

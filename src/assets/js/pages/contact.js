@@ -5,11 +5,13 @@ var ipf = ipf || {};
 
 ipf.contact = (function ($) {
 
-    var $form, $name, $email, $recipient, $message, $robot;
+    var $form, $successMessage, $name, $email, $recipient, $message, $robot;
 
     function initialize (form) {
         // form is passed through as an ID
         $form = $('#' + form);
+        
+        $successMessage = $('#successMessage');
 
         // save references
         saveReferences();
@@ -47,7 +49,7 @@ ipf.contact = (function ($) {
             valid = false;
         }
         if (valid) {
-            submitAjaxForm();
+            submitAjaxForm(event);
         } else {
             alert('You must fill out all fields with valid values.');
         }
@@ -58,8 +60,19 @@ ipf.contact = (function ($) {
     }
 
     function submitAjaxForm () {
-        // var formData = {};
-        alert('(not really) sending to: ' + $recipient.val());
+        $.post('contact.php', $form.serialize())
+            .done(function (res) {
+                console.log(res);
+                $form.hide();
+                $successMessage.show();
+            })
+            .error(function (res) {
+                if (res.status === 400) {
+                    console.log(res.responseJson.err);
+                } else {
+                    console.error(res.statusText);
+                }
+            });
     }
 
     return {
