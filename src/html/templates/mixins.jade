@@ -10,16 +10,33 @@ mixin secondaryNav(nav, selected)
 
 //- the individual band summary list item
 mixin bandListing(band)
-    li
-        h4
-            = band.title
-            small
-                | #{band.start}
-                = ' - '
-                | #{band.end}
+    - var imgUrl = typeof(band.photo) !== 'undefined' ? band.photo : ''
+    li.Band
 
-        p= band.description
+        .BandPhoto
+            img.img(src=imgUrl alt=band.title)
 
+        .BandCopy
+            h4
+                = band.title
+                small
+                    | #{band.start}
+                    = ' - '
+                    | #{band.end}
+
+            p= band.description
+
+            button.BandDetailsTrigger More Info
+
+            .BandDetails
+                button.BandDetails--close CLOSE
+                
+                .u-container-thin
+                    .BandPhoto
+                        img.img(src=imgUrl alt=band.title)
+
+                    h4= band.title
+                    article!= band.bio
 
 //- the listing of bands per stage for a single specified day
 mixin musicday(dayTitle, stages, day)

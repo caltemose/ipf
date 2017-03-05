@@ -11,8 +11,6 @@ block contents
 
         h1 Live Music at the Inman Park Festival
 
-    .Hero
-        p Band/Stage promos
 
     .u-container
         select#musicSelector.MusicSelector
@@ -32,13 +30,25 @@ block contents
 
         //- Sunday bands by stage
         mixin musicday("Sunday", music.stages, music.sunday)
-    
-    ul.BandDetails
-        li
-            p photo
-            h4 band name
-            article
-                p band details...
+
+    article.u-container
+        h2 Atlanta Musicians' Emergency Relief Fund
+
+        p For many years now, the music programming at the Inman Park Festival &amp; Tour of homes has been the responsibility of longtime resident Steve Ellison. He has contacts with a lot of bands and band members. This year Steve has an initiative that we as festival would like to support. Below he explains:
+
+        p "I've often been asked how long I intend to continue doing this; this labor of love, blood, sweat, and everything else entailed with organizing the Inman Park Festival's musical entertainment every year.
+
+        p This will be my 13th year (or so), and almost every Spring for the past four or five, I've insisted that "This may be my last year doing this…." only to ultimately bail on that promise.  I guess I have to admit it...I'm hooked for as long as I can endure, physically and/or mentally. I mean, this stuff takes a significant toll on a body somewhat advanced into its' Golden Years. It involves a lot of running about, all weekend long, plus you have to boss everybody around without hurting anyone's feelings, organize and schedule a whole lot of stuff, always attempting to spend the Festival's entertainment budget wisely, and ending up with a weekend with no lame lapses in the musical schedule (usually accomplished, if I may express my opinion).  And I ain't gettin' no younger.  But I often do feel that all this music stuff might be as close as I'll ever get to eternal youth.
+
+        p A huge part of my joy and the joy of our guests has been the local community of musicians. We feel they have always supported us; our locals have historically given us great rates compared with those which they usually command.
+
+        p I am very happy to announce that this year I am in a position to finally give something back. Many musicians live from paycheck to paycheck, sometimes without being able to save up for emergencies. That is why I am helping set up the Atlanta Musicians' Emergency Relief Fund.  Similar to the Giving Kitchen, the Atlanta Musician's Emergency Relief Fund hopes to provide help when and where musicians need it the most. We will be asking for donations after all performances, with the heartfelt support of our Festival Committee.
+
+        p We offer this idea as a small payback in kind to them, and we hope that this effort may grow to become an ongoing relationship between the Inman Park Festival and Atlanta's musical community.
+
+        p Thanks for your continued support! Enjoy the Festival!"
+
+
 
 block scripts
     script.
@@ -46,4 +56,10 @@ block scripts
         ipf.page = 'music';
         $('#musicSelector').change(function handleMusicChange(event) {
             window.location = '#' + event.target.value;
+        });
+        $('.BandDetailsTrigger').click(function openBandDetails(event) {
+            $(event.target).next().show();
+        });
+        $('.BandDetails--close').click(function closeBandDetails(event) {
+            $(event.target).parent().hide();
         });

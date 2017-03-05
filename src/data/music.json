@@ -28,20 +28,26 @@
                 "start": "4:15PM",
                 "end": "5:15PM",
                 "title": "Reign and Revelry",
-                "photo": "",
-                "description": "Country, y’all!"
+                "photo": "/assets/img/2017/music/reign-n-revelry.jpg",
+                "description": "Country, y’all!",
+                "bio": "<p>Reign and Revelry are a southern band with roots deep in Americana, Southern Rock, and Alternative Country, making their first appearance at Inman Park Festival.</p>",
+                "url": "https://www.facebook.com/reignandrevelry"
             }, {
                 "start": "5:30PM",
                 "end": "6:45PM",
                 "title": "Mudcat",
-                "photo": "",
-                "description": "Bluesy guitarist w/special guest Eddie Tigner"
+                "photo": "/assets/img/2017/music/mudcat.jpg",
+                "description": "Bluesy guitarist w/special guest Eddie Tigner",
+                "bio": "<p>&ldquo;Danny 'Mudcat' Dudeck is an internationally known bluesman and gospeleer. Mudcat, while continuing the traditions of the early blues pioneers, adds his own edge, resulting in one of Atlanta’s greatest treasures.&rdquo; - Atlanta History Center</p>",
+                "url": "http://www.mudcatblues.com"
             }, {
                 "start": "7:00PM",
                 "end": "8:00PM",
                 "title": "Geoff Achison",
-                "photo": "",
-                "description": "Australian-Atlantan Blues phenom"
+                "photo": "/assets/img/2017/music/geoff-achison.jpg",
+                "description": "Australian-Atlantan Blues guitarist",
+                "bio": "<p>Having morphed into an Atlantan for a year or so of his impressive career, Geoff Achison is an award winning blues-roots artist currently residing in (and a citizen of) his native home, Melbourne, Australia. Known for his energetic live performances and unique guitar mastery, Geoff is an extraordinary guitarist who plays quite unlike anyone else. Besides his music awards he has been honored in Australian Guitar Magazine's \"Top 50 Guitarists\", True Fire's \"Guitarists You Should Know\" and he is also an Official Patron of the Melbourne Blues Appreciation Society.</p>",
+                "url": "https://www.geoffachison.com"
             }
         ],
         "e": [
@@ -49,14 +55,17 @@
                 "start": "11:45AM",
                 "end": "12:45PM",
                 "title": "Balalaika Fantasie",
-                "photo": "",
-                "description": "Traditional Eastern European instruments/music"
+                "photo": "/assets/img/2017/music/balalaika-fantasie.jpg",
+                "description": "Traditional Eastern European instruments/music",
+                "bio": "<p>When you see and hear Balalaika Fantasie, you will experience an ensemble and singers performing on authentic Russian folk instruments, costumed in traditional Russian garb. Their repertoire includes Russian (of course), Ukrainian, Gypsy, and Jewish folk music, and they are members of the Atlanta Balalaika Society, here to perform Saturday at our Euclid Tent Stage.</p>"
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
                 "title": "Bitteroots",
-                "photo": "",
-                "description": "Soulful jam-rock"
+                "photo": "/assets/img/2017/music/the-bitterroots.jpg",
+                "description": "Soulful jam-rock",
+                "bio": "<p>The Bitteroots are an Atlanta/Decatur-based original jam-rock band founded in 2008. Fronted by female vocalist Laura Dees, the band has a sound that’s been called a “unique brand of soulful rock.” The Bitteroots’ groove-oriented approach to rock n roll has drawn comparisons to the Tedeschi-Trucks Band, Melissa Etheridge, and Janis Joplin.</p>",
+                "url": "http://www.thebitteroots.com"
             }, {
                 "start": "3:15PM",
                 "end": "4:15PM",
@@ -122,9 +131,11 @@
             }, {
                 "start": "1:45PM",
                 "end": "2:45PM",
-                "title": "gRUT",
-                "photo": "",
-                "description": "\"Experimental\" world/jazz/funk"
+                "title": "Gr&uuml;t",
+                "photo": "/assets/img/2017/music/grut.jpg",
+                "description": "\"Electronic experimental\" world/jazz/funk",
+                "bio": "<p>When I approached my pal Vincent for band suggestions for the Festival (Vincent Tseng, that is, the Asian-American photographer guy who seems to be in attendance at every live music performance I’ve ever attended in Atlanta), he heartily recommended these guys.  So all credit due goes to him.</p>",
+                "url": "https://www.facebook.com/GrutMusic"
             }, {
                 "start": "3:00PM",
                 "end": "4:00PM",
@@ -150,8 +161,10 @@
                 "start": "12:00PM",
                 "end": "1:00PM",
                 "title": "Fare Thee Well Music Camp Kids",
-                "photo": "",
-                "description": ""
+                "photo": "/assets/img/2017/music/fare-thee-well.jpg",
+                "description": "Future musical stars, sponsored by Music on Main Street in Lilburn Georgia",
+                "bio": "<p>Through workshops, group activities, and private instruction, the Fare Thee Well camp experience is designed to improve music performance skills in a creative and fun environment.  Music is born from human emotions, and playing with others speeds learning and creates collaborative musicians; we are proud to provide them an opportunity to show off their chops!</p>",
+                "url": "http://www.musiconmainstreetlilburn.com/fare-thee-well-summer-music-camp.html"
             }, {
                 "start": "1:15PM",
                 "end": "2:15PM",
@@ -168,8 +181,10 @@
                 "start": "3:45PM",
                 "end": "4:45PM",
                 "title": "Georgia Soul Council",
-                "photo": "",
-                "description": "Horns & the whole funky shebang"
+                "photo": "/assets/img/2017/music/georgia-soul-council.jpg",
+                "description": "Horn-driven R&B and funk",
+                "bio": "<p>Georgia Soul Council was originally formed in Atlanta in 2010 as the backing band for Otis Redding III, and reconvened in 2011 with a shift towards the 70's era breakbeat-Soul-Jazz that is their real musical passion. Since then they have been bringing their funkified live performances to the people of the southeastern United States, and have had the pleasure of sharing the stage with <em>Lee Fields & The Expressions</em>, <em>the Antibalas Afrobeat Orchestra</em>, <em>Papa Grows Funk</em>, <em>Col. Bruce Hampton</em>, <em>the Rebirth Brass Band</em>, and many others.</p>",
+                "url": "https://georgiasoulcouncil1.bandcamp.com"
             }, {
                 "start": "5:00PM",
                 "end": "6:00PM",
@@ -183,8 +198,10 @@
                 "start": "12:15PM",
                 "end": "1:15PM",
                 "title": "Dux*",
-                "photo": "",
-                "description": ""
+                "photo": "/assets/img/2017/music/dux.jpg",
+                "description": "Cello and Synthesizer",
+                "bio": "<p>Other than carbs, salt, and fat from butter, popcorn is incredibly hard for a duck to swallow. The kernels can get snagged in the esophagus causing choking and abrasions. Using cello and synthesizer, Dux is/are exploring the limits of what musical vocabulary we can achieve.</p>",
+                "url": "https://www.facebook.com/bightydux"
             }, {
                 "start": "1:30PM",
                 "end": "2:30PM",
