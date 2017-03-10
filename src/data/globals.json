@@ -30,8 +30,8 @@
             "title": "About",
             "href": "/about"
         }, {
-            "title": "Market",
-            "href": "/market"
+            "title": "Booths",
+            "href": "/booths"
         }, {
             "title": "Events",
             "href": "/events"
@@ -91,16 +91,16 @@
         "nav": [
             {
                 "title": "Arts & Crafts",
-                "href": "/market/arts-crafts-market"
+                "href": "/booths/arts-crafts-market"
             }, {
                 "title": "Street Market",
-                "href": "/market/street-market"
+                "href": "/booths/street-market"
             }, {
                 "title": "Community Corner",
-                "href": "/market/community-corner"
+                "href": "/booths/community-corner"
             }, {
                 "title": "Become an Exhibitor",
-                "href": "/market/become-an-exhibitor"
+                "href": "/booths/become-an-exhibitor"
             }
         ]
     },

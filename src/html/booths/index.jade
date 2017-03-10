@@ -1,10 +1,10 @@
 extends ../templates/layout.jade
 
 block pageVars
-    - var selectedNav = 'market'
+    - var selectedNav = 'booths'
 
 block title
-    title #{globals.ipf.title} | Market
+    title #{globals.ipf.title} | Booths
 
 block contents
 
@@ -16,24 +16,24 @@ block contents
         
         p If you're looking for gifts, new clothes, art for your house or just about anything else, you are likely to find what you're looking for at one of the many vendor booths lining the tree-shaded streets during the Inman Park Festival.
         
-        h2 Markets
+        h2 Booths
         
         p 
             | The 
             = ' '
-            a(href="/market/arts-crafts-market") Arts & Crafts Market
+            a(href="/booths/arts-crafts-market") Arts & Crafts Market
             = ' '
             | is a jury-selected group of more than 150 artists showcasing their work in a variety of media including sculpture, painting and photography.
         
         p 
             | The 
             = ' '
-            a(href="/market/street-market") Street Market
+            a(href="/booths/street-market") Street Market
             = ' '
             | houses more than 250 booths of vendors selling antiques, handcrafted wares, clothing and a large variety of other items.
 
         p 
-            a(href="/market/community-corner") Community Corner
+            a(href="/booths/community-corner") Community Corner
             = ' '
             | booths showcase a variety of non-profit organizations where you can learn about and help out groups doing important work locally and across the states.
         
@@ -44,4 +44,4 @@ block contents
         p 
             | If you are interested in being a vendor for the #{globals.ipf.date.year} festival, 
             = ' '
-            a(href="/market/become-an-exhibitor") visit the Become an Exhibitor page for more info.
+            a(href="/booths/become-an-exhibitor") visit the Become an Exhibitor page for more info.

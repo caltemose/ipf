@@ -98,6 +98,12 @@
         }
 
         img {
+            width: 220px;
+        }
+    }
+
+    @media (min-width: $bp-lg) {
+        img {
             width: 260px;
         }
     }
@@ -171,6 +177,10 @@
         margin-top: 2em;
         border: none;
     }
+
+    @media (min-width: $bp-lg) {
+        margin-top: 2em;
+    }
 }
 
 .SiteNav-primary a {
@@ -183,14 +193,20 @@
     letter-spacing: 0.15em;
 
     @media (min-width: $bp-md) {
-        margin-right: 1em;
+        margin-right: 0.75em;
         padding: 0.75em 0.5em 0.5em;
         width: inherit;
+        font-size: 0.875em;
         border: none;
 
         &:last-child {
             margin-right: 0;
         }
+    }
+
+    @media (min-width: $bp-lg) {
+        margin-right: 1em;
+        padding: 0.75em 0.5em 0.5em;
     }
 }
 
