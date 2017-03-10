@@ -76,8 +76,10 @@
                 "start": "4:30PM",
                 "end": "5:30PM",
                 "title": "Webb Wilder",
-                "photo": "",
-                "description": "Americana - Last of the full-grown men..."
+                "photo": "/assets/img/2017/music/webb-wilder.jpg",
+                "description": "Americana/alt-country",
+                "bio": "<p>\"Mississippi Moderne\". Pronounce it however you like, but Webb pronounces it \"Moe-durn.\" Hybridized and improvised. Nashville rock 'n roll. Formed from Mississippi mud, tinged with British mod. Bruised by the blues. Baptized by Buck and Chuck. Psychiatric psycho-rootsy. Sizzling, glistening, uneasy listening. As it has been for three decades, it is now and ever shall be. Webb Wilder.</p><p>\"I hate to use the word mature\", Webb says. And so we shall not.</p>",
+                "url": "https://www.webbwilder.com "
             }
         ],
         "w": [
@@ -126,8 +128,9 @@
                 "start": "12:30PM",
                 "end": "1:30PM",
                 "title": "Uncle Don's Band",
-                "photo": "",
-                "description": "Classic rock/Americana"
+                "photo": "/assets/img/2017/music/uncle-dons-band.jpg",
+                "description": "Classic rock/Americana",
+                "bio": "<p>Uncle Don's Band presents classic tunes reimagined! Byrds, Beatles, Stones, Dylan, Floyd, Petty, ELO, Badfinger, The Band, Dire Straits and many, many more! Featuring four of Atlanta's finest: Don Ruiz (vocals, bass), John Tyler (vocals, guitars), Burt Wolff (vocals, guitars, keys, sound efx), Larry Strong (drums and percussion). Some of the greatest songs ever, enhanced with (and by) improvisation! 12 string electric guitar! Starfire bass! Almost two centuries of obsessive rock and roll experience on display for your enjoyment and edification!</p>"
             }, {
                 "start": "1:45PM",
                 "end": "2:45PM",
@@ -140,8 +143,10 @@
                 "start": "3:00PM",
                 "end": "4:00PM",
                 "title": "Southern Ska Syndicate",
-                "photo": "",
-                "description": "Ska, southern-style"
+                "photo": "/assets/img/2017/music/southern-ska-syndicate.jpg",
+                "description": "Ska, southern-style",
+                "bio": "<p>Southern Ska Syndicate is ready to get the party started with their mix of classic ska and rocksteady sounds guaranteed to get you skanking on the dance floor! With members from all around the United States and veterans of other bands, Southern Ska Syndicate brings the rebel spirit of 1960's Jamaican music to you! Despite being banned from performing in Mongolia, the band's high energy and positive vibe can't be brought down.</p>",
+                "url": "http://southernskasyndicate.com "
             }, {
                 "start": "4:15PM",
                 "end": "5:15PM",
@@ -152,8 +157,10 @@
                 "start": "5:30PM",
                 "end": "6:30PM",
                 "title": "Morning Fatty",
-                "photo": "",
-                "description": "FRED (Funk/Rock/Electro/Dub)"
+                "photo": "/assets/img/2017/music/morning-fatty.jpg",
+                "description": "FRED (Funk/Rock/Electro/Dub)",
+                "bio": "<p>Morning Fatty, is an ever-evolving punk/ska turned reggae-funk band. The group combines individual musical prowess to create a strong collective chemistry. Based out of Gainesville Florida, Morning Fatty  has continued to evolve and transform their sound since coming together in 2004. The group’s original dynamic shifted incredibly with the addition of experienced drummer Tim Mulberry. Previous to joining the band, Tim had accomplished a world tour drumming for The Black Eyed Peas. The new sound can only be described as Funk Rock Electro Dub, or simply FRED. By melding electronic bass drops, dueling guitar licks, heavy rock melodies and a fat reggae groove, Morning Fatty discovered a distinctive sound that pays homage to each member’s unique style.</p>",
+                "url": "http://www.morningfatty.com"
             }
         ],
         "e": [
@@ -169,14 +176,17 @@
                 "start": "1:15PM",
                 "end": "2:15PM",
                 "title": "Merry Leigh Giarra with After Six",
-                "photo": "",
-                "description": "Bonnie Raitt-ish"
+                "photo": "/assets/img/2017/music/m-l-giarra.jpg",
+                "description": "Bluesy, jazzy, slightly country originals",
+                "bio": "<p>MerryLeigh Giarra tells a musical story in slice-of-life vignettes. Temperate but hard truths about love, family, growing up and holding one's own. About a woman discovering her strength and her softness, her choices and their consequences. It’s mellow with an edge, raunch with a PhD.</p>"
             }, {
                 "start": "2:30PM",
                 "end": "3:30PM",
                 "title": "The Norm",
-                "photo": "",
-                "description": "Funk/reggae/pop/rock/hip-hop fusion"
+                "photo": "/assets/img/2017/music/the-norm.jpg",
+                "description": "Funk/reggae/pop/rock/hip-hop fusion",
+                "bio": "<p>The Norm is the collaborative effort of singer-songwriter Bryan Rucker, his step-brother and rapper Ryan Bars, and pals. After starting out in Miami, Rucker moved to Athens, Georgia in 2015 and combined forces with childhood friend Daniel Rubin (drums) and local heavyweights Doyle Williams (guitar) and Jay Rodgers (bass). Together they combine their urban roots with layers of funk, reggae, pop, rock, and hip hop to achieve a sound that is both unique and captivating.</p>",
+                "url": "http://thenormmusic.com"
             }, {
                 "start": "3:45PM",
                 "end": "4:45PM",
@@ -189,8 +199,10 @@
                 "start": "5:00PM",
                 "end": "6:00PM",
                 "title": "Joe Gransden and his 17-piece Big Band",
-                "photo": "",
-                "description": "Big band swing"
+                "photo": "/assets/img/2017/music/joe-gransden.jpg",
+                "description": "Big band swing",
+                "bio": "<p>Joe Gransden is the soul of live Jazz and Big Band. Clint Eastwood discovered his talent and describes Joe as \"a young man with a classic voice and one hell of a Trumpet player.\" Kenny G, says \"Joe Gransden is one of those rarest musicians that has it all. He is an incredible instrumentalist with the technique of a virtuoso.\"</p>",
+                "url": "http://www.joegransden.com"
             }
         ],
         "w": [
@@ -218,8 +230,10 @@
                 "start": "4:00PM",
                 "end": "5:00PM",
                 "title": "Hoodoo Moon",
-                "photo": "",
-                "description": "Classic bayou funk, rock and southern soul."
+                "photo": "/assets/img/2017/music/hoodoo-moon.jpg",
+                "description": "A mix of classic bayou funk, rock and soul",
+                "bio": "<p>Hoodoo Moon is a nonstop party! Jamie Hood (get it? Hood-oo?) John and Kate Marsh and their Krewe de Joie let the bontemps roulez with a mix of classic bayou boogie, Detroit funk and southern soul.</p>",
+                "url": "https://www.facebook.com/hoodoomoonATL"
             }
         ]
     }

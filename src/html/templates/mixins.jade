@@ -18,7 +18,7 @@ mixin bandListing(band)
 
         .BandCopy
             h4
-                = band.title
+                != band.title
                 small
                     | #{band.start}
                     = ' - '
