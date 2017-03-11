@@ -7,18 +7,14 @@
         margin-top: 1.75rem;
     }
 
-    @media screen and (min-width: $bp-lg) {
+    @media screen and (min-width: $bp-md) {
         align-items: stretch;
         flex-direction: row;
-
-        h2 {
-
-        }
     }
 }
 
 .PromotionItemHero-image {
-    @media screen and (min-width: $bp-lg) {
+    @media screen and (min-width: $bp-md) {
         flex-basis: 66.6666%;
     }
 
@@ -36,7 +32,7 @@
         padding-right: $promotion-padding-sm;
     }
 
-    @media screen and (min-width: $bp-lg) {
+    @media screen and (min-width: $bp-md) {
         flex-basis: 33.3333%;
 
         > section {

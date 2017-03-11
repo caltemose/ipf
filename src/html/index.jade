@@ -10,13 +10,28 @@ block contents
 
     .Hero.owl-carousel.owl-theme
         div
+            .HeroSlidePromo
+                .HeroSlidePromo-banner
+
+                .HeroSlidePromo-copy
+                    h3 Festival Needs Volunteers!
+                    p
+                        | Festival doesn't happen without volunteers.
+                        = ' '
+                        a(href=globals.volunteerSite) Signup now
+                        = ' '
+                        | to volunteer your time and help make this year's festival great!
+                    
+                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+
+        div
             mixin slideImage('parade-block-heros_prqgxi')
         div
             mixin slideImage('parade-elvises_cyaqbo')
         div
             mixin slideImage('painting-face_odgxph')
         div
-            mixin slideImage('homes-bighome')    
+            mixin slideImage('homes-bighome')
 
     .u-container
     
