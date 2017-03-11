@@ -19,10 +19,21 @@ main {
         margin-bottom: 3em !important;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: $bp-md) {
         margin-top: 0;
         min-height: 600px;
+        > article {
+            > p,
+            > ul,
+            > ol,
+            > dl,
+            > blockquote {
+                margin-right: 3em;
+            }
+        }
+    }
 
+    @media (min-width: $bp-lg) {
         > article {
             > p,
             > ul,

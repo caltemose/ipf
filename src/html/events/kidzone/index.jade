@@ -5,7 +5,7 @@ block title
 
 block contents
 
-    mixin secondaryNav(globals.events.nav, "kidzone")
+    mixin secondaryNav(globals.events.nav, "kids' zone")
 
     .u-container
     
@@ -18,5 +18,11 @@ block contents
     
         p Festival provides a dedicated space for kids to play that includes slides, obstacles courses, crafts, a great playground, riding toys for our youngest guests and the CHANCE TO JOIN A CIRCUS, all of them FREE! This year there is even more!
         
-        p The Kids' Zone is located in Springvale Park, off Elizabeth Street and Waverly Way, behind the main music tent. It is a great place to let the kids play while parents or chaperones enjoy one of Atlanta's oldest urban park spaces. Kids' Zone hours are from 11AM until 6 PM on Saturday #{globals.ipf.date.saturday.date} and Sunday #{globals.ipf.date.sunday.date}.
+        p 
+            | The Kids' Zone is located in Springvale Park, off Elizabeth Street and Waverly Way, behind the main music tent. 
+            = ' '
+            a(href="https://www.google.com/maps/place/Springvale+Park/@33.757609,-84.3595155,17z/data=!3m1!4b1!4m5!3m4!1s0x88f504009b29b45f:0xe3d98edfcfc1ac1e!8m2!3d33.7576046!4d-84.3573268" target="_blank") [map it]
+        
+        //- TODO put kids' zone hours in globals
+        p The Kids' Zone is a great place to let the kids play while parents or chaperones enjoy one of Atlanta's oldest urban park spaces. Kids' Zone hours are from 11AM until 6 PM on Saturday #{globals.ipf.date.saturday.date} and Sunday #{globals.ipf.date.sunday.date}.
 
