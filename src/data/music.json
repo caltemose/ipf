@@ -15,21 +15,24 @@
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
-                "title": "Cledus Jeremiah Jones",
+                "title": "Cledus Jeremiah Jones & The Spirit Bones",
                 "photo": "",
-                "description": "Hillbilly fusion, sorta"
+                "description": "Hillbilly fusion, sorta",
+                "bio": "<p>Cledus Jeremiah Jones & The Spirit Bones play original songs that sound as if Commander Cody, Mojo Nixon and Hunter S. Thompson had a 3-way mutant love child. Their first CD \"The Odyssey of Cledus Jeremiah Jones\" is a concept album based on the legend of Appalachian Prophet Cledus Jeremiah Jones (full story at cledusjeremiahjones.com).</p><p>Their act is Americana as it flows downstream into New Orleans. While one song may sound like a jug band, it blends smoothly into one with a strong drum and bass blues groove.</p><p>Band Leader and Songwriter Ted Pettus (playing the role of Cledus) keeps his day job teaching anatomy and neuroscience at Emory University. But his alter ego, Cledus, plays with some of Atlanta’s finest musicians, bringing these songs to a new level of groove.</p>",
+                "url": "https://www.facebook.com/PettusAtLarge/app/190322544333196/"
             }, {
                 "start": "3:00PM",
                 "end": "4:00PM",
                 "title": "10 degrees Off",
-                "photo": "",
-                "description": "Blues, swing, rock and good-time covers/ originals"
+                "photo": "/assets/img/2017/music/10-degrees-off.jpg",
+                "description": "Blues, swing, rock and good-time covers and originals",
+                "bio": "<p>All but one of the guys in 10 degrees Off call Inman Park home. Billy, the drummer (wouldn'tcha know it...) lives outside the perimeter and has to get shots and wear scuba gear whenever he comes in to rehearse.  But we're glad to have him.  Bass player Steve is responsible for booking all the music for the Inman Park Festival... how else do you think his band gets to play every year? But they're actually pretty good when they try hard enough. Jim's on the keyboards when he's not on their boat, and Wayne's always there... and on guitar.</p>"
             }, {
                 "start": "4:15PM",
                 "end": "5:15PM",
                 "title": "Reign and Revelry",
                 "photo": "/assets/img/2017/music/reign-n-revelry.jpg",
-                "description": "Country, y’all!",
+                "description": "Country, y'all!",
                 "bio": "<p>Reign and Revelry are a southern band with roots deep in Americana, Southern Rock, and Alternative Country, making their first appearance at Inman Park Festival.</p>",
                 "url": "https://www.facebook.com/reignandrevelry"
             }, {
@@ -38,7 +41,7 @@
                 "title": "Mudcat",
                 "photo": "/assets/img/2017/music/mudcat.jpg",
                 "description": "Bluesy guitarist w/special guest Eddie Tigner",
-                "bio": "<p>&ldquo;Danny 'Mudcat' Dudeck is an internationally known bluesman and gospeleer. Mudcat, while continuing the traditions of the early blues pioneers, adds his own edge, resulting in one of Atlanta’s greatest treasures.&rdquo; - Atlanta History Center</p>",
+                "bio": "<p>&ldquo;Danny 'Mudcat' Dudeck is an internationally known bluesman and gospeleer. Mudcat, while continuing the traditions of the early blues pioneers, adds his own edge, resulting in one of Atlanta's greatest treasures.&rdquo; - Atlanta History Center</p>",
                 "url": "http://www.mudcatblues.com"
             }, {
                 "start": "7:00PM",
@@ -64,14 +67,15 @@
                 "title": "Bitteroots",
                 "photo": "/assets/img/2017/music/the-bitterroots.jpg",
                 "description": "Soulful jam-rock",
-                "bio": "<p>The Bitteroots are an Atlanta/Decatur-based original jam-rock band founded in 2008. Fronted by female vocalist Laura Dees, the band has a sound that’s been called a “unique brand of soulful rock.” The Bitteroots’ groove-oriented approach to rock n roll has drawn comparisons to the Tedeschi-Trucks Band, Melissa Etheridge, and Janis Joplin.</p>",
+                "bio": "<p>The Bitteroots are an Atlanta/Decatur-based original jam-rock band founded in 2008. Fronted by female vocalist Laura Dees, the band has a sound that's been called a "unique brand of soulful rock." The Bitteroots' groove-oriented approach to rock n roll has drawn comparisons to the Tedeschi-Trucks Band, Melissa Etheridge, and Janis Joplin.</p>",
                 "url": "http://www.thebitteroots.com"
             }, {
                 "start": "3:15PM",
                 "end": "4:15PM",
                 "title": "Solid State",
                 "photo": "",
-                "description": "Jazz by some of Atlanta’s best"
+                "description": "Jazz by some of Atlanta's best",
+                "bio": "<p>Ken Gregory is an Atlanta-based trumpet and guitar player, studio owner and composer who has played and recorded professionally since 1968. Ken is the band leader for Solid State, a 7-piece band that plays all original compositions written by members of the group. They have recorded three CD's and their music is frequently used on The Weather Channel and around the Southeast.</p>"
             }, {
                 "start": "4:30PM",
                 "end": "5:30PM",
@@ -88,7 +92,8 @@
                 "end": "12:45PM",
                 "title": "TAYLOR ALXNDR*",
                 "photo": "",
-                "description": ""
+                "description": "Synth/Pop",
+                "bio": "<p>TAYLOR ALXNDR is an odd musician (well, queer/trans), performance artist, and community organizer. They make DIY synth pop music while also co-organizing Southern Fried Queer Pride, a queer and trans arts and advocacy organization, and curating SWEET TEA, a queer variety show. TAYLOR's music is meant to make you think and to make you move.</p>",
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
@@ -100,25 +105,31 @@
                 "end": "4:30PM",
                 "title": "Lightning Orchestra",
                 "photo": "",
-                "description": ""
+                "description": "",
+                "bio": "<p>Lightning Orchestra Band is a group of some of Atlanta's finest musicians who perform funk, soul, and afrobeat music.</p>",
+                "url": "https://www.facebook.com/lightningorchestra"
             }, {
                 "start": "4:45PM",
                 "end": "5:15PM",
                 "title": "Fit of Body*",
-                "photo": "",
-                "description": ""
+                "photo": "Bedroom dance music",
+                "description": "<p>Fit Of Body's sound is unique among the current crop of  bedroom dance producers in that it can ignite a dance floor while still feeling deeply personal. This mood is enhanced by the way Parks colours his tracks with his own voice. His approach to adding live instrumentation to the arrangements lends a handmade delicacy otherwise lacking in so much hyper-quantized machine music. These are tracks that will feel at home in the DJ booth, your living room and your bedroom.</p>"
             }, {
                 "start": "5:15PM",
                 "end": "5:45PM",
                 "title": "Pamela and her sons*",
                 "photo": "",
-                "description": ""
+                "description": "Techno Dance",
+                "bio": "<p>Pamela and her sons is an Atlanta-based artist and musician. Pamela is microtonal cerebral dance music. Fragmented, off-kilter anxiety techno with an emphasis on texture, pattern, and rhythm.</p><p>Pamela recently composed a live score for Fails, a dance piece on failure choreographed and performed by Atlanta-based dancers Hez Stalcup and Blake Beckham.</p>",
+                "url": "http://pamelaandhersons.com"
             }, {
                 "start": "6:00PM",
                 "end": "7:00PM",
                 "title": "Hank & Cupcakes",
-                "photo": "",
-                "description": "High-energy rock"
+                "photo": "/assets/img/2017/music/hank-and-cupcakes.jpg",
+                "description": "High-energy rock",
+                "bio": "",
+                "url": ""
             }
         ]
     },
@@ -137,7 +148,7 @@
                 "title": "Gr&uuml;t",
                 "photo": "/assets/img/2017/music/grut.jpg",
                 "description": "\"Electronic experimental\" world/jazz/funk",
-                "bio": "<p>When I approached my pal Vincent for band suggestions for the Festival (Vincent Tseng, that is, the Asian-American photographer guy who seems to be in attendance at every live music performance I’ve ever attended in Atlanta), he heartily recommended these guys.  So all credit due goes to him.</p>",
+                "bio": "<p>When I approached my pal Vincent for band suggestions for the Festival (Vincent Tseng, that is, the Asian-American photographer guy who seems to be in attendance at every live music performance I've ever attended in Atlanta), he heartily recommended these guys.  So all credit due goes to him.</p>",
                 "url": "https://www.facebook.com/GrutMusic"
             }, {
                 "start": "3:00PM",
@@ -151,15 +162,17 @@
                 "start": "4:15PM",
                 "end": "5:15PM",
                 "title": "RUMOURS",
-                "photo": "",
-                "description": "Fleetwood Mac tribute band"
+                "photo": "/assets/img/2017/music/rumours.jpg",
+                "description": "The ultimate tribute to the band and music of Fleetwood Mac",
+                "bio": "<p>Rumours is the country's premier Fleetwood Mac tribute band. Based in Atlanta, GA, the band captures the energy of  Fleetwood Mac at the height of their career by blending perfect harmonies, precise instrumentation, and a visually engaging stage show. Their dedication to recreating the Fleetwood Mac experience has skyrocketed their popularity, garnering a loyal fan base. By playing to sold out audiences and packed houses at major venues across the country (including House of Blues, the legendary Daryl Hall's Club, and a residency at Epcot for Disney), Rumours has earned its place as one of the top tribute bands around today.</p>",
+                "url": "http://rumoursatl.com"
             }, {
                 "start": "5:30PM",
                 "end": "6:30PM",
                 "title": "Morning Fatty",
                 "photo": "/assets/img/2017/music/morning-fatty.jpg",
                 "description": "FRED (Funk/Rock/Electro/Dub)",
-                "bio": "<p>Morning Fatty, is an ever-evolving punk/ska turned reggae-funk band. The group combines individual musical prowess to create a strong collective chemistry. Based out of Gainesville Florida, Morning Fatty  has continued to evolve and transform their sound since coming together in 2004. The group’s original dynamic shifted incredibly with the addition of experienced drummer Tim Mulberry. Previous to joining the band, Tim had accomplished a world tour drumming for The Black Eyed Peas. The new sound can only be described as Funk Rock Electro Dub, or simply FRED. By melding electronic bass drops, dueling guitar licks, heavy rock melodies and a fat reggae groove, Morning Fatty discovered a distinctive sound that pays homage to each member’s unique style.</p>",
+                "bio": "<p>Morning Fatty, is an ever-evolving punk/ska turned reggae-funk band. The group combines individual musical prowess to create a strong collective chemistry. Based out of Gainesville Florida, Morning Fatty  has continued to evolve and transform their sound since coming together in 2004. The group's original dynamic shifted incredibly with the addition of experienced drummer Tim Mulberry. Previous to joining the band, Tim had accomplished a world tour drumming for The Black Eyed Peas. The new sound can only be described as Funk Rock Electro Dub, or simply FRED. By melding electronic bass drops, dueling guitar licks, heavy rock melodies and a fat reggae groove, Morning Fatty discovered a distinctive sound that pays homage to each member's unique style.</p>",
                 "url": "http://www.morningfatty.com"
             }
         ],
@@ -178,7 +191,7 @@
                 "title": "Merry Leigh Giarra with After Six",
                 "photo": "/assets/img/2017/music/m-l-giarra.jpg",
                 "description": "Bluesy, jazzy, slightly country originals",
-                "bio": "<p>MerryLeigh Giarra tells a musical story in slice-of-life vignettes. Temperate but hard truths about love, family, growing up and holding one's own. About a woman discovering her strength and her softness, her choices and their consequences. It’s mellow with an edge, raunch with a PhD.</p>"
+                "bio": "<p>MerryLeigh Giarra tells a musical story in slice-of-life vignettes. Temperate but hard truths about love, family, growing up and holding one's own. About a woman discovering her strength and her softness, her choices and their consequences. It's mellow with an edge, raunch with a PhD.</p>"
             }, {
                 "start": "2:30PM",
                 "end": "3:30PM",
