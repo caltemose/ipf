@@ -13,6 +13,18 @@
             display: block;
         }
     }
+
+    @media (min-width: $bp-md) {
+        p {
+            margin-right: 3em;
+        }
+    }
+
+    @media (min-width: $bp-lg) {
+        p {
+            margin-right: 10em;
+        }
+    }
 }
 
 .TourHomeImage {
