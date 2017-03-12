@@ -114,7 +114,7 @@ $oddRowColor: #B4CED6;
 }
 
 .BandPhoto {
-    width: 40%;
+    margin-right: 10px;
 
     .img {
         background-color: blue;
@@ -144,6 +144,14 @@ $oddRowColor: #B4CED6;
     background-color: $brand-white;
     padding: 2em;
     overflow-y: auto;
+
+    h4 {
+        margin: 0.5em 0;
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
 
     .BandPhoto {
         width: 100%;

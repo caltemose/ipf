@@ -67,7 +67,7 @@
                 "title": "Bitteroots",
                 "photo": "/assets/img/2017/music/the-bitterroots.jpg",
                 "description": "Soulful jam-rock",
-                "bio": "<p>The Bitteroots are an Atlanta/Decatur-based original jam-rock band founded in 2008. Fronted by female vocalist Laura Dees, the band has a sound that's been called a "unique brand of soulful rock." The Bitteroots' groove-oriented approach to rock n roll has drawn comparisons to the Tedeschi-Trucks Band, Melissa Etheridge, and Janis Joplin.</p>",
+                "bio": "<p>The Bitteroots are an Atlanta/Decatur-based original jam-rock band founded in 2008. Fronted by female vocalist Laura Dees, the band has a sound that's been called a \"unique brand of soulful rock.\" The Bitteroots' groove-oriented approach to rock n roll has drawn comparisons to the Tedeschi-Trucks Band, Melissa Etheridge, and Janis Joplin.</p>",
                 "url": "http://www.thebitteroots.com"
             }, {
                 "start": "3:15PM",
@@ -93,7 +93,7 @@
                 "title": "TAYLOR ALXNDR*",
                 "photo": "",
                 "description": "Synth/Pop",
-                "bio": "<p>TAYLOR ALXNDR is an odd musician (well, queer/trans), performance artist, and community organizer. They make DIY synth pop music while also co-organizing Southern Fried Queer Pride, a queer and trans arts and advocacy organization, and curating SWEET TEA, a queer variety show. TAYLOR's music is meant to make you think and to make you move.</p>",
+                "bio": "<p>TAYLOR ALXNDR is an odd musician (well, queer/trans), performance artist, and community organizer. They make DIY synth pop music while also co-organizing Southern Fried Queer Pride, a queer and trans arts and advocacy organization, and curating SWEET TEA, a queer variety show. TAYLOR's music is meant to make you think and to make you move.</p>"
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
@@ -112,8 +112,9 @@
                 "start": "4:45PM",
                 "end": "5:15PM",
                 "title": "Fit of Body*",
-                "photo": "Bedroom dance music",
-                "description": "<p>Fit Of Body's sound is unique among the current crop of  bedroom dance producers in that it can ignite a dance floor while still feeling deeply personal. This mood is enhanced by the way Parks colours his tracks with his own voice. His approach to adding live instrumentation to the arrangements lends a handmade delicacy otherwise lacking in so much hyper-quantized machine music. These are tracks that will feel at home in the DJ booth, your living room and your bedroom.</p>"
+                "photo": "",
+                "description": "Bedroom dance music",
+                "bio": "<p>Fit Of Body's sound is unique among the current crop of  bedroom dance producers in that it can ignite a dance floor while still feeling deeply personal. This mood is enhanced by the way Parks colours his tracks with his own voice. His approach to adding live instrumentation to the arrangements lends a handmade delicacy otherwise lacking in so much hyper-quantized machine music. These are tracks that will feel at home in the DJ booth, your living room and your bedroom.</p>"
             }, {
                 "start": "5:15PM",
                 "end": "5:45PM",
