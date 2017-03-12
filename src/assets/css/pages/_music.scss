@@ -1,5 +1,6 @@
 $evenRowColor: #B7D6B4;
 $oddRowColor: #B4CED6;
+$bandPhotoBackground: #ddd;
 
 .MusicDates,
 .MusicStage {
@@ -116,9 +117,10 @@ $oddRowColor: #B4CED6;
 
 .BandPhoto {
     margin-right: 10px;
+    font-size: 11px; // alt tag
 
     .img {
-        background-color: blue;
+        background-color: $bandPhotoBackground;
         width: 130px;
         height: 90px;
     }

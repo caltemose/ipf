@@ -10,8 +10,9 @@
                 "start": "11:45AM",
                 "end": "12:45PM",
                 "title": "Rainmen",
-                "photo": "",
-                "description": "Classic rock, Beatles covers"
+                "photo": "/assets/img/2017/music/rainmen.jpg",
+                "description": "Classic tunes",
+                "bio": "<p>The Rainmen have been playing together as the current lineup for nearly five years now. The band consists Atlanta music scene veterans who came together to play the kind of fun and energetic rock & roll dance music that they all loved, mostly sixties and early seventies rock & roll, with a good bit of R&B/Motown mixed in. The band is known for their three part harmonies and for keeping the dance floor rocking wherever they bring their \"dance party.\"</p>"
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
