@@ -8,6 +8,7 @@
 
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
+require '_config.php';
 
 # Instantiate the client.
 $mgClient = new Mailgun('key-531fa3a409cd408c0c594febe61dd547');
