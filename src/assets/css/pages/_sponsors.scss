@@ -69,7 +69,7 @@ $other: #eee;
             }
         }
 
-        @media (min-width: $bp-lg) {
+        @media (min-width: $bp-md) {
             width: 33.3333%;
             border: 1px solid #ccc;
             border-top: none;
@@ -79,12 +79,6 @@ $other: #eee;
             &:nth-child(3n+4) {
                 border-left: 1px solid #ccc;
             }
-
-            // &:nth-child(1),
-            // &:nth-child(2),
-            // &:nth-child(3) {
-            //     border-top: 1px solid #ccc;
-            // }
 
             img {
                 width: 100%;
