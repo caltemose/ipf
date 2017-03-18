@@ -17,7 +17,7 @@
                 "start": "1:00PM",
                 "end": "2:00PM",
                 "title": "Cledus Jeremiah Jones & The Spirit Bones",
-                "photo": "",
+                "photo": "/assets/img/2017/music/cledus-jones.jpg",
                 "description": "Hillbilly fusion, sorta",
                 "bio": "<p>Cledus Jeremiah Jones & The Spirit Bones play original songs that sound as if Commander Cody, Mojo Nixon and Hunter S. Thompson had a 3-way mutant love child. Their first CD \"The Odyssey of Cledus Jeremiah Jones\" is a concept album based on the legend of Appalachian Prophet Cledus Jeremiah Jones (full story at cledusjeremiahjones.com).</p><p>Their act is Americana as it flows downstream into New Orleans. While one song may sound like a jug band, it blends smoothly into one with a strong drum and bass blues groove.</p><p>Band Leader and Songwriter Ted Pettus (playing the role of Cledus) keeps his day job teaching anatomy and neuroscience at Emory University. But his alter ego, Cledus, plays with some of Atlanta’s finest musicians, bringing these songs to a new level of groove.</p>",
                 "url": "https://www.facebook.com/PettusAtLarge/app/190322544333196/"
@@ -92,9 +92,10 @@
                 "start": "11:45AM",
                 "end": "12:45PM",
                 "title": "TAYLOR ALXNDR*",
-                "photo": "",
+                "photo": "/assets/img/2017/music/taylor-alxndr.jpg",
                 "description": "Synth/Pop",
-                "bio": "<p>TAYLOR ALXNDR is an odd musician (well, queer/trans), performance artist, and community organizer. They make DIY synth pop music while also co-organizing Southern Fried Queer Pride, a queer and trans arts and advocacy organization, and curating SWEET TEA, a queer variety show. TAYLOR's music is meant to make you think and to make you move.</p>"
+                "bio": "<p>TAYLOR ALXNDR is a queer and trans musician, performance artist, and community organizer. They make DIY synth pop music while also co-organizing Southern Fried Queer Pride, a queer and trans arts and advocacy organization, and curating SWEET TEA, a queer variety show. TAYLOR's music is meant to make you think and to make you move.</p>",
+                "url": "http://www.tayloralxndr.com/"
             }, {
                 "start": "1:00PM",
                 "end": "2:00PM",
@@ -105,7 +106,7 @@
                 "start": "3:30PM",
                 "end": "4:30PM",
                 "title": "Lightning Orchestra",
-                "photo": "",
+                "photo": "/assets/img/2017/music/lightning-orchestra.jpg",
                 "description": "",
                 "bio": "<p>Lightning Orchestra Band is a group of some of Atlanta's finest musicians who perform funk, soul, and afrobeat music.</p>",
                 "url": "https://www.facebook.com/lightningorchestra"
@@ -120,7 +121,7 @@
                 "start": "5:15PM",
                 "end": "5:45PM",
                 "title": "Pamela and her sons*",
-                "photo": "",
+                "photo": "/assets/img/2017/music/pamela-and-her-sons.jpg",
                 "description": "Techno Dance",
                 "bio": "<p>Pamela and her sons is an Atlanta-based artist and musician. Pamela is microtonal cerebral dance music. Fragmented, off-kilter anxiety techno with an emphasis on texture, pattern, and rhythm.</p><p>Pamela recently composed a live score for Fails, a dance piece on failure choreographed and performed by Atlanta-based dancers Hez Stalcup and Blake Beckham.</p>",
                 "url": "http://pamelaandhersons.com"
@@ -190,7 +191,7 @@
             }, {
                 "start": "1:15PM",
                 "end": "2:15PM",
-                "title": "Merry Leigh Giarra with After Six",
+                "title": "MerryLeigh Giarra & After Six",
                 "photo": "/assets/img/2017/music/m-l-giarra.jpg",
                 "description": "Bluesy, jazzy, slightly country originals",
                 "bio": "<p>MerryLeigh Giarra tells a musical story in slice-of-life vignettes. Temperate but hard truths about love, family, growing up and holding one's own. About a woman discovering her strength and her softness, her choices and their consequences. It's mellow with an edge, raunch with a PhD.</p>"
