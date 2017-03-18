@@ -34,6 +34,11 @@ block contents
             strong Tour of Homes tickets for $15 
             = ' '
             | each using this button: 
+            form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='VSYCYD3ZFV7NS')
+                input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
 
 
         //- Tour of Homes Group Discount Ticket Pack - $120 for 10
@@ -43,6 +48,11 @@ block contents
             strong 10 tickets for $120 
             = ' '
             | using this button:
+            form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='T6QAJFZRWLCK8')
+                input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
 
         //- Tour of Homes Individual Tickets - Regular Price - $20/each
         p.PaypalItem
@@ -60,5 +70,8 @@ block contents
             strong Butterfly Ball Tickets for $50 each
             = ' '
             | using this button:
-            
-
+            form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='3P6A6DW4QVN3L')
+                input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
