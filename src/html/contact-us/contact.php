@@ -12,7 +12,6 @@ $visitorName = Trim(stripslashes($_POST['name']));
 $visitorEmail = Trim(stripslashes($_POST['email']));
 $recipient = Trim(stripslashes($_POST['recipient']));
 $message = stripslashes($_POST['message']);
-$robot = $_POST['robot'];
 
 // HONEYPOT
 $email_address = Trim(stripslashes($_POST['email_address']));
@@ -21,7 +20,6 @@ if ($email_address !== '') {
     echo '{"success": "not-really"}';
     exit;
 }
-
 
 // validation flag
 $valid=true;
