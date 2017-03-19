@@ -7,8 +7,10 @@ block contents
 
     mixin secondaryNav(globals.events.nav, "tour of homes")
 
+    mixin presentingSponsor("/assets/img/2017/sponsors/presenting-sponsors/north-american-properties.png", "North American Properties")
+
     article.u-container
-    
+
         h1 Tour of Homes
         
         p The Tour of Homes is a self-conducted tour of some of the beautiful homes and buildings in Inman Park. See inside some of the glorious old Victorian homes or check out some of the beautiful remodeling jobs neighbors have completed on their houses.
@@ -39,12 +41,17 @@ block contents
             li Discounted Home tour tickets ($5.00 off) are available until noon on the Friday Festival starts.
             li The group ticket rate is $12 per ticket in advance. Groups tickets must be purchased all at once and in groups of 10 or more to qualify for the group ticket rate.
 
-        
+        h2 Tour of Homes Sponsors
+
+        ul.Sponsors.Sponsors--other.Sponsors-top
+            mixin sponsorGridImage("/assets/img/2017/sponsors/toh/adam-stillman.png", "Adam Stillman", "http://adamstillman.net/index2.html")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/toh/dorsey-alston-realtors.png", "Dorsey Alston Realtors", "http://www.dorseyalston.com/")
+            mixin sponsorGridImage("/assets/img/2017/sponsors/toh/small-carpenters-at-large.png", "Small Carpenters at Large", "http://smallcarpenters.com/")
+
         h2 This Year's Homes
-        
         //- h2 Last Year's Homes    
         //- p Next year's homes on tour will be posted once the list of homes is finalized.
-        
+
     ul.TourHomes.u-container
 
         li

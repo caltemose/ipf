@@ -108,3 +108,32 @@ $other: #eee;
 .Sponsors--other a:focus {
     background-color: lighten($other, 10%);
 }
+
+.Sponsors-top {
+    li {
+        border-top: 1px solid #ccc;
+    }
+}
+
+.PresentingSponsor {
+    border: 1px solid $brand-green;
+    
+    h4 {
+        margin-top: 0;
+        padding: 0.5em;
+        background-color: $brand-green;
+        text-align: center;
+    }
+
+    @media (min-width: $bp-lg) {
+        width: $site-max-width;
+        margin: 0 auto;
+    }
+}
+
+.PresentingSponsor-logo {
+    text-align: center;
+    img {
+        max-width: 100%;
+    }
+}
