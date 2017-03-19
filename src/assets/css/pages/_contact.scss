@@ -13,6 +13,11 @@
         width: 1em;
     }
 
+    // honeypot
+    input[name="email_address"] {
+        display: none;
+    }
+
     input[type="submit"] {
         display: inline-block;
         width: 10em;

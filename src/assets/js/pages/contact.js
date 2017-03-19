@@ -5,7 +5,7 @@ var ipf = ipf || {};
 
 ipf.contact = (function ($) {
 
-    var $form, $successMessage, $name, $email, $recipient, $message, $robot;
+    var $form, $successMessage, $name, $email, $recipient, $message;
 
     function initialize (form) {
         // form is passed through as an ID
@@ -16,8 +16,6 @@ ipf.contact = (function ($) {
         // save references
         saveReferences();
 
-        // setup validation
-
         // attach submit handler
         $form.submit(checkForm.bind(this));
     }
@@ -27,7 +25,6 @@ ipf.contact = (function ($) {
         $email = $form.find('[name="email"]');
         $recipient = $form.find('[name="recipient"]');
         $message = $form.find('[name="message"]');
-        $robot = $form.find('[name="robot"]');
     }
 
     function checkForm (event) {
@@ -43,9 +40,6 @@ ipf.contact = (function ($) {
             valid = false;
         }
         if ($message.val().length < 2) {
-            valid = false;
-        }
-        if (!$robot.prop('checked')) {
             valid = false;
         }
         if (valid) {

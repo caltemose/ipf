@@ -1,17 +1,10 @@
 <?php
-// In order to make this form work, some dependencies are required.
-// See Mailgun docs: https://documentation.mailgun.com/libraries.html#php
-// Install Composer
-# curl -sS https://getcomposer.org/installer | php
-// Add Mailgun and Guzzle6 as a dependency
-# php composer.phar require mailgun/mailgun-php php-http/guzzle6-adapter php-http/message
-
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 require '_config.php';
 
 # Instantiate the client.
-$mgClient = new Mailgun('key-531fa3a409cd408c0c594febe61dd547');
+$mgClient = new Mailgun($mailgunKey);
 $domain = "mg.inmanparkfestival.org";
 
 // get POST data
@@ -21,15 +14,23 @@ $recipient = Trim(stripslashes($_POST['recipient']));
 $message = stripslashes($_POST['message']);
 $robot = $_POST['robot'];
 
-// validation finfo_set_flags
+// HONEYPOT
+$email_address = Trim(stripslashes($_POST['email_address']));
+if ($email_address !== '') {
+    header('Content-Type: application/json');
+    echo '{"success": "not-really"}';
+    exit;
+}
+
+
+// validation flag
 $valid=true;
 
 $errors = array(
     "name"=>true,
     "email"=>true,
     "recipient"=>true,
-    "message"=>true,
-    "robot"=>true
+    "message"=>true
 );
 
 // this is only used for testing.
@@ -37,8 +38,7 @@ $success = array(
     "name"=>true,
     "email"=>true,
     "recipient"=>true,
-    "message"=>true,
-    "robot"=>true
+    "message"=>true
 );
 
 if ($visitorName === '') {
@@ -67,13 +67,6 @@ if ($message === '') {
     $errors["message"] = false;
 } else {
     $success["message"] = $message;
-}
-
-if ($robot !== 'on') {
-    $valid = false;
-    $errors["robot"] = false;
-} else {
-    $success["robot"] = true;
 }
 
 if (!$valid) {
