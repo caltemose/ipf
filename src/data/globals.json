@@ -15,6 +15,10 @@
             "sunday": {
                 "date": "April 30",
                 "hours": "11PM - 6PM"
+            },
+            "butterfly": {
+                "start": "8PM",
+                "end": "midnight"
             }
         }
     },
