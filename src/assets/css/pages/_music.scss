@@ -13,7 +13,7 @@ $bandPhotoBackground: #ddd;
 .MusicSelector {
     width: 100%;
     text-align: center;
-    
+
     @media (min-width: $bp-md) {
         text-align: left;
     }
@@ -190,13 +190,15 @@ $bandPhotoBackground: #ddd;
 .BandDetailsTrigger {
     border: none;
     padding: 0;
-    margin: 0.5em 0;
+    margin: 0.25em 0;
     background: transparent;
     color: $link-color;
+    font-family: $base-font-family-sans-serif;
+    font-size: 0.75em;
+    text-decoration: underline;
 
     &:hover, &:focus {
-        color: $brand-black;
+        background-color: $link-hover-color;
         cursor: pointer;
     }
 }
-

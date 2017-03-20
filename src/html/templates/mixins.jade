@@ -26,7 +26,11 @@ mixin bandListing(band)
 
             p= band.description
 
-            button.BandDetailsTrigger More Info
+            button.BandDetailsTrigger Read the Band's bio
+
+            if band.url && band.url !== ''
+                p
+                    a(href=band.url target="_blank") Visit band site
 
             .BandDetails
                 button.BandDetails--close CLOSE
