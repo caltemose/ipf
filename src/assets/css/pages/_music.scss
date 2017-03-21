@@ -156,7 +156,13 @@ $bandPhotoBackground: #ddd;
         margin-bottom: 1em;
     }
 
+    .u-container-thin {
+        position: relative;
+        padding-top: 1.5em;
+    }
+
     .BandPhoto {
+        margin-top: 0.5em;
         width: 100%;
 
         .img {
@@ -177,13 +183,20 @@ $bandPhotoBackground: #ddd;
 }
 
 .BandDetails--close {
-    position: fixed;
-    top: 4px;
-    right: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: 0.75em;
-    color: darken($link-color, 20%);
-    background-color: $brand-white;
-    border: 1px solid darken($link-color, 10%);
+    color: $brand-black;
+    background-color: $brand-green;
+    border: 1px solid $brand-black;
+    &:hover {
+        cursor: pointer;
+    }
+    &:hover, &:focus {
+        background-color: lighten($brand-green, 20%);
+    }
+
 }
 
 
@@ -201,4 +214,10 @@ $bandPhotoBackground: #ddd;
         background-color: $link-hover-color;
         cursor: pointer;
     }
+}
+
+.show-band-details {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }

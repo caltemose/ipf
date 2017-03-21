@@ -29,9 +29,11 @@ mixin bandListing(band)
             button.BandDetailsTrigger Read the Band's bio
 
             .BandDetails
-                button.BandDetails--close CLOSE
+                //- button.BandDetails--close CLOSE
                 
                 .u-container-thin
+                    button.BandDetails--close CLOSE
+
                     .BandPhoto
                         img.img(src=imgUrl alt=band.title)
 

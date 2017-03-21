@@ -51,14 +51,17 @@ block contents
 
 block scripts
     script.
-        var ipf = {};
+        var ipf = ipf || {};
         ipf.page = 'music';
+        ipf.$body = $('body');
         $('#musicSelector').change(function handleMusicChange(event) {
             window.location = '#' + event.target.value;
         });
         $('.BandDetailsTrigger').click(function openBandDetails(event) {
+            ipf.$body.addClass('show-band-details');
             $(event.target).next().show();
         });
         $('.BandDetails--close').click(function closeBandDetails(event) {
-            $(event.target).parent().hide();
+            ipf.$body.removeClass('show-band-details');
+            $(event.target).parent().parent().hide();
         });
