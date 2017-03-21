@@ -144,7 +144,7 @@ $bandPhotoBackground: #ddd;
     left: 0;
     bottom: 0;
     height: 100vh;
-    background-color: $brand-white;
+    background-color: rgba($brand-white, .95);
     padding: 2em;
     overflow-y: auto;
 
@@ -161,7 +161,7 @@ $bandPhotoBackground: #ddd;
 
         .img {
             width: 100%;
-            height: 215px;
+            height: 100%;
         }
 
         @media (min-width: $bp-md) {
