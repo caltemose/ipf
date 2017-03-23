@@ -9,6 +9,8 @@ block contents
 
         h2 Sandbox Buttons
 
+        p The Tour of Homes tickets are "BUY NOW" style Paypal buttons which means there is no shopping cart. For these tickets, I do not believe a shopping cart is of much benefit since it would only be helpful for people who want to buy individual tickets as well as a group discount pack of tickets at the exact same time. Seems unlikely.
+
         //- Tour of Homes Individual Tickets - Advance Purchase - $15/each
         p.PaypalItem
             | Purchase 
@@ -21,6 +23,77 @@ block contents
                 input(type='hidden', name='hosted_button_id', value='YA44VZVRJ5V3E')
                 input(type='image', src='https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
                 img(alt='', border='0', src='https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif', width='1', height='1')
+        
+        p.PaypalItem
+            | Purchase
+            =  ' '
+            strong Group Discount Tour of Homes tickets (10 tickets for $120)
+            = ' '
+            | using this button:
+            form(action='https://www.sandbox.paypal.com/cgi-bin/webscr', method='post', target='_top')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='L3XN8TCGMJRY4')
+                input(type='image', src='https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+        p For Butterfly Ball tickets, we are using the Paypal shopping cart. In this case it makes sense because visitors might want to buy tickets as well as a few drink coupons at the same time.
+
+        p.PaypalItem
+            | Add
+            = ' '
+            strong Butterfly Ball tickets for $50 each
+            = ' '
+            | to your cart using this button:
+            form(target='paypal', action='https://www.sandbox.paypal.com/cgi-bin/webscr', method='post')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='2HDPQ5SJ3ACM2')
+                input(type='image', src='https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+        p.PaypalItem
+            | Add
+            = ' '
+            strong a wine/beer drink coupon for $5 each
+            = ' '
+            | to your cart using this button:
+            form(target='paypal', action='https://www.sandbox.paypal.com/cgi-bin/webscr', method='post')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='QRCHGXXLR34G2')
+                input(type='image', src='https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+        p.PaypalItem
+            | Add
+            = ' '
+            strong a mixed drink coupon for $6 each
+            = ' '
+            | to your cart using this button:
+            form(target='paypal', action='https://www.sandbox.paypal.com/cgi-bin/webscr', method='post')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='hosted_button_id', value='VLB639L3LYSCG')
+                input(type='image', src='https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+
+        p.PaypalItem
+            | View your cart of Butterfly Ball items using this button:
+            form(target='paypal', action='https://www.sandbox.paypal.com/cgi-bin/webscr', method='post')
+                input(type='hidden', name='cmd', value='_s-xclick')
+                input(type='hidden', name='encrypted', value='-----BEGIN PKCS7-----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-----END PKCS7-----\
+                ')
+                input(type='image', src='https://www.sandbox.paypal.com/en_US/i/btn/btn_viewcart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+                img(alt='', border='0', src='https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+
+        p Here are the pages you'll see after you make a purchase with Paypal when you return to this site:
+
+        p
+            a(href="/payments/tour-of-homes") After buying Tour of Homes tickets
+            = ' | '
+            a(href="/payments/butterfly-ball") After buying Butterfly Ball tickets
+
+
+        hr
 
 
         h2 Real Buttons
@@ -34,11 +107,11 @@ block contents
             strong Tour of Homes tickets for $15 
             = ' '
             | each using this button: 
-            form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
-                input(type='hidden', name='cmd', value='_s-xclick')
-                input(type='hidden', name='hosted_button_id', value='VSYCYD3ZFV7NS')
-                input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
-                img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+            //- form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
+            //-     input(type='hidden', name='cmd', value='_s-xclick')
+            //-     input(type='hidden', name='hosted_button_id', value='VSYCYD3ZFV7NS')
+            //-     input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+            //-     img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
 
 
         //- Tour of Homes Group Discount Ticket Pack - $120 for 10
@@ -48,11 +121,11 @@ block contents
             strong 10 tickets for $120 
             = ' '
             | using this button:
-            form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
-                input(type='hidden', name='cmd', value='_s-xclick')
-                input(type='hidden', name='hosted_button_id', value='T6QAJFZRWLCK8')
-                input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
-                img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+            //- form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
+            //-     input(type='hidden', name='cmd', value='_s-xclick')
+            //-     input(type='hidden', name='hosted_button_id', value='T6QAJFZRWLCK8')
+            //-     input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+            //-     img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
 
         //- Tour of Homes Individual Tickets - Regular Price - $20/each
         p.PaypalItem
@@ -70,8 +143,8 @@ block contents
             strong Butterfly Ball Tickets for $50 each
             = ' '
             | using this button:
-            form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
-                input(type='hidden', name='cmd', value='_s-xclick')
-                input(type='hidden', name='hosted_button_id', value='3P6A6DW4QVN3L')
-                input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
-                img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+            //- form(action='https://www.paypal.com/cgi-bin/webscr', method='post', target='_top')
+            //-     input(type='hidden', name='cmd', value='_s-xclick')
+            //-     input(type='hidden', name='hosted_button_id', value='3P6A6DW4QVN3L')
+            //-     input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+            //-     img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
