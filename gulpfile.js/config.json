@@ -13,7 +13,7 @@
 
         "static": {
             "src": "assets/static",
-            "dest": "assets/static/"
+            "dest": "assets/"
         },
 
         "js": {
