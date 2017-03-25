@@ -81,7 +81,7 @@ mixin slideImageOld(imageName)
     img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_256/ipf/#{imageName} 256w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_512/ipf/#{imageName} 512w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_768/ipf/#{imageName} 768w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_1024/ipf/#{imageName} 1024w" src="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_512/ipf/#{imageName}" alt)
 
 mixin tourImage(imageName, alt)
-    img(sizes="(min-width: 1024px) 940px, 100vw" srcset="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_234/ipf/#{imageName} 235w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_470/ipf/#{imageName} 470w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_705/ipf/#{imageName} 705w, http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_940/ipf/#{imageName} 940w" src="http://res.cloudinary.com/chadzilla/image/upload/f_auto,q_70,w_512/ipf/#{imageName}" alt=alt).TourHomeImage
+    img(sizes="(min-width: 1024px) 940px, 100vw" srcset="#{imageName}-1880.jpg 1880w, #{imageName}-1440.jpg 1440w, #{imageName}-940.jpg 940w, #{imageName}-720.jpg 720w, #{imageName}-366.jpg 366w, #{imageName}-327.jpg 327w, #{imageName}-272.jpg 272w" src="#{imageName}-272.jpg" alt=alt).TourHomeImage
 
 mixin sponsorGridImage(src, alt, url)
     li
