@@ -125,7 +125,7 @@ $messageBody .= $message;
 
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
-    'from'    => 'Site Admin <admin@inmanparkfestival.org>',
+    'from'    => $visitorName . ' <' . $visitorEmail . '>',
     'to'      => $recipientList,
     'subject' => 'Email from Festival Contact Form',
     'text'    => $messageBody
