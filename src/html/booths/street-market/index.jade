@@ -10,6 +10,22 @@ block contents
     
         h1 Street Market
         
-        p Atlanta's largest Street Market offers more than 250 booths of antiques and handcrafted wares. You will find plenty of unique items &ndash; everything from handmade soap and unique plants to one-of-a-kind paintings and specialty jewelry.
+        p Atlanta's largest Street Market offers more than 270 booths of antiques and handcrafted wares. You will find plenty of unique items &ndash; everything from handmade soap and unique plants to one-of-a-kind paintings and specialty jewelry.
 
-        p This year's Street Market vendors will be listed below as soon as they are chosen.
+        //- p This year's Street Market vendors will be listed below as soon as they are chosen.
+
+        ul.Vendors
+            each vendor in vendors.street.lines
+                li.Vendor
+                    ul.u-list-unstyled
+                        li(class="Category--#{vendor.class}")
+                            - var nameAsBusiness = vendor.business === '';
+                            if nameAsBusiness
+                                h3.Vendor-business #{vendor.firstname} #{vendor.lastname}
+                            else
+                                h3.Vendor-business= vendor.business
+                                p.Vendor-name #{vendor.firstname} #{vendor.lastname}
+                            - var hasUrl = vendor.url !== ''
+                            if hasUrl
+                                a.Vendor-url(href="http://#{vendor.url}")= vendor.url
+                            div.Vendor-category= vendor.category

@@ -37,18 +37,29 @@ function readLines (line, isLast) {
     }
 }
 
+/*
+0 = first name
+1 = last name
+2 = business name
+3 = url
+4 = category
+*/
+
 // parse data line into JSON
 function parseLine (line) {
     var split = line.split('\t');
-    if (split.length < 4) return;
+    // if (split.length < 4) return;
 
     var obj = {};
-    obj.category = split[0];
-    obj.class = categoryToClass(split[0]);
+    var nonJuriedRegex = /\s-\snon\sjuried/gi
+    var juriedRegex = /\s-\sjuried/gi
+    obj.category = split[4].replace(nonJuriedRegex, '');
+    obj.category = obj.category.replace(juriedRegex, '');
+    obj.class = categoryToClass(obj.category);
     obj.lastname = split[1];
-    obj.firstname = split[2];
-    obj.business = split[3];
-    obj.url = fixUrl(split[4]);
+    obj.firstname = split[0];
+    obj.business = split[2];
+    obj.url = fixUrl(split[3]);
     return obj;
 }
 
@@ -67,7 +78,7 @@ function writeFile () {
     var data = {
         "lines": lines
     }
-    fs.writeFile(fileout, JSON.stringify(data), function(err) {
+    fs.writeFile(fileout, JSON.stringify(data, null, '\t'), function(err) {
         if (err) {
             return console.log(err);
         }

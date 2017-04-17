@@ -25,8 +25,8 @@ var getData = function() {
     data.music = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.music, 'utf8'));
     data.vendors = {};
     data.vendors.ac = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.ac, 'utf8'));
-    // data.vendors.street = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.street, 'utf8'));
-    // data.vendors.cc = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.cc, 'utf8'));
+    data.vendors.street = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.street, 'utf8'));
+    data.vendors.cc = JSON.parse(fs.readFileSync(config.tasks.html.dataFiles.vendors.cc, 'utf8'));
     return data;
 }
 

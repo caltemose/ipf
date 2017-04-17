@@ -1,0 +1,84 @@
+{
+	"lines": [
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Samuelson",
+			"firstname": "Shawn ",
+			"business": "Something New",
+			"url": "www.somethingnew.org "
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Parker",
+			"firstname": "Cindy",
+			"business": "",
+			"url": ""
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Jackson",
+			"firstname": "Kwajelyn",
+			"business": "Feminist Women's Health Center",
+			"url": "www.feministcenter.org "
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Lee",
+			"firstname": "Kathryn",
+			"business": "",
+			"url": ""
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Pomberg",
+			"firstname": "Rachel",
+			"business": "Best Friends Animal Society - Atlanta",
+			"url": "www.bestfriendsatl.org"
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Nelson",
+			"firstname": "Omar",
+			"business": "Fulton County CASA",
+			"url": "www.fultoncountycasa.org "
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Collier",
+			"firstname": "Tracy",
+			"business": "",
+			"url": "www.goodmews.org"
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "McCurtain",
+			"firstname": "Elizabeth",
+			"business": "Little Five Alive, Inc.",
+			"url": "www.littlefivealive.org "
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Chambliss",
+			"firstname": "Yvonne",
+			"business": "Freedom Fellowship Church",
+			"url": "www.discoverfreedomfellowship.org"
+		},
+		{
+			"category": "Non profit (501c3)",
+			"class": "non-profit (501c3)",
+			"lastname": "Pierce Cunningham",
+			"firstname": "Susan",
+			"business": "Trees Atlanta",
+			"url": "www.treesatlanta.org"
+		}
+	]
+}

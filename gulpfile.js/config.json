@@ -72,7 +72,7 @@
                 "vendors": {
                     "ac": "./src/data/vendors-ac.json",
                     "street": "./src/data/vendors-street.json",
-                    "cc": "./src/data/vendors-cc.json"
+                    "cc": "./src/data/vendors-community.json"
                 }
             },
             "htmlmin": {
