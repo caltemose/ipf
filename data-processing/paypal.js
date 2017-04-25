@@ -56,7 +56,7 @@ function parseLine (line) {
     obj.type = cleanString(split[4])
     obj.gross = cleanString(split[7])
     obj.title = cleanString(split[13])
-    obj.quantity = cleanString(split[23])
+    obj.quantity = cleanString(split[18])
     // obj.category = split[0];
     // obj.class = categoryToClass(split[0]);
     // obj.lastname = split[1];
