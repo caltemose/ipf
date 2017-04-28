@@ -97,7 +97,7 @@ switch($recipient) {
         $recipientList = 'entertainment@inmanparkfestival.org';
         break;
     case 'toh':
-        $recipientList = 'tickets@inmanparkfestival.org';
+        $recipientList = 'tickets@inmanparkfestival.org,robbie@whytekerner.com';
         break;
     case 'sponsors':
         $recipientList = 'sponsors@inmanparkfestival.org';
