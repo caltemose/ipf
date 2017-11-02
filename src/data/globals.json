@@ -2,18 +2,18 @@
     "ipf": {
         "title": "Inman Park Festival",
         "date": {
-            "annual": "46",
-            "year": "2017",
+            "annual": "47",
+            "year": "2018",
             "friday": {
-                "date": "April 28",
+                "date": "April 27",
                 "hours": "12PM - 4PM"
             },
             "saturday": {
-                "date": "April 29",
+                "date": "April 28",
                 "hours": "11AM - 6PM"
             },
             "sunday": {
-                "date": "April 30",
+                "date": "April 29",
                 "hours": "11AM - 6PM"
             },
             "butterfly": {
@@ -25,8 +25,8 @@
     "tour": {
         "active": false,
         "cost": {
-            "advance": "15",
-            "door": "20"
+            "advance": "20",
+            "door": "25"
         }
     },
     "nav": [
@@ -65,8 +65,8 @@
     "copyright": "Copyright &copy; Inman Park Festival",
     "volunteerSite": "http://signup.com/go/LQ1qm7",
     "vendors": {
-        "deadline": "March 10, 2017",
-        "notification": "March 17, 2017"
+        "deadline": "March 9, 2018",
+        "notification": "March 18, 2017"
     },
     "events": {
         "nav": [
