@@ -12,56 +12,47 @@ block contents
     .u-container
 
         h1 Live Music at the Inman Park Festival
-
-
-    .u-container
-        select#musicSelector.MusicSelector
-            option(value="") Select Day &amp; Stage:
-            optgroup(label="Saturday")
-                option(value="SaturdayDelta") Delta Park
-                option(value="SaturdayEuclid") Euclid Ave
-                option(value="SaturdayWonderroot") WonderRoot
-            optgroup(label="Sunday")
-                option(value="SundayDelta") Delta Park
-                option(value="SundayEuclid") Euclid Ave
-                option(value="SundayWonderroot") WonderRoot
-
-    ul.MusicDates
-        //- Saturday bands by stage
-        mixin musicday("Saturday", music.stages, music.saturday)
-
-        //- Sunday bands by stage
-        mixin musicday("Sunday", music.stages, music.sunday)
-
-    article.u-container
-        h2 Atlanta Musicians' Emergency Relief Fund
-
-        p For many years now, the music programming at the Inman Park Festival & Tour of homes has been the responsibility of our neighbor Steve Ellison, from nearby in the Old 4th Ward. Last year Steve had an idea that we as "the Inman Park Festival" decided to support. Below he explains:
         
-        p "This will be my 14th year (or so), and almost every Spring a huge source of my own pride in the event (and pride in seeing our guests having so much fun) has been the local community of musicians. We feel they have always given us support; our hometown artists have historically given us great rates compared with those which they usually command. As a festival "expediter", I'm proud to present the fact that we have consistently supported and hired mostly local bands, including many that are mainly touring acts, but call Atlanta home, rarely performing there. They seem to consider the Inman Park Festival a "cherry gig"; a favor we are delighted to accept. 
-        
-        p I am happy to announce that last year we were able to collect several thousand dollars, which became a "seed fund" for a 501c3 non-profit corporation. Many musicians live from paycheck to paycheck, sometimes without being able to save up for emergencies. That is why we have set up the Atlanta Musicians' Emergency Relief Fund (AMERF). Similar to the Giving Kitchen (for professional food-service workers), we hope to provide help when and where nearby musicians need it the most. We will be asking for donations after all performances again this year, with the heartfelt support of our Festival Committee.
-        
-        p Our thanks go to the Inman Park Festival committee for allowing us this opportunity.
+        p See this space soon for the 2018 music lineup.
 
-        p Thanks for your continued support! Enjoy the Festival!"
+
+    //- .u-container
+    //-     select#musicSelector.MusicSelector
+    //-         option(value="") Select Day &amp; Stage:
+    //-         optgroup(label="Saturday")
+    //-             option(value="SaturdayDelta") Delta Park
+    //-             option(value="SaturdayEuclid") Euclid Ave
+    //-             option(value="SaturdayWonderroot") WonderRoot
+    //-         optgroup(label="Sunday")
+    //-             option(value="SundayDelta") Delta Park
+    //-             option(value="SundayEuclid") Euclid Ave
+    //-             option(value="SundayWonderroot") WonderRoot
+
+    //- ul.MusicDates
+    //-     //- Saturday bands by stage
+    //-     mixin musicday("Saturday", music.stages, music.saturday)
+    //- 
+    //-     //- Sunday bands by stage
+    //-     mixin musicday("Sunday", music.stages, music.sunday)
+
+    
 
 
 
 
 block scripts
-    script.
-        var ipf = ipf || {};
-        ipf.page = 'music';
-        ipf.$body = $('body');
-        $('#musicSelector').change(function handleMusicChange(event) {
-            window.location = '#' + event.target.value;
-        });
-        $('.BandDetailsTrigger').click(function openBandDetails(event) {
-            ipf.$body.addClass('show-band-details');
-            $(event.target).next().show();
-        });
-        $('.BandDetails--close').click(function closeBandDetails(event) {
-            ipf.$body.removeClass('show-band-details');
-            $(event.target).parent().parent().hide();
-        });
+    //- script.
+    //-     var ipf = ipf || {};
+    //-     ipf.page = 'music';
+    //-     ipf.$body = $('body');
+    //-     $('#musicSelector').change(function handleMusicChange(event) {
+    //-         window.location = '#' + event.target.value;
+    //-     });
+    //-     $('.BandDetailsTrigger').click(function openBandDetails(event) {
+    //-         ipf.$body.addClass('show-band-details');
+    //-         $(event.target).next().show();
+    //-     });
+    //-     $('.BandDetails--close').click(function closeBandDetails(event) {
+    //-         ipf.$body.removeClass('show-band-details');
+    //-         $(event.target).parent().parent().hide();
+    //-     });
