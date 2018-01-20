@@ -6,31 +6,36 @@
     <meta content="width=device-width" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Playfair+Display:400italic" rel="stylesheet" type="text/css">
     <link href="/assets/css/plugins-ca277f5a42.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/main-c51dad4199.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/main-7426159c6d.css" rel="stylesheet" type="text/css">
     <meta property="og:title" content="Inman Park Festival">
     <meta property="og:description" content="Atlanta's Favorite Street Festival with a Parade, Live Bands, Dancing, Food, Drink and the always-popular Tour of Homes">
-    <meta property="og:image" content="http://inmanparkfestival.org/assets/img/">
+    <meta property="og:image" content="http://inmanparkfestival.org/assets/img/ipf-logo-revised-large.svg">
     <meta property="og:url" content="http://inmanparkfestival.org">
     <meta name="twitter:card" content="summary_large_image">
   </head>
   <body>
-    <header id="Header" class="Header u-clear">
-      <input id="Trigger" type="checkbox" name="trigger">
-      <div class="u-clear u-container">
-        <label id="TriggerLabel" for="Trigger">MENU</label><img id="Logo" src="/assets/img/ipf-logo-yellow-white-3a9d807a4b.svg">
-      </div>
-      <div id="NavHeader" class="u-clear">
-        <nav class="NavPrimary u-clear u-container"><a href="/">Home</a><a href="/about">About</a><a href="/market">Market</a><a href="/events">Events</a><a href="/food">Food</a><a href="/sponsors">Sponsors</a><a href="/volunteer">Volunteer</a>
-        </nav>
-        <nav class="NavSecondary u-clear"><a href="/map">Getting Here</a><a href="/about/faq">FAQ</a><a href="/lost-and-found">Lost &amp; Found</a>
-        </nav>
-      </div>
-    </header>
+    <div class="SiteHeaderBackground">
+      <header class="SiteHeader">
+        <section class="MastHead">
+          <div class="SiteMenuToggle">
+            <button class="SiteMenuToggle-menu">Menu</button>
+            <button class="SiteMenuToggle-close">X</button>
+          </div><a href="/" title="Home Page" class="SiteLogo">
+            <h1 class="u-visuallyhidden">Inman Park Festival &amp; Tour of Homes</h1><img src="/assets/img/ipf-logo-revised-large.svg" role="presentation"></a>
+        </section>
+        <div id="SiteNav" class="SiteNav">
+          <nav class="SiteNav-utilities"><a href="/map">Getting Here</a><a href="/about/faq">FAQ</a><a href="/lost-and-found">Lost &amp; Found</a>
+          </nav>
+          <nav class="SiteNav-primary"><a href="/about">About</a><a href="/booths">Booths</a><a href="/events">Events</a><a href="/food">Food</a><a href="/sponsors">Sponsors</a><a href="/volunteer">Volunteer</a>
+          </nav>
+        </div>
+      </header>
+    </div>
     <main>
-      <div class="u-container">
+      <article class="u-container">
         <h1>Contact Us</h1>
-        <p>If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. Thank you for your interest and we hope to see you at Festival!</p>
-        <form method="POST" action="" id="ContactForm" class="Form--contact">
+        <p>If you have a question, please send an email to the appropriate point of contact. We will make every effort to get back to you as soon as possible. Thank you for your interest and we hope to see you at Festival!</p>
+        <form method="POST" action="contact.php" id="ContactForm" class="Form--contact">
           <p> <strong>All fields are required.</strong></p>
           <label>Your name:
             <input type="text" name="name" required>
@@ -40,41 +45,59 @@
           </label>
           <label>Select a point of contact:
             <select name="recipient" required>
-              <option value="Choose one...">Choose one...</option>
-              <option value="Festival Chair">Festival Chair</option>
-              <option value="Dance Festival">Dance Festival</option>
-              <option value="Arts &amp; Crafts and Street Market">Arts &amp; Crafts and Street Market</option>
-              <option value="Parade">Parade</option>
-              <option value="Food Vendors">Food Vendors</option>
-              <option value="Music Coordinator">Music Coordinator</option>
-              <option value="Home Tour Tickets">Home Tour Tickets</option>
-              <option value="Sponsors">Sponsors</option>
-              <option value="Volunteers">Volunteers</option>
-              <option value="Public Relations">Public Relations</option>
-              <option value="Advertising and Marketing">Advertising and Marketing</option>
-              <option value="Friends of Festival">Friends of Festival</option>
+              <option value="">Choose one...</option>
+              <option value="chair">Festival Chair</option>
+              <option value="dance">Dance Festival</option>
+              <option value="market">Arts &amp; Crafts and Street Market</option>
+              <option value="parade">Parade</option>
+              <option value="food">Food Vendors</option>
+              <option value="music">Music Coordinator</option>
+              <option value="toh">Home Tour Tickets</option>
+              <option value="sponsors">Sponsors</option>
+              <option value="volunteers">Volunteers</option>
+              <option value="pr">Public Relations</option>
+              <option value="marketing">Advertising and Marketing</option>
+              <option value="support">Website Support</option>
             </select>
           </label>
           <label>Your Message:
             <textarea name="message" required></textarea>
           </label>
           <label>
-            <input type="checkbox" name="robot" required>I'm not a robot.
+            <input type="text" size="25" name="email_address">
           </label>
           <input type="submit" name="submit" value="Send Email">
         </form>
-      </div>
-      <script src="/assets/js/plugins.js"></script>
-      <script src="/assets/js/pages/contact.js"></script>
-      <script>ipf.contact.init('ContactForm');</script>
+        <p id="successMessage">Message sent - thanks for getting in touch. We'll respond as soon as we can.</p>
+      </article>
     </main>
     <footer class="Footer">
       <div class="u-container">
-        <div class="Footer-sponsors"><a href="#">sponsor1</a><a href="#">sponsor2</a><a href="#">sponsor3</a><a href="#">sponsor4</a><a href="#">sponsor5</a></div>
+        <div class="Footer-sponsors"><a href="http://sweetwaterbrew.com" target="_blank"><img src="/assets/img/2017/sponsors/footer/sweetwater-4e658e27a8.png" alt="Sweetwater Brewing Co."/></a><a href="http://www.old4th.com" target="_blank"><img src="/assets/img/2017/sponsors/footer/old-fourth-ward-distillery-913bc77654.png" alt="Old Fourth Ward Distillery"/></a><a href="http://www.aswdistillery.com" target="_blank"><img src="/assets/img/2017/sponsors/footer/asw-distillery-16d351829f.png" alt="ASW Distillery"/></a><a href="http://terrapinbeer.com/" target="_blank"><img src="/assets/img/2017/sponsors/footer/terrapin-05aff44973.png" alt="Terrapin Beer Co."/></a><a href="http://www.sierranevada.com" target="_blank"><img src="/assets/img/2017/sponsors/footer/sierra-nevada-cb7e67e1ac.png" alt="Sierra Nevada Brewing"/></a><a href="https://www.bluemoonbrewingcompany.com" target="_blank"><img src="/assets/img/2017/sponsors/footer/bluemoon-4636a3924b.png" alt="Blue Moon Brewing"/></a><a href="http://www.northside.com/" target="_blank"><img src="/assets/img/2017/sponsors/footer/northside-hospital-7d4e720ee7.png" alt="Northside Hospital"/></a>
+        </div>
         <nav class="Footer-nav"><a href="/contact-us" class="PipeNav">Contact Us</a><a href="/terms-of-use" class="PipeNav">Terms of Use</a><a href="/privacy-policy" class="PipeNav">Privacy Policy</a><a href="/trademark" class="PipeNav">Trademark Use</a></nav>
-        <p class="fineprint">Copyright © Inman Park Festival</p>
+        <p class="fineprint">Copyright &copy; Inman Park Festival</p>
       </div>
     </footer>
     <script src="/assets/js/plugins.js"></script>
+    <script>
+      $('.SiteMenuToggle').click(function (e) {
+          console.log('click');
+          $('body').toggleClass('nav-open');
+      });
+    </script>
+    <script src="/assets/js/pages/contact.js"></script>
+    <script>ipf.contact.init('ContactForm');</script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21675291-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </body>
 </html>
