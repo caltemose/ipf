@@ -10,6 +10,11 @@
     @media screen and (min-width: $bp-md) {
         align-items: stretch;
         flex-direction: row;
+
+        h2 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
     }
 }
 
