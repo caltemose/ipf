@@ -27,6 +27,9 @@
         "cost": {
             "advance": "20",
             "door": "25"
+        },
+        "hours": {
+            "weekend": "12PM - 6PM"
         }
     },
     "nav": [

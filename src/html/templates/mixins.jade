@@ -77,10 +77,6 @@ mixin slideImage(imageName, alt)
 mixin slideImageXL(imageName, alt)
     img(sizes="(min-width: 1024px) 1024px, 100vw" srcset="#{imageName}-2048.jpg 2048w, #{imageName}-1024.jpg 1024w, #{imageName}-768.jpg 768w, #{imageName}-320.jpg 320w" src="#{imageName}-320.jpg" alt=alt)
 
-
-mixin tourImage(imageName, alt)
-    img(sizes="(min-width: 1024px) 940px, 100vw" srcset="#{imageName}-1880.jpg 1880w, #{imageName}-1440.jpg 1440w, #{imageName}-940.jpg 940w, #{imageName}-720.jpg 720w, #{imageName}-366.jpg 366w, #{imageName}-327.jpg 327w, #{imageName}-272.jpg 272w" src="#{imageName}-272.jpg" alt=alt).TourHomeImage
-
 mixin sponsorGridImage(src, alt, url)
     li
         a(href=url target="_blank")
