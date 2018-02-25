@@ -16,7 +16,12 @@ $other: #eee;
     padding: 0.25em 0 0.4em;
     font-size: 1.25em;
     text-align: center;
-    
+
+    &.SponsorsHeader--presenting {
+        background-color: $brand-grey-dark;
+        color: white;
+    }
+
     &.SponsorsHeader--gold {
         background-color: $gold;
     }
@@ -42,6 +47,15 @@ $other: #eee;
         margin: 0;
         width: 100%;
         text-align: center;
+    }
+}
+
+.Sponsors--Presenting {
+    text-align: center;
+    border: 1px solid $brand-grey-dark;
+
+    a:focus, a:hover {
+        background-color: #eee;
     }
 }
 
@@ -117,7 +131,7 @@ $other: #eee;
 
 .PresentingSponsor {
     border: 1px solid $brand-green;
-    
+
     h4 {
         margin-top: 0;
         padding: 0.5em;
