@@ -108,7 +108,7 @@ $bandPhotoBackground: #ddd;
 .Band {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
     @media (min-width: $bp-md) {
         width: 50%;

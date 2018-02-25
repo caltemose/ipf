@@ -11,10 +11,13 @@ mixin secondaryNav(nav, selected)
 //- the individual band summary list item
 mixin bandListing(band)
     - var imgUrl = typeof(band.photo) !== 'undefined' ? band.photo : ''
+    - var thumbUrl = typeof(band.thumb) !== 'undefined' ? band.thumb : ''
+    
     li.Band
 
-        .BandPhoto
-            img.img(src=imgUrl alt=band.title)
+        .BandPhoto.BandPhoto--thumb
+            if thumbUrl !== ''
+                img.img(src=thumbUrl alt=band.title)
 
         .BandCopy
             h4
@@ -29,13 +32,13 @@ mixin bandListing(band)
             button.BandDetailsTrigger Read the Band's bio
 
             .BandDetails
-                //- button.BandDetails--close CLOSE
                 
                 .u-container-thin
                     button.BandDetails--close CLOSE
 
-                    .BandPhoto
-                        img.img(src=imgUrl alt=band.title)
+                    if imgUrl !== ''
+                        .BandPhoto
+                            img.img(src=imgUrl alt=band.title)
 
                     h4= band.title
                     article!= band.bio
@@ -64,11 +67,11 @@ mixin musicday(dayTitle, stages, day)
             each band in day.e
                 mixin bandListing(band)
         
-        //- WonderRoot bands
-        - var id = dayTitle + "Wonderroot"
-        h3.u-namedLink(id=id)= stages.w
+        //- Freedom bands
+        - var id = dayTitle + "Freedom"
+        h3.u-namedLink(id=id)= stages.f
         ul.MusicStage
-            each band in day.w
+            each band in day.f
                 mixin bandListing(band)
 
 mixin slideImage(imageName, alt)
