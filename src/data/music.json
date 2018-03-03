@@ -10,6 +10,8 @@
                 "start": "11:45AM",
                 "end": "12:45PM",
                 "title": "MOMS' Kids",
+                "photo": "/assets/img/2018/music/moms.jpg",
+                "thumb": "/assets/img/2018/music/moms-thumb.jpg",
                 "description": "The future of Atlanta's musical community, right there on stage, for you to see, hear, and say later, \"I saw 'em when...\"",
                 "bio": "<p>Music on Main Street in Lilburn sponsors a musical youth education program and has done for some time. We're happy to provide some stage time for these youngsters, and a little insight into the live performance experience.</p>",
                 "url": "http://www.musiconmainstreetlilburn.com/"
@@ -28,6 +30,8 @@
                 "start": "3:00PM",
                 "end": "4:00PM",
                 "title": "Soldado",
+                "photo": "/assets/img/2018/music/soldado.jpg",
+                "thumb": "/assets/img/2018/music/soldado-thumb.jpg",
                 "description": "Like music from a Tarentino movie",
                 "bio": "<p>They had me as soon as I read, \"Like music from a Quentin Tarantino movie...\" that's what it said, right on their website, and that was enough for me. Turns out these guys (and gal) are truly a treat to see and hear. You may hear songs drawn from the four corners of the musical universe, rendered in Soldado's own dialect of that mathematical lingo called music.  Now that's what makes a real band, for my money!</p>",
                 "url": "http://www.soldado.biz"
@@ -46,6 +50,7 @@
                 "start": "5:30PM",
                 "end": "6:30PM",
                 "title": "The Swingin' Saddlecats",
+                "thumb": "/assets/img/2018/music/swingin-saddlecats-thumb.jpg",
                 "description": "Ridin', ropin', and sangin' cowpokes, tongues planted firmly in cheek",
                 "bio": "<p>Manifesting in this current incarnation from the ghosts of Cowboy Envy, the Retro Jazz Kats and Back in the Saddle.... Frenchy, Red and the boys are ready to lasso you with their zany brand of cow-person tuneage and string you up from their private limb of the Americana musical genre tree.</p>",
                 "url": "https://www.facebook.com/pg/rockit88east"
@@ -84,11 +89,10 @@
             {
                 "start": "1:00PM",
                 "end": "2:00PM",
-                "title": "Fantasy Guys",
-                "thumb": "/assets/img/2018/music/fantasy-guys-thumb.jpg",
-                "description": "Pink Floyd meets Everything But the Girl",
-                "bio": "<p>We're only missing the beach to relax and find out how Pink Floyd meets Everything But the Girl.</p>",
-                "url": "https://fantasyguys.bandcamp.com"
+                "title": "Brewery Road",
+                "thumb": "/assets/img/2018/music/brewery-road-thumb.jpg",
+                "photo": "/assets/img/2018/music/brewery-road.jpg",
+                "description": "Classic rockers"
             },
             {
                 "start": "3:00PM",
@@ -134,6 +138,8 @@
                 "start": "3:00PM",
                 "end": "4:00PM",
                 "title": "The Young and the Elder",
+                "photo": "/assets/img/2018/music/young-and-elder.jpg",
+                "thumb": "/assets/img/2018/music/young-and-elder-thumb.jpg",
                 "description": "Piano-driven rock. Three-piece acoustic/electric eclectic",
                 "bio": "<p>They've been performing around Atlanta and the southeast U.S. since the summer of 2014. Their blend of indie, rock, classical, and other styles has been featured on radio stations like 99x and Album 88 (in Atlanta) and  V89 (in Tallahassee, FL). They've been invited to perform at Greenville'sArtisphere, Songs For Kids, and street festivals around Atlanta. The Young and the Elder's debut album will be available soon.</p>",
                 "url": "https://www.facebook.com/pg/theyoungandtheelder/"
@@ -236,6 +242,8 @@
                 "start": "2:15PM",
                 "end": "3:15PM",
                 "title": "Eddie Tigner and the Fatt Matt's Band",
+                "photo": "/assets/img/2018/music/eddie-tigner.jpg",
+                "thumb": "/assets/img/2018/music/eddie-tigner-thumb.jpg",
                 "description": "Revered blues piano man",
                 "bio": "<p>Eddie Tigner plays the piano with a smooth, strong bass that rolls along below the weave of the soulful notes of the upper registers. He is a musician who can move an audience from the swing of Heartbreak: \"It's hurtin' me!\", to the rocking sound of Shake Rattle and Roll. For Eddie, the piano is not just an instrument; it's a place to be.</p><p>\"You can't separate the person and his music – especially with this man. When you are in his presence, you can't help but smile. You can't help but be happy and joyful and when he plays it's the same thing. If you were blind and you heard him play, you would just be so joyful!\" – Mudcat Dudeck</p><p>One of the most popular musical groups in the 1940's was The Ink Spots. When the original bass player died in 1947, Tigner's bass-style of playing on the piano and put his name in for one of the groups. That led to a life on the road and a steady job as an \"Ink Spot\" that lasted until 1987. The band played in clubs and lounges in the new \"motels\", the Holiday Inn or Ramada Inn, and stopped at military bases in every state.</p><p>Life on the road was hard, but Tigner likes to recall how he developed his own home-on-the-road routine. \"I had me a crock pot,\" Tigner explains, \"and I would make me what I want. Gizzards and rice. I loved that back then. Put it on before I go downstairs to play and when I came back it be pretty well done!\"</p>",
                 "url": "https://eddietigner.bandcamp.com/"
@@ -253,6 +261,8 @@
                 "start": "4:45PM",
                 "end": "5:45PM",
                 "title": "Ruby Velle and the Soulphonics",
+                "photo": "/assets/img/2018/music/ruby-velle.jpg",
+                "thumb": "/assets/img/2018/music/ruby-velle-thumb.jpg",
                 "description": "Deep, raw funk. Stax-style Southern soul. Uplifting Motown-channeling anthems.",
                 "bio": "<p>Atlanta's Ruby Velle and the Soulphonics are the heirs to the thrones of the old-school masters. But they're much more than just a group of revivalists trying to create a period piece. Powerhouse singer Velle and her band will settle for nothing less than bringing these classic sounds glimmering into the now with a fresh new modern sheen.</p><p>Ruby Velle and the Soulphonics have made a name for themselves captivating audiences with their stirring live performances. They're a world-class modern soul revue topped off with the cherry of Velle's sultry voice, as she deftly toggles between sweetly crooned R&B tunes and expertly belted barn-burning get-downs that can instantly jolt a roomful of wallflowers into a wild dance party.</p>",
                 "url": "http://www.rubyvelleandthesoulphonics.com"
@@ -272,9 +282,20 @@
                 "start": "2:45PM",
                 "end": "3:45PM",
                 "title": "Wolfpack ATL",
+                "photo": "/assets/img/2018/music/wolfpack.jpg",
+                "thumb": "/assets/img/2018/music/wolfpack-thumb.jpg",
                 "description": "The brainchild of Atlanta's own Kebbi Williams",
                 "bio": "<p>\"When determining how badass a band truly is, its live show can't just be good. The sheer physicality of its performance must force patrons to shut up and listen. No Atlanta band pulls off this feat with as much originality and force as The Wolfpack.\"</p><p>Kebbi was born into a musical family. His father Earl Williams, an inventive multi instrumentalist who plays bass, keys, banjo, harmonica, flute, and saxophone taught Kebbi music. The tenor saxophone that Kebbi plays is from Earl. A rarity from the 1920's era, a CONN M, it's the only saxophone Kebbi's played. Earl also taught his brother, Milan Williams (Kebbi's uncle) how to play music. Milan was an original member of The Commodores and composed their breakout hit \"Machine Gun\" as well as the pair of epic soul/funk classics, \"Brickhouse\" and \"Easy Like (Sunday Morning)\".</p><p>Family is a unifying theme for Kebbi, shared by his love for Atlanta. In 2010, Williams founded the non-profit organization, Music In The Park (MITP) Atlanta. Their mission: enlighten, educate, and galvanize young performers while inspiring vibrancy in the community through music and the performing arts.  MITP Atlanta has supported nearly 6000 students, engaged over 400 professional musicians, and presented live music to 50,000 people since its inception seven years ago.  MITP, begun in response to the absence of music education in schools and limited arts programming in his West End neighborhood, is constantly evolving and expanding for the next generation of musicians.</p>",
                 "url": "http://musicintheparkatl.org/kebbi-williams/"
+            },
+            {
+                "start": "4:00PM",
+                "end": "5:00PM",
+                "title": "Tito Gato",
+                "photo": "/assets/img/2018/music/tito-gato.jpg",
+                "thumb": "/assets/img/2018/music/tito-gato-thumb.jpg",
+                "description": "Latin Jazz: Get your salsa fix here!",
+                "url": "http://www.titogato.com"
             }
         ]
     }
