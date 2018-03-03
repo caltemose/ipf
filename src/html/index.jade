@@ -29,6 +29,9 @@ block contents
                     a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
 
         div
+            mixin slideImage('/assets/img/2018/sponsors/northside-banner', 'Presenting Sponsor: Northside Hospital')
+
+        div
             mixin slideImage('/assets/img/slideshows/parade-block-heros', 'Parade Block Heroes')
 
         div
@@ -114,7 +117,7 @@ block scripts
         $('.owl-carousel').owlCarousel({
             dots: true,
             loop: true,
-            autoplay: false,
+            autoplay: true,
             responsive: {
                 0: {
                     items: 1
