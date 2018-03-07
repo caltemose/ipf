@@ -170,11 +170,11 @@ $bandPhotoBackground: #ddd;
             height: 100%;
         }
 
-        @media (min-width: $bp-md) {
-            .img {
-                height: 415px;
-            }
-        }
+        // @media (min-width: $bp-md) {
+        //     .img {
+        //         height: 415px;
+        //     }
+        // }
     }
 
     article {
