@@ -17,11 +17,13 @@ block contents
 
         p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between #{globals.tour.hours.weekend}.
 
-        //- TODO create includes to make scheduled changes easier
-
         h2 Tour of Homes Tickets
 
-        p Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}. Tickets will be available for purchase online shortly.
+        p Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
+
+        include _paypal.jade
+        
+        include _tickets-local.jade
 
         h2 Tour of Homes Sponsors
         
