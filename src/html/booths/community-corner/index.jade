@@ -13,20 +13,4 @@ block contents
         
         //- p Non-profit organizations may request a space in the Community Corner which is separate from the main vendor area. Appropriate applicants (registered non-profits) are accepted based on availability on first come, first serve basis.
 
-        p Below are this year's non-profit organizations.
-
-        ul.Vendors
-            each vendor in vendors.cc.lines
-                li.Vendor
-                    ul.u-list-unstyled
-                        li(class="Category--#{vendor.class}")
-                            - var nameAsBusiness = vendor.business === '';
-                            if nameAsBusiness
-                                h3.Vendor-business #{vendor.firstname} #{vendor.lastname}
-                            else
-                                h3.Vendor-business= vendor.business
-                                p.Vendor-name #{vendor.firstname} #{vendor.lastname}
-                            - var hasUrl = vendor.url !== ''
-                            if hasUrl
-                                a.Vendor-url(href="http://#{vendor.url}")= vendor.url
-                            //- div.Vendor-category= vendor.category
+        p Vendors for this year's festival will be listed soon.

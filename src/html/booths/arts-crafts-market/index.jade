@@ -11,20 +11,4 @@ block contents
 
         h1 Arts & Crafts Market
         
-        p Our juried Arts and Crafts Show includes 129 fine artists working in a large variety of media.
-
-        ul.Vendors
-            each vendor in vendors.ac.lines
-                li.Vendor
-                    ul.u-list-unstyled
-                        li(class="Category--#{vendor.class}")
-                            - var nameAsBusiness = vendor.business === '';
-                            if nameAsBusiness
-                                h3.Vendor-business #{vendor.firstname} #{vendor.lastname}
-                            else
-                                h3.Vendor-business= vendor.business
-                                p.Vendor-name #{vendor.firstname} #{vendor.lastname}
-                            - var hasUrl = vendor.url !== ''
-                            if hasUrl
-                                a.Vendor-url(href="http://#{vendor.url}")= vendor.url
-                            div.Vendor-category= vendor.category
+        p Vendors for this year's festival will be listed soon.
