@@ -1,6 +1,8 @@
 var fs = require('fs');
 var linereader = require('line-reader');
 
+
+
 //
 // Init
 //
@@ -24,6 +26,10 @@ linereader.eachLine(filein, readLines);
 //
 // Helper functions
 //
+
+function isUrl (url) {
+    return url && url !== '' && url !== ' ' && url.toLowerCase() !== 'none' && url.toLowerCase() !== 'n\/a'
+}
 
 // parse all lines of a file and populate array with resulting objects
 // and write to a file.
@@ -53,13 +59,13 @@ function parseLine (line) {
     var obj = {};
     var nonJuriedRegex = /\s-\snon\sjuried/gi
     var juriedRegex = /\s-\sjuried/gi
-    obj.category = split[4].replace(nonJuriedRegex, '');
+    obj.category = split[0].replace(nonJuriedRegex, '');
     obj.category = obj.category.replace(juriedRegex, '');
-    obj.class = categoryToClass(obj.category);
-    obj.lastname = split[1];
-    obj.firstname = split[0];
-    obj.business = split[2];
-    obj.url = fixUrl(split[3]);
+    obj.class = categoryToClass(obj.category.trim());
+    obj.lastname = split[2];
+    obj.firstname = split[1];
+    obj.business = split[3];
+    obj.url = fixUrl(split[4]);
     return obj;
 }
 
@@ -69,8 +75,17 @@ function categoryToClass (category) {
 
 // url string cleanup
 function fixUrl (url) {
-    var fixed = url.replace('https://', '');
-    return fixed.replace('http://', '');
+    // var fixed = url.replace('https://', '');
+    // return fixed.replace('http://', '');
+    if (url && url.indexOf('http') < 0 && isUrl(url)) {
+        return 'http://' + url
+    } else {
+        if (!isUrl(url)) {
+            return null
+        } else {
+            return url
+        }
+    }
 }
 
 // write data to a json file
