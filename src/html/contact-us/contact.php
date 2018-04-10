@@ -5,7 +5,7 @@ require '_config.php';
 
 # Instantiate the client.
 $mgClient = new Mailgun($mailgunKey);
-$domain = "mg.inmanparkfestival.org";
+$domain = "inmanparkfestival.org";
 
 // get POST data
 $visitorName = Trim(stripslashes($_POST['name']));
