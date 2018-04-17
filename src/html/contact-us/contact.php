@@ -67,6 +67,11 @@ if ($message === '') {
     $success["message"] = $message;
 }
 
+// spam
+if ($visitorEmail.search(/(\.ru$)/g) > -1) {
+    $valid = false;
+}
+
 if (!$valid) {
     $res = '{"err":' . json_encode($errors) . '}';
     header("HTTP/1.0 400 Bad Request");
