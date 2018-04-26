@@ -1,0 +1,109 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heart Stats Over Time</title>
+    <script src="http://zeptojs.com/zepto.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <style type="text/css">
+    h1 { margin-bottom: 0; text-align: center; font-family: sans-serif }
+    #chart { margin: 0 auto }
+    </style>
+</head>
+<body>
+    <h1>Paypal Tix</h1>
+    <div id="chart"></div>
+    <div id="totals"></div>
+    <script>
+        const years = []
+        const yearTotals = {
+            '2018': {
+                gross: 0,
+                net: 0,
+                quantity: 0
+            },
+            '2017': {
+                gross: 0,
+                net: 0,
+                quantity: 0
+            }
+        }
+        const graphData = []
+
+        Zepto(function($){
+            $.getJSON('./paypal-data/2018-03-01__2018-04-22.json', function (data) {
+                years.push(data)
+                $.getJSON('./paypal-data/2017-03-01__2017-05-08.json', function (data) {
+                    years.push(data)
+                    processData()
+                })
+            })
+        })
+
+        function processData () {
+            processYear(years[0], '2018')
+            processYear(years[1], '2017')
+            drawGraph(graphData)
+        }
+
+        function processYear (year, name) {
+            var transactionKeys = Object.keys(year.transactions)
+            var transactions = []
+            transactionKeys.forEach(function (key) {
+                transactions.push(year.transactions[key])
+            })
+
+            var transactionDates = {}
+            transactions.forEach(function (transaction) {
+                if (!transactionDates[transaction.date]) {
+                    transactionDates[transaction.date] = transaction.quantity
+                } else {
+                    transactionDates[transaction.date] += transaction.quantity
+                }
+                yearTotals[name].gross += transaction.gross
+                yearTotals[name].net += transaction.net
+                yearTotals[name].quantity += transaction.quantity
+            })
+
+            var dates = []
+            var quantities = []
+            var dateKeys = Object.keys(transactionDates)
+            dateKeys.forEach(function (date) {
+                var mmt = moment(date)
+                var month = mmt.format('MM')
+                var day = mmt.format('DD')
+                var year = moment().format('YYYY')
+                var fixed = new Date(year + '/' + month + '/' + day)
+                dates.push(fixed)
+                quantities.push(transactionDates[date])
+            })
+
+            var graphObj = {
+                x: dates,
+                y: quantities,
+                mode: 'scatter',
+                name: name
+            }
+
+            graphData.push(graphObj)
+        }
+
+        function roundMoney (amt) {
+            return Math.round(amt)
+        }
+
+        function drawGraph (data) {
+            var element = document.getElementById('chart')
+            Plotly.newPlot('chart', data)
+
+            var totals = document.getElementById('totals')
+            var html = '<h4>2017: $' + yearTotals['2017'].gross + '/$' + roundMoney(yearTotals['2017'].net) + '/' + yearTotals['2017'].quantity + '</br>'
+            html += '2018: $' + yearTotals['2018'].gross + '/$' + roundMoney(yearTotals['2018'].net) + '/' + yearTotals['2018'].quantity + '</h4>'
+            console.log(html)
+            totals.innerHTML = html
+        }
+    </script>
+</body>
+</html>

@@ -67,8 +67,11 @@ if ($message === '') {
     $success["message"] = $message;
 }
 
+$spam = false;
+
 // spam
-if ($visitorEmail.search(/(\.ru$)/g) > -1) {
+if (preg_match('/\.ru$/i', $visitorEmail)) {
+    $spam = true;
     $valid = false;
 }
 
