@@ -26,17 +26,9 @@
 		{
 			"category": "Antiques",
 			"class": "antiques",
-			"lastname": "Davenport",
-			"firstname": "Donna",
-			"business": "What's It Worth",
-			"url": null
-		},
-		{
-			"category": "Antiques",
-			"class": "antiques",
 			"lastname": "Edelson",
 			"firstname": "Ian",
-			"business": "",
+			"business": "Fresh Prints, Atlanta",
 			"url": "https://www.instagram.com/freshprintsatl"
 		},
 		{
@@ -50,32 +42,9 @@
 		{
 			"category": "Antiques",
 			"class": "antiques",
-			"lastname": "Saldana",
-			"firstname": "Jimmy",
-			"business": "Resurrected Furniture Design",
-			"url": null
-		},
-		{
-			"category": "Antiques",
-			"class": "antiques",
 			"lastname": "Scott",
 			"firstname": "Ginger",
 			"business": "Barnesville Bear",
-			"url": null
-		},
-		{
-			"category": "Antiques",
-			"class": "antiques",
-			"lastname": "Scott",
-			"firstname": "Ginger",
-			"business": "Barnesville Bear",
-			"url": null
-		},
-		{
-			"category": "Antiques",
-			"class": "antiques",
-			"lastname": "Williams",
-			"firstname": "Leroy",
 			"url": null
 		},
 		{
@@ -239,13 +208,6 @@
 		{
 			"category": "Consumables",
 			"class": "consumables",
-			"lastname": "Hunter",
-			"firstname": "Lumen",
-			"url": null
-		},
-		{
-			"category": "Consumables",
-			"class": "consumables",
 			"lastname": "hurlbutt",
 			"firstname": "Sandy",
 			"business": "Country Junction Soaps",
@@ -382,14 +344,6 @@
 		{
 			"category": "Glass",
 			"class": "glass",
-			"lastname": "Biberdorf",
-			"firstname": "Brenda",
-			"business": "Brenda's Fused Glass",
-			"url": "http://brendasfusedglass.com"
-		},
-		{
-			"category": "Glass",
-			"class": "glass",
 			"lastname": "Pennella",
 			"firstname": "Carson",
 			"business": "C.A.P Glassworks",
@@ -410,14 +364,6 @@
 			"firstname": "Kristen ",
 			"business": "YouNique Jewelry",
 			"url": null
-		},
-		{
-			"category": "Jewelry ",
-			"class": "jewelry",
-			"lastname": "Bishop",
-			"firstname": "Lauren",
-			"business": "Baizaar",
-			"url": "http://www.SilverStoneBrass.com"
 		},
 		{
 			"category": "Jewelry ",
@@ -493,14 +439,6 @@
 		{
 			"category": "Jewelry ",
 			"class": "jewelry",
-			"lastname": "Cullen",
-			"firstname": "Kim",
-			"business": "Beautiful Chaos",
-			"url": "http://www.bchaos.com"
-		},
-		{
-			"category": "Jewelry ",
-			"class": "jewelry",
 			"lastname": "Davis-Foster",
 			"firstname": "Sharee",
 			"business": "",
@@ -521,14 +459,6 @@
 			"firstname": "Josephine",
 			"business": "Jowelry's Designs",
 			"url": "http://jowelrysdesigns.com"
-		},
-		{
-			"category": "Jewelry ",
-			"class": "jewelry",
-			"lastname": "Garcia",
-			"firstname": "Greta",
-			"business": "It Element, LLC",
-			"url": null
 		},
 		{
 			"category": "Jewelry ",
@@ -840,15 +770,7 @@
 			"url": "http://www.ssfirepits.com"
 		},
 		{
-			"category": "Metalwork ",
-			"class": "metalwork",
-			"lastname": "Stivers",
-			"firstname": "Andy",
-			"business": "S & S Fire Pits",
-			"url": "http://www.ssfirepits.com"
-		},
-		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Bancroft",
 			"firstname": "Elexa",
@@ -856,7 +778,7 @@
 			"url": "http://www.lexiconoflove.etsy.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Barreneche/Schemel",
 			"firstname": "Juan/Daniel",
@@ -864,7 +786,7 @@
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Bowie",
 			"firstname": "Carrie",
@@ -872,15 +794,7 @@
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
-			"class": "mixed-media",
-			"lastname": "Bowie",
-			"firstname": "Carrie",
-			"business": "Southern Redesigns",
-			"url": null
-		},
-		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Campbell",
 			"firstname": "Sarah",
@@ -888,7 +802,7 @@
 			"url": "http://ColoringTheirWorld.Etsy.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Chambers",
 			"firstname": "Tom",
@@ -896,14 +810,14 @@
 			"url": "http://www.branchingoutart.weebly.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Coan",
 			"firstname": "SharAnne",
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Davis",
 			"firstname": "Sheron",
@@ -911,7 +825,7 @@
 			"url": "http://earthspiritartandglass.blogspot.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Evans",
 			"firstname": "Lynnis",
@@ -919,7 +833,7 @@
 			"url": "http://lynniesart.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Hall",
 			"firstname": "Ric",
@@ -927,15 +841,7 @@
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
-			"class": "mixed-media",
-			"lastname": "Hall",
-			"firstname": "Ric",
-			"business": "Roadside Recyclers",
-			"url": null
-		},
-		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Hamer",
 			"firstname": "Chris",
@@ -943,7 +849,7 @@
 			"url": "http://www.urbnpop.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "hartley",
 			"firstname": "tracy",
@@ -951,7 +857,7 @@
 			"url": "http://tracy.hartley@blogspot.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Hoff",
 			"firstname": "Kenny",
@@ -959,15 +865,7 @@
 			"url": "http://www.thetinmanart.com"
 		},
 		{
-			"category": "Mixed media ",
-			"class": "mixed-media",
-			"lastname": "Hoff",
-			"firstname": "Kenny",
-			"business": "",
-			"url": "http://www.thetinmanart.com"
-		},
-		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Jackson ",
 			"firstname": "Linda",
@@ -975,7 +873,7 @@
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Johansen",
 			"firstname": "Leif",
@@ -983,7 +881,7 @@
 			"url": "http://leiferikjohansen.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Lee",
 			"firstname": "Tim",
@@ -991,7 +889,7 @@
 			"url": "http://www.rabbitrunstudios.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Lesiewicz",
 			"firstname": "Pete",
@@ -999,7 +897,7 @@
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Lyle",
 			"firstname": "Alaina",
@@ -1007,7 +905,7 @@
 			"url": "http://www.alainalyle.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Manangan",
 			"firstname": "Jamie",
@@ -1015,7 +913,7 @@
 			"url": "http://www.mapofhome.etsy.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "MARTINO",
 			"firstname": "MONICA",
@@ -1023,7 +921,7 @@
 			"url": "http://www.lemonzesty.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Mason",
 			"firstname": "Chris",
@@ -1031,7 +929,7 @@
 			"url": "http://www.chrismasonphoto.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "McNiell",
 			"firstname": "Stacey",
@@ -1039,7 +937,7 @@
 			"url": "https://www.facebook.com/pages/Exo-Box/"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Melancon",
 			"firstname": "Sarah",
@@ -1047,7 +945,7 @@
 			"url": "http://www.thirdhalfstudios.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Owens",
 			"firstname": "Angela",
@@ -1055,7 +953,7 @@
 			"url": "http://www.hairbowpalace.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Paine",
 			"firstname": "Meghan",
@@ -1063,7 +961,7 @@
 			"url": "http://ironheartworkshops.etsy.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Prater",
 			"firstname": "Evans",
@@ -1071,7 +969,7 @@
 			"url": "http://www.mountinspiration.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Robinson",
 			"firstname": "Tommy",
@@ -1079,14 +977,14 @@
 			"url": "http://nataliegracehome.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Rowe",
 			"firstname": "Stephanie",
 			"url": null
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Russell",
 			"firstname": "Richard",
@@ -1094,15 +992,7 @@
 			"url": "http://www.allthingsgallery.biz"
 		},
 		{
-			"category": "Mixed media ",
-			"class": "mixed-media",
-			"lastname": "Russell",
-			"firstname": "Richard",
-			"business": "All Things Gallery",
-			"url": "http://www.allthingsgallery.biz"
-		},
-		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Small",
 			"firstname": "Ken",
@@ -1110,7 +1000,7 @@
 			"url": "http://www.homefields.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Wellem",
 			"firstname": "Lala",
@@ -1118,7 +1008,7 @@
 			"url": "http://www.LauraWellem.com"
 		},
 		{
-			"category": "Mixed media ",
+			"category": "Mixed media",
 			"class": "mixed-media",
 			"lastname": "Wethern",
 			"firstname": "Sam ",
@@ -1381,7 +1271,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Boesch",
 			"firstname": "Lisa",
 			"business": "ellembee",
@@ -1389,7 +1279,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Brewer",
 			"firstname": "Taren",
 			"business": "",
@@ -1397,7 +1287,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Brooks",
 			"firstname": "Jessica",
 			"business": "",
@@ -1405,7 +1295,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Brown",
 			"firstname": "Cedric",
 			"business": "",
@@ -1413,14 +1303,14 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Churchill",
 			"firstname": "Sarah",
 			"url": null
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Cortes",
 			"firstname": "Marcela",
 			"business": "Luvaboo LLC",
@@ -1428,7 +1318,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Cullen",
 			"firstname": "Emory",
 			"business": "Wandering Line",
@@ -1436,7 +1326,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Dillingham",
 			"firstname": "Karen",
 			"business": "Westwind Tie Dye",
@@ -1444,7 +1334,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Fairo",
 			"firstname": "Evija",
 			"business": "100%cool Efi Designs",
@@ -1452,15 +1342,15 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Fajardo",
 			"firstname": "Erika",
-			"business": "ErÃ¼ka Art & Design",
+			"business": "Erika Art & Design",
 			"url": null
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Hahn",
 			"firstname": "Jennifer",
 			"business": "French Silver, LLC",
@@ -1468,7 +1358,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Humphrey",
 			"firstname": "Jennifer",
 			"business": "",
@@ -1476,7 +1366,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Kelly",
 			"firstname": "Lisa",
 			"business": "Mandalina",
@@ -1484,7 +1374,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Lee",
 			"firstname": "Sarah",
 			"business": "M&K House",
@@ -1492,7 +1382,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Maples",
 			"firstname": "Joy",
 			"business": "Local Threads",
@@ -1500,7 +1390,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Mathis",
 			"firstname": "Danielle",
 			"business": "",
@@ -1508,7 +1398,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "May",
 			"firstname": "Judy",
 			"business": "YIP and More",
@@ -1516,7 +1406,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Mosley",
 			"firstname": "Nick",
 			"business": "Buckhead Thread Co.",
@@ -1524,7 +1414,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Neel",
 			"firstname": "Marie",
 			"business": "Atelier Marie Neel",
@@ -1532,7 +1422,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Oleski",
 			"firstname": "Jackie",
 			"business": "JackieOdesigns",
@@ -1540,7 +1430,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Pace",
 			"firstname": "Barbara",
 			"business": "B's Creative Stitches",
@@ -1548,7 +1438,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Poser",
 			"firstname": "Helen",
 			"business": "NIFFICH",
@@ -1556,7 +1446,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Rhoton",
 			"firstname": "Rob",
 			"business": "C R stuff",
@@ -1564,7 +1454,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Santoro",
 			"firstname": "Angela",
 			"business": "Scribbler Experiment",
@@ -1572,7 +1462,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Sterling",
 			"firstname": "James",
 			"business": "",
@@ -1580,7 +1470,7 @@
 		},
 		{
 			"category": "Textile / Fiber",
-			"class": "textile-/ fiber",
+			"class": "textile-fiber",
 			"lastname": "Whatley",
 			"firstname": "Jeanne",
 			"business": "Color of Heat",
@@ -1588,7 +1478,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Ali",
 			"firstname": "Kellie",
 			"business": "Anisa's Secrets",
@@ -1596,7 +1486,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Alston",
 			"firstname": "Stacey",
 			"business": "The Waldorf School of Atlanta",
@@ -1604,15 +1494,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
-			"lastname": "Alston",
-			"firstname": "Stacey",
-			"business": "The Waldorf School of Atlanta",
-			"url": "http://www.waldorfatlanta.org"
-		},
-		{
-			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Althen Butler",
 			"firstname": "Jennifer",
 			"business": "RockBelly",
@@ -1620,7 +1502,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Anderson",
 			"firstname": "Sindy",
 			"business": "Sinfully Sweet Soap",
@@ -1628,7 +1510,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "ayers",
 			"firstname": "jeff",
 			"business": "",
@@ -1636,7 +1518,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Barnett",
 			"firstname": "Casey ",
 			"business": "Uncorked Candle Company",
@@ -1644,7 +1526,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Barry",
 			"firstname": "Sean",
 			"business": "Sean Barry Arts",
@@ -1652,7 +1534,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Becker",
 			"firstname": "Mary Lou",
 			"business": "Floating Leaf /HELLO MARY LOU",
@@ -1660,7 +1542,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Bins",
 			"firstname": "Heather",
 			"business": "Whole Earth",
@@ -1668,14 +1550,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Bolt",
 			"firstname": "Jo",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Brighton",
 			"firstname": "Gene",
 			"business": "Gene Brighton",
@@ -1683,7 +1565,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Britt",
 			"firstname": "Rachel",
 			"business": "Gnarly Gnarwhals",
@@ -1691,7 +1573,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Burrows",
 			"firstname": "Jenny",
 			"business": "How Awcard",
@@ -1699,7 +1581,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Busbee",
 			"firstname": "Buzz",
 			"business": "ABETTERBUZZ Brand Goods",
@@ -1707,14 +1589,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Carlson",
 			"firstname": "Jay",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Cox",
 			"firstname": "Sage",
 			"business": "Dragonfly Henna",
@@ -1722,14 +1604,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Cumberland",
 			"firstname": "CJ",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Cushenberry",
 			"firstname": "Jessi",
 			"business": "Visionary Foods, LLC",
@@ -1737,7 +1619,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Cuttino",
 			"firstname": "Marcus",
 			"business": "The Raffia Boutique",
@@ -1745,7 +1627,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Dave",
 			"firstname": "Meghna",
 			"business": "Maelu",
@@ -1753,7 +1635,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Davis",
 			"firstname": "Mari",
 			"business": "CLIMB Handmade",
@@ -1761,7 +1643,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Day",
 			"firstname": "Anne",
 			"business": "Gift N' Green",
@@ -1769,7 +1651,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Eberlein",
 			"firstname": "Bill",
 			"business": "Megateeth Fossils",
@@ -1777,7 +1659,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Fisher",
 			"firstname": "Dale",
 			"business": "Honey On The Hill",
@@ -1785,7 +1667,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Frederiksen",
 			"firstname": "Phnewfula",
 			"business": "",
@@ -1793,14 +1675,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Goncalves",
 			"firstname": "Michelle",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Hagaman",
 			"firstname": "Jennifer",
 			"business": "The Artizan Way",
@@ -1808,7 +1690,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Hallman ",
 			"firstname": "Nancy",
 			"business": "Bill hallman boutique",
@@ -1816,7 +1698,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Hartman",
 			"firstname": "Allison",
 			"business": "404 Proud",
@@ -1824,7 +1706,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Heard",
 			"firstname": "Peggy",
 			"business": "Cactus Creations",
@@ -1832,7 +1714,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Hill",
 			"firstname": "Millicent",
 			"business": "Ndulge In You",
@@ -1840,14 +1722,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Ifeadi",
 			"firstname": "Victoria ",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Lucia",
 			"firstname": "Tony",
 			"business": "Copper Yard and Garden Art",
@@ -1855,7 +1737,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "McCollum",
 			"firstname": "Richard",
 			"business": "White Forest Spoons",
@@ -1863,7 +1745,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Mclaughlin",
 			"firstname": "Merrily",
 			"business": "Merrilily Gardens",
@@ -1871,14 +1753,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Midgette",
 			"firstname": "Bryan",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Mitchell",
 			"firstname": "Patrick",
 			"business": "Wallets for Water",
@@ -1886,7 +1768,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Myers",
 			"firstname": "Cassie",
 			"business": "Woven Words",
@@ -1894,7 +1776,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Olaya",
 			"firstname": "Dean",
 			"business": "Block & Hammer",
@@ -1902,7 +1784,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Patel",
 			"firstname": "Mona ",
 			"business": "MDC",
@@ -1910,7 +1792,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Paul",
 			"firstname": "John",
 			"business": "Fuzzy Ink",
@@ -1918,7 +1800,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Powell",
 			"firstname": "Linda",
 			"business": "",
@@ -1926,7 +1808,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Rawlins",
 			"firstname": "Anna",
 			"business": "Eagles Nest Outfitters",
@@ -1934,7 +1816,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Rodenberger",
 			"firstname": "Robert",
 			"business": "Jazzy Artz Inc",
@@ -1942,7 +1824,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Schretter",
 			"firstname": "Michelle",
 			"business": "The SandArt Cart",
@@ -1950,7 +1832,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Senft",
 			"firstname": "Kathy",
 			"business": "One Screw Loose",
@@ -1958,15 +1840,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
-			"lastname": "Senft",
-			"firstname": "Kathy",
-			"business": "One Screw Loose",
-			"url": "http://onescrewloose.com"
-		},
-		{
-			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Sharpe",
 			"firstname": "Lindsay",
 			"business": "",
@@ -1974,7 +1848,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Shull",
 			"firstname": "J. Spencer",
 			"business": "jellykoe",
@@ -1982,7 +1856,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "smith",
 			"firstname": "deidra",
 			"business": "blue frog art",
@@ -1990,7 +1864,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Snell",
 			"firstname": "January",
 			"business": "two twisted sistahs",
@@ -1998,14 +1872,14 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Stansbury",
 			"firstname": "Kimberly",
 			"url": null
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Townsend",
 			"firstname": "Jeremy",
 			"business": "",
@@ -2013,7 +1887,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "Wilson",
 			"firstname": "Dave",
 			"business": "Piedmont Gardens",
@@ -2021,7 +1895,7 @@
 		},
 		{
 			"category": "Various / Other",
-			"class": "various-/ other",
+			"class": "various-other",
 			"lastname": "yeomans",
 			"firstname": "kellye",
 			"business": "",
@@ -2062,22 +1936,6 @@
 		{
 			"category": "Woodwork",
 			"class": "woodwork",
-			"lastname": "Dayvault",
-			"firstname": "Laurie",
-			"business": "Go Jump in the LakeÂ®",
-			"url": "https://www.etsy.com/shop/GoJumpInTheLake"
-		},
-		{
-			"category": "Woodwork",
-			"class": "woodwork",
-			"lastname": "Douthit",
-			"firstname": "Debra",
-			"business": "Rustic Stuff of the South",
-			"url": "http://rusticstuffofthesouth.com"
-		},
-		{
-			"category": "Woodwork",
-			"class": "woodwork",
 			"lastname": "Douthit",
 			"firstname": "Debra",
 			"business": "Rustic Stuff of the South",
@@ -2098,14 +1956,6 @@
 			"firstname": "Hal",
 			"business": "Wooden it be Lovely",
 			"url": "http://woodenitbelovely123.com"
-		},
-		{
-			"category": "Woodwork",
-			"class": "woodwork",
-			"lastname": "Knight",
-			"firstname": "Michael",
-			"business": "Kaboodle Home",
-			"url": null
 		},
 		{
 			"category": "Woodwork",

@@ -635,20 +635,14 @@
 			"class": "painting",
 			"lastname": "Reed",
 			"firstname": "Aaron",
-			"business": "Artbyaaronreed.com"
-		},
-		{
-			"category": "Painting",
-			"class": "painting",
-			"lastname": "Reed",
-			"firstname": "Aaron",
-			"business": "Artbyaaronreed.com"
+			"url": "http://Artbyaaronreed.com"
 		},
 		{
 			"category": "Painting",
 			"class": "painting",
 			"lastname": "Searcey",
-			"firstname": "Grant"
+			"firstname": "Grant",
+            "url": "http://www.grantsearcey.com/"
 		},
 		{
 			"category": "Painting",
