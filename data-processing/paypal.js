@@ -39,8 +39,9 @@ csvToJson()
       obj.gross = Number(row['Gross'])
       obj.net = Number(row['Net'])
       obj.email = row['From Email Address']
+      obj.name = row['Name']
       obj.quantity = Number(row['Quantity'])
-    } else {
+  } else if (row['Type'] !== 'Payment Refund') {
       if (row['Item Title'].indexOf('Tour of Home') > -1) {
         transactions[row['Transaction ID']].title = row['Item Title']
         gross += transactions[row['Transaction ID']].gross

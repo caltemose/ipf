@@ -1,21 +1,29 @@
 h2#buy-tickets Buy Tickets Now!
 
-p Tickets are now available.
+p When your transaction has been completed, a receipt for your purchase will be emailed to you.
 
-p <strong>Important Note:</strong> When your transaction has been completed, a receipt for your purchase will be emailed to you.
+p.Big Please print the first page of the PayPal receipt sent via email showing your name and the number of tickets purchased. Bring this page to our Ticket Sales booth to exchange for your Tour of Homes Ticket(s).
 
-p.Big Please print the first page of the PayPal receipt sent via email showing your name and the number of tickets purchased. Bring this page to one of our Ticket Sales booths to exchange for your Tour of Homes Ticket(s).
+p On Friday, the only location where tickets can be picked up is the intersection of Elizabeth Street and Euclid Avenue. <a href="https://www.google.com/maps/place/33%C2%B045'30.0%22N+84%C2%B021'23.2%22W/@33.7583282,-84.3652018,15z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d33.7583293!4d-84.3564474">See here on Google Maps.</a>
 
 .PaypalItems
     //- Tour of Homes Individual Tickets - Advance Purchase
     .PaypalItem
-        span Tour of Homes Individual Tickets: $#{globals.tour.cost.advance} each
+        //- span Tour of Homes Individual Tickets: $#{globals.tour.cost.advance} each
+        //- form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
+        //-   input(type='hidden', name='cmd', value='_s-xclick')
+        //-   input(type='hidden', name='hosted_button_id', value='RNBNA4ADCKUYU')
+        //-   input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+        //-   img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
 
+        span Tour of Homes Individual Tickets: $#{globals.tour.cost.door} each
         form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
-          input(type='hidden', name='cmd', value='_s-xclick')
-          input(type='hidden', name='hosted_button_id', value='RNBNA4ADCKUYU')
-          input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
-          img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+            input(type='hidden', name='cmd', value='_s-xclick')
+            input(type='hidden', name='hosted_button_id', value='LT6HKKX2MUQNA')
+            input(type='image', src='https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif', border='0', name='submit', alt='PayPal - The safer, easier way to pay online!')
+            img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
+
+
 
 //- .Paypal Items
 //-     //- Tour of Homes Individual Tickets - Door Purchase

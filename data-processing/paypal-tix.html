@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paypal Tix</title>
+    <script src="http://zeptojs.com/zepto.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <style type="text/css">
+    body { font-family: Arial, sans-serif; font-size: .7em; }
+    ul { list-style: none; margin: 0; padding: 0 }
+    li { width: 45%; display: inline-block; margin-bottom: 8px; padding: 4px 0; border-bottom: 1px solid #ccc }
+    span { display: inline-block }
+    .name { width: 15em }
+    .email { width: 15em; overflow: hidden; }
+    .quantity { width: 5em; margin-left: .5em }
+    .price { width: 5em }
+    </style>
+</head>
+<body>
+
+<div id="content"></div>
+
+<script>
+Zepto(function($){
+    $.getJSON('./paypal-data/2018-03-01__2018-04-27.json', function (data) {
+        var keys = Object.keys(data.transactions)
+        var transactions = []
+        keys.forEach(function (key) {
+            transactions.push(data.transactions[key])
+        })
+        transactions.sort(function(a, b){
+            var keyA = a.name.toLowerCase(),
+                keyB = b.name.toLowerCase()
+            // Compare the 2 dates
+            if(keyA < keyB) return -1;
+            if(keyA > keyB) return 1;
+            return 0;
+        });
+
+        $content = $('#content')
+        html = '<ul>'
+        transactions.forEach(function (t) {
+            html += '<li>'
+            html += '<span class="name">' + t.name + '</span>'
+            html += '<span class="email">' + t.email + '</span>'
+            html += '<span class="quantity">qty: ' + t.quantity + '</span>'
+            html += '<span class="price">$' + t.gross + '</span>'
+            html += '</li>'
+        })
+        html += '</ul>'
+        $content.html(html)
+
+    })
+})
+</script>
+
+</body>
+</html>
