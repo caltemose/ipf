@@ -74,6 +74,14 @@ if (preg_match('/\.ru$/i', $visitorEmail)) {
     $spam = true;
     $valid = false;
 }
+if (preg_match('/profunding247$/i', $visitorEmail)) {
+    $spam = true;
+    $valid = false;
+}
+if (preg_match('/businessfunding247$/i', $visitorEmail)) {
+    $spam = true;
+    $valid = false;
+}
 
 if (!$valid) {
     $res = '{"err":' . json_encode($errors) . '}';

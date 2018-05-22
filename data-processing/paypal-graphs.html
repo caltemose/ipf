@@ -3,13 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Heart Stats Over Time</title>
+    <title>Paypal Tickets Sold</title>
     <script src="http://zeptojs.com/zepto.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
     <style type="text/css">
     h1 { margin-bottom: 0; text-align: center; font-family: sans-serif }
     #chart { margin: 0 auto }
+    h2 { margin: 1.5em 0 0.5em; font-size: 1.5em; }
+    .stats { margin-left: 3em; }
     </style>
 </head>
 <body>
@@ -33,9 +35,9 @@
         const graphData = []
 
         Zepto(function($){
-            $.getJSON('./paypal-data/2018-03-01__2018-04-22.json', function (data) {
+            $.getJSON('./paypal-data/2018-final.json', function (data) {
                 years.push(data)
-                $.getJSON('./paypal-data/2017-03-01__2017-05-08.json', function (data) {
+                $.getJSON('./paypal-data/2017-final.json', function (data) {
                     years.push(data)
                     processData()
                 })
@@ -72,9 +74,12 @@
             var dateKeys = Object.keys(transactionDates)
             dateKeys.forEach(function (date) {
                 var mmt = moment(date)
-                var month = mmt.format('MM')
-                var day = mmt.format('DD')
+
+                    var month = mmt.format('MM')
+                    var day = mmt.format('DD')
+
                 var year = moment().format('YYYY')
+
                 var fixed = new Date(year + '/' + month + '/' + day)
                 dates.push(fixed)
                 quantities.push(transactionDates[date])
@@ -99,8 +104,17 @@
             Plotly.newPlot('chart', data)
 
             var totals = document.getElementById('totals')
-            var html = '<h4>2017: $' + yearTotals['2017'].gross + '/$' + roundMoney(yearTotals['2017'].net) + '/' + yearTotals['2017'].quantity + '</br>'
-            html += '2018: $' + yearTotals['2018'].gross + '/$' + roundMoney(yearTotals['2018'].net) + '/' + yearTotals['2018'].quantity + '</h4>'
+            var html = '<div class="stats"><h2>2017</h3>'
+            html += '<p>gross total sales: <strong>$' + yearTotals['2017'].gross + '</strong><br>'
+            html += 'net total sales: <strong>$' + roundMoney(yearTotals['2017'].net) + '</strong><br>'
+            html += 'tickets sold: <strong>' + yearTotals['2017'].quantity + '</strong></p></div>'
+
+            html += '<div class="stats"><h2>2018</h3>'
+            html += '<p>gross total sales: <strong>$' + yearTotals['2018'].gross + '</strong><br>'
+            html += 'net total sales: <strong>$' + roundMoney(yearTotals['2018'].net) + '</strong><br>'
+            html += 'tickets sold: <strong>' + yearTotals['2018'].quantity + '</strong></p></div>'
+            // '<h4>2017: $' + yearTotals['2017'].gross + '/$' + roundMoney(yearTotals['2017'].net) + '/' + yearTotals['2017'].quantity + '</br>'
+            // html += '2018: $' + yearTotals['2018'].gross + '/$' + roundMoney(yearTotals['2018'].net) + '/' + yearTotals['2018'].quantity + '</h4>'
             console.log(html)
             totals.innerHTML = html
         }

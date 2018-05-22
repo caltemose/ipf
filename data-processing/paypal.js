@@ -29,19 +29,24 @@ let gross = 0
 let net = 0
 let tix = 0
 
+function isLegalRowType (type) {
+     return type === 'Website Payment' || type === 'PayPal Here Payment'
+ }
+
 csvToJson()
   .fromFile(filein)
   .on('json', (row) => {
-    if (row['Item Title'] === '' && row['Type'] === 'Website Payment') {
+    if (row['Item Title'] === '' && isLegalRowType(row['Type'])) {
       let obj = transactions[row['Transaction ID']] = {}
       obj.date = row['Date']
       obj.time = row['Time']
       obj.gross = Number(row['Gross'])
       obj.net = Number(row['Net'])
-      obj.email = row['From Email Address']
-      obj.name = row['Name']
+      // obj.email = row['From Email Address']
+      // obj.name = row['Name']
       obj.quantity = Number(row['Quantity'])
   } else if (row['Type'] !== 'Payment Refund') {
+      console.log(row['Transaction ID'])
       if (row['Item Title'].indexOf('Tour of Home') > -1) {
         transactions[row['Transaction ID']].title = row['Item Title']
         gross += transactions[row['Transaction ID']].gross
