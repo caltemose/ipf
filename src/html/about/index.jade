@@ -16,16 +16,16 @@ block contents
 
         p The festival offers something for everybody. Music, kids activities, a Tour of Homes, a marvelous street parade, an artists' market, some of the city's best people-watching. Come early, stay late, and be our guests at Atlanta's best street festival.
 
-    .PromotionItemSolo.u-container.u-container--noPad
-        .PromotionItemSolo-header
-            h3 #{globals.ipf.date.year} Festival Dates & Times:
-        .PromotionItemSolo-content
-            ul
-                li 
-                    | Friday, #{globals.ipf.date.friday.date}: #{globals.ipf.date.friday.hours} 
-                    small (Tour of Homes preview only)
-                li Saturday, #{globals.ipf.date.saturday.date}: #{globals.ipf.date.saturday.hours}
-                li Sunday, #{globals.ipf.date.sunday.date}: #{globals.ipf.date.sunday.hours}
+    //- .PromotionItemSolo.u-container.u-container--noPad
+    //-     .PromotionItemSolo-header
+    //-         h3 #{globals.ipf.date.year} Festival Dates & Times:
+    //-     .PromotionItemSolo-content
+    //-         ul
+    //-             li 
+    //-                 | Friday, #{globals.ipf.date.friday.date}: #{globals.ipf.date.friday.hours} 
+    //-                 small (Tour of Homes preview only)
+    //-             li Saturday, #{globals.ipf.date.saturday.date}: #{globals.ipf.date.saturday.hours}
+    //-             li Sunday, #{globals.ipf.date.sunday.date}: #{globals.ipf.date.sunday.hours}
 
     article.u-container
 
@@ -35,7 +35,8 @@ block contents
 
         h3 Admission
         
-        p Admission to all Festival events, except the Tour of Homes, is free. Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
+        p Admission to all Festival events, except the Tour of Homes, is free. 
+        //- Tour of Homes tickets are $#{globals.tour.cost.advance} in advance and $#{globals.tour.cost.door} starting Friday, #{globals.ipf.date.friday.date}.
 
         
         h3 Arrival
@@ -54,7 +55,7 @@ block contents
         p The Tour of Homes is a self-conducted tour of some of the beautiful homes and buildings in Inman Park. See inside some of the glorious old Victorian homes or check out some of the beautiful remodeling jobs neighbors have completed on their houses.
         
         //- TODO globalize the times below.
-        p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between 12PM - 6PM.
+        //- p The home preview starts on Friday #{globals.ipf.date.friday.date} between #{globals.ipf.date.friday.hours} and continues through Saturday and Sunday between 12PM - 6PM.
         
         p 
             | To find out more about the Tour of Homes and read about the homes on the tour, visit the
@@ -90,8 +91,8 @@ block contents
         
         li.PromotionItem
             section
-                h3 Festival 2018 Music
-                p Check back soon to see which bands are playing Festival 2018.
+                h3 Festival Music
+                p Check back later to see which bands are playing Festival #{globals.ipf.date.year}.
             //- section
             //-     h3 Festival Artwork Chosen
             //- 

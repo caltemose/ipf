@@ -8,25 +8,25 @@ block title
 
 block contents
 
-    div.Banner-dates
-        div #{globals.ipf.date.year} Tour of Homes Preview: Friday #{globals.ipf.date.friday.date}
-        div Festival: Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date}
+    //- div.Banner-dates
+    //-     div #{globals.ipf.date.year} Tour of Homes Preview: Friday #{globals.ipf.date.friday.date}
+    //-     div Festival: Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date}
 
     .Hero.owl-carousel.owl-theme
-        div
-            .HeroSlidePromo
-                .HeroSlidePromo-banner
-
-                .HeroSlidePromo-copy
-                    h3 Festival Needs Volunteers!
-                    p
-                        | Festival doesn't happen without volunteers.
-                        = ' '
-                        a(href=globals.volunteerSite) Signup now
-                        = ' '
-                        | to volunteer your time and help make this year's festival great!
-                    
-                    a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
+        //- div
+        //-     .HeroSlidePromo
+        //-         .HeroSlidePromo-banner
+        //- 
+        //-         .HeroSlidePromo-copy
+        //-             h3 Festival Needs Volunteers!
+        //-             p
+        //-                 | Festival doesn't happen without volunteers.
+        //-                 = ' '
+        //-                 a(href=globals.volunteerSite) Signup now
+        //-                 = ' '
+        //-                 | to volunteer your time and help make this year's festival great!
+        //- 
+        //-             a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
 
         div
             mixin slideImage('/assets/img/2018/sponsors/northside-banner', 'Presenting Sponsor: Northside Hospital')
@@ -52,19 +52,27 @@ block contents
                 
             .PageIntro-copy
                 p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
-                p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
-                p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
+                
+                p Thanks to some fantastic weather, this past festival was wonderful. Looking forward to next year...
+                
+                //- p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
+                //- p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
 
     .PromotionItemHero.u-container.u-container--noPad
         .PromotionItemHero-image.image--art-2018
-
+        
         .PromotionItemHero-text
             section
-                h2 Tour Tickets on Sale
-                p 
-                    a(href="/events/tour-of-homes/#buy-tickets") Buy Tour of Homes tickets online now!
-            .ArrowNav
-                a(href="/events/tour-of-homes/#buy-tickets") >
+                h2 Off Season
+                p Next year's Festival details will be available online later this year.
+                
+        //- .PromotionItemHero-text
+        //-     section
+        //-         h2 Tour Tickets on Sale
+        //-         p 
+        //-             a(href="/events/tour-of-homes/#buy-tickets") Buy Tour of Homes tickets online now!
+        //-     .ArrowNav
+        //-         a(href="/events/tour-of-homes/#buy-tickets") >
 
     ul.PromotionGrid.u-container.u-container--noPad
         li.PromotionItem.alt-primary
@@ -77,7 +85,7 @@ block contents
             section
                 h3 Tour of Homes
                 p
-                    a(href="/events/tour-of-homes") Preview the homes on tour this year.
+                    a(href="/events/tour-of-homes") Review the homes that toured this past festival.
             .ArrowNav
                 a(href="#") >
 

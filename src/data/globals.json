@@ -2,18 +2,18 @@
     "ipf": {
         "title": "Inman Park Festival",
         "date": {
-            "annual": "47",
-            "year": "2018",
+            "annual": "48",
+            "year": "2019",
             "friday": {
-                "date": "April 27",
+                "date": "April 26",
                 "hours": "12PM - 4PM"
             },
             "saturday": {
-                "date": "April 28",
+                "date": "April 27",
                 "hours": "11AM - 6PM"
             },
             "sunday": {
-                "date": "April 29",
+                "date": "April 28",
                 "hours": "11AM - 6PM"
             },
             "butterfly": {
