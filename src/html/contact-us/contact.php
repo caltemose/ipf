@@ -69,18 +69,42 @@ if ($message === '') {
 
 $spam = false;
 
-// spam
-if (preg_match('/\.ru$/i', $visitorEmail)) {
-    $spam = true;
-    $valid = false;
+function isSpam ($email) {
+  $spam = false;
+  /*
+    supplement this list with addition regular expressions as needed.
+    it may not be pretty but it helps prevent garbage.
+   */
+  $expressions = array(
+    '/\.ru$/i',
+    '/profunding247/i',
+    '/businessfunding247/i',
+    '/findfastbusinessfunds/i',
+    '/getmybusinessfundednow/i'
+  );
+  foreach($expressions as $regex) {
+    if (preg_match($regex, $email)) {
+      $spam = true;
+      break;
+    }
+  }
+  return $spam;
 }
-if (preg_match('/profunding247$/i', $visitorEmail)) {
-    $spam = true;
-    $valid = false;
+
+function isSpamBody ($body) {
+  return strpos($body, 'r.php?url=inmanparkfestival.org');
 }
-if (preg_match('/businessfunding247$/i', $visitorEmail)) {
+
+if (isSpam($visitorEmail)) {
     $spam = true;
     $valid = false;
+    $errors['spam'] = 'probs1';
+}
+
+if (isSpamBody($msg)) {
+    $spam = true;
+    $valid = false;
+    $errors['spam'] = 'probs2';
 }
 
 if (!$valid) {
