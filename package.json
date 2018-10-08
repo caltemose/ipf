@@ -70,7 +70,7 @@
     "karma-sinon-chai": "^1.0.0",
     "karma-webpack": "1.7.0",
     "line-reader": "^0.3.0",
-    "lodash": "^3.10.0",
+    "lodash": "^4.17.11",
     "merge-stream": "^0.1.8",
     "mocha": "^2.2.5",
     "morgan": "^1.6.1",
