@@ -1,0 +1,18 @@
+extends ../../templates/layout.jade
+
+block title
+    title #{globals.ipf.title} Art Submissions
+
+block contents
+
+    article.u-container
+
+        h1 Inman Park Festival Yearly Art Submissions
+        
+        form(action="upload.php" method="post" enctype="multipart/form-data" class="dropzone")#imagedrop
+            .dz-message(data-dz-message)
+                span Click or drop files here to upload.
+
+    script(src="/assets/dropzone.js")
+    script(type="text/javascript").
+        Dropzone.options.imagedrop = { maxFilesize: 3, maxFiles: 3 }
