@@ -1,5 +1,19 @@
 extends ../templates/layout.jade
 
+mixin boothWinner(place, name, type, url)
+    .BoothWinner
+        h3= place
+        .BoothWinner-name= name
+        .BoothWinner-type= type
+        .BoothWinner-url
+            a(href=url target="_blank")= url
+
+mixin boothWinnerHonorable(name, type, url)
+    .BoothWinner-name= name
+    .BoothWinner-type= type
+    .BoothWinner-url
+        a(href=url target="_blank") url
+
 block pageVars
     - var selectedNav = 'booths'
 
@@ -40,55 +54,33 @@ block contents
         
         p Together they comprise one of the largest street markets in the Southeast!
         
-        h2 Become a Vendor
+        if globals.vendors.appActive
+            h2 Become a Vendor
         
-        p 
-            | If you are interested in being a vendor for the #{globals.ipf.date.year} festival, 
-            = ' '
-            a(href="/booths/become-an-exhibitor") visit the Become an Exhibitor page for more info.
+            p 
+                | If you are interested in being a vendor for the #{globals.ipf.date.year} festival, 
+                = ' '
+                a(href="/booths/become-an-exhibitor") visit the Become an Exhibitor page for more info.
         
-        //- p Vendor applications are closed in the off-season but you can check back on this site in the fall to find instructions on how to become a vendor. We use <a href="https://www.zapplication.org/" target="_blank">ZAPP</a> to manage vendor applications &ndash; feel free to visit their site to create an account at any time.
+        if globals.offSeason && !globals.vendors.appActive
+            p Vendor applications are closed in the off-season but you can check back on this site in the fall to find instructions on how to become a vendor. We use <a href="https://www.zapplication.org/" target="_blank">ZAPP</a> to manage vendor applications &ndash; feel free to visit their site to create an account at any time.
 
         h2 2017 Arts &amp; Crafts Winners
 
         .BoothWinners
-            .BoothWinner
-                h3 First Place
-                .BoothWinner-name Leif Johansen
-                .BoothWinner-type Shadow box drawings & paintings
-                .BoothWinner-url
-                    a(href="http://www.leiferikjohansen.com/" target="_blank") www.leiferikjohansen.com/
-                
+            mixin boothWinner("First Place", "Leif Johansen", "Shadow box drawings & paintings", "http://www.leiferikjohansen.com/")
+            
+            mixin boothWinner("First Place", "Leif Johansen", "Shadow box drawings & paintings", "http://www.leiferikjohansen.com/")
+            
+            mixin boothWinner("Second Place", "Linda Hill", "Paintings", "http://www.heartscapedesigns.com/") 
 
-            .BoothWinner
-                h3 Second Place
-                .BoothWinner-name Linda Hill
-                .BoothWinner-type Paintings
-                .BoothWinner-url
-                    a(href="http://www.heartscapedesigns.com/" target="_blank") www.heartscapedesigns.com/
-                
-
-            .BoothWinner
-                h3 Third Place
-                .BoothWinner-name Natacha Monnalisa
-                .BoothWinner-type Wood burning drawings
-                .BoothWinner-url
-                    a(href="http://www.natachamonnalisa.com/" target="_blank") www.natachamonnalisa.com/
-                
+            mixin boothWinner("Third Place", "Natacha Monnalisa", "Wood burning drawings", "http://www.natachamonnalisa.com/")
 
             .BoothWinner.BoothWinner--honorable
                 h3 Honorable Mentions
-                .BoothWinner-name Hannah Long
-                .BoothWinner-type Jewelry
-                .BoothWinner-url
-                    a(href="http://www.etsy.com/shop/hannahlongjewelry" target="_blank") www.etsy.com/shop/hannahlongjewelry
+                
+                mixin boothWinnerHonorable("Hannah Long", "Jewelry", "http://www.etsy.com/shop/hannahlongjewelry")
 
-                .BoothWinner-name Megan Smith
-                .BoothWinner-type Stuffed animals
-                .BoothWinner-url
-                    a(href="http://www.noblesmith.design" target="_blank") www.noblesmith.design
+                mixin boothWinnerHonorable("Megan Smith", "Stuffed animals", "http://www.noblesmith.design")
 
-                .BoothWinner-name Glenn Lewis
-                .BoothWinner-type Photography
-                .BoothWinner-url
-                    a(href="http://www.glennlewisphotography.com/" target="_blank") www.glennlewisphotography.com/
+                mixin boothWinnerHonorable("Glenn Lewis", "Photography", "http://www.glennlewisphotography.com/")
