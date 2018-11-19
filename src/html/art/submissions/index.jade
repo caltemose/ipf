@@ -37,34 +37,41 @@ block contents
 
         h2 Requirements
         
-        p All artwork submitted will be owned by Inman Park Festival.
+        #formResults.u-displayNone
+            p Thanks for your submission. We'll be in touch.
         
-        p You may submit a maximum of three (3) entries.
-        
-        form(action="upload.php" method="post" enctype="multipart/form-data" class="dropzone")#imagedrop
-            .dz-message(data-dz-message)
-                span Click or drop files here to upload. Valid file types are: jpeg, png, pdf. Maximum file size per file is 5 MB
+        #formContainer
+            p All artwork submitted will be owned by Inman Park Festival.
+            
+            p You may submit a maximum of three (3) entries.
+            
+            form(action="upload.php" method="post" enctype="multipart/form-data" class="dropzone")#imagedrop
+                .dz-message(data-dz-message)
+                    span Click or drop files here to upload. Valid file types are: jpeg, png, pdf. Maximum file size per file is 5 MB
+            
+                .dz-previews-container
+            
+                .ArtForm
+                    p Please provide your personal contact details so we can contact you once we've selected the final artwork for this year's festival. Your name is required and you must provide either your phone number or email or both.
+            
+                    .ArtForm-error
+            
+                    label
+                        span Your Name:
+                        input(type="text" name="artistName" placeholder="Your Name")
+            
+                    label
+                        span Your Phone Number:
+                        input(type="text" name="artistPhone" placeholder="Your Phone Number")
+            
+                    label
+                        span Your Email Address:
+                        input(type="email" name="artistEmail" placeholder="Your Email")
+            
+                    input(type="submit" name="submit" value="Submit")
 
-            .dz-previews-container
-
-            .ArtForm
-                p Please provide your personal contact details so we can contact you once we've selected the final artwork for this year's festival. Your name is required and you must provide either your phone number or email or both.
-                
-                .ArtForm-error
-                
-                label
-                    span Your Name:
-                    input(type="text" name="artistName" placeholder="Your Name")
-                
-                label
-                    span Your Phone Number:
-                    input(type="text" name="artistPhone" placeholder="Your Phone Number")
-                    
-                label
-                    span Your Email Address:
-                    input(type="email" name="artistEmail" placeholder="Your Email")
-                
-                input(type="submit" name="submit" value="Submit")
+        #submissionLoader.SubmissionLoader
+            img(src="/assets/img/ajax-loader.gif" alt="submitting files...")
 
 block scripts
     script(src="/assets/dropzone.js")

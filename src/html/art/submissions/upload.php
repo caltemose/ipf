@@ -1,52 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head><title>File Upload</title></head>
-<body>
-
 <?php
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["file"]["name"]);
+
+
+
+$target_dir = 'uploads/';
 $uploadOk = 1;
+$errors = [];
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+$target_file = $target_dir . time() . '--' . basename($_FILES["file"]["name"]);
+
 // Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["file"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
-    }
+if(getimagesize($_FILES["file"]["tmp_name"]) !== false) {
+    $uploadOk = 1;
+} else {
+    array_push($errors, "Not a valid image file.");
+    $uploadOk = 0;
 }
+
 // Check if file already exists
 if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
+    array_push($errors, "File already exists. Maybe try renaming your file.");
     $uploadOk = 0;
 }
+
 // Check file size
-if ($_FILES["file"]["size"] > 2000000) { // 2MB
-    echo "Sorry, your file is too large.";
+if ($_FILES["file"]["size"] > 6000000) { // bigger than Javascript max to be on the safe side
+    array_push($errors, "File is too large. Maximum upload size is 5MB.");
     $uploadOk = 0;
 }
+
 // Allow certain file formats
-if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
-    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+if (!in_array($imageFileType, ['jpg', 'jpeg', 'png', 'pdf', 'gif'])) {
+    array_push($errors, "Sorry, only JPG, JPEG, PNG & GIF files are allowed.");
     $uploadOk = 0;
 }
+
+
 // Check if $uploadOk is set to 0 by an error
-if ($uploadOk == 0) {
-    echo "Sorry, your file was not uploaded.";
+if ($uploadOk) {
+    header('Content-type: application/json');
+    echo ('{err:"' . implode('<br>', $errors) . '"}');
+    exit();
 // if everything is ok, try to upload file
 } else {
     if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
-        echo "The file ". basename( $_FILES["file"]["name"]). " has been uploaded.";
+        //echo "The file ". basename( $_FILES["file"]["name"]). " has been uploaded.";
+        header('Content-type: application/json');
+        $msg = '{"msg":"The file ' . basename( $_FILES["file"]["name"]) . ' has been uploaded.",';
+        $msg .= '"file":"' . $target_file . '",';
+        $msg .= '"http_referer":"' . $_SERVER['HTTP_REFERER'] . '"}';
+        echo $msg;
     } else {
-        echo "Sorry, there was an error uploading your file.";
+        header('Content-type: application/json');
+        echo '{err: "Sorry, there was an error uploading your file."}';
     }
 }
 ?>
-
-</body>
-</html>

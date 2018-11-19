@@ -1,6 +1,6 @@
 (function ($) {
 
-    var $form, artDropZone
+    var $form, artDropZone, files = {}
 
     function submitForm (event) {
         var $name = $('input[name="artistName"]')
@@ -24,7 +24,7 @@
         errorMsg += '</p>'
         event.preventDefault()
         if (isValid) {
-            console.log('submit form')
+            showLoadingState()
             artDropZone.processQueue()
         } else {
             console.error('invalid form')
@@ -48,12 +48,99 @@
             previewsContainer: '.dz-previews-container',
             maxFilesize: 5,
             maxFiles: 3,
-            acceptedFiles: 'image/*,application/pdf',
-            autoProcessQueue: false
+            acceptedFiles: 'image/*,application/pdf'
         }
         $form = $('#imagedrop')
         $form.submit(submitForm)
+
         artDropZone = new Dropzone("#imagedrop", dzOptions);
+        artDropZone.on('complete', function (file) {
+          onFileComplete(file)
+        })
+        artDropZone.on('processing', function (file) {
+          onFileProcessing(file)
+        })
+        artDropZone.on('sending', function (file) {
+          onFileSending(file)
+        })
+        artDropZone.on('addedfile', function (file) {
+          onFileAdded(file)
+        })
+    }
+
+    function showLoadingState () {
+        $('#submissionLoader').show()
+    }
+
+    function onFileAdded (file) {
+        var uuid = file.upload.uuid
+        files[uuid] = {
+            name: file.name,
+            added: true
+        }
+    }
+
+    function onFileProcessing (file) {
+        var uuid = file.upload.uuid
+        if (files[uuid]) {
+            files[uuid].processing = true
+        }
+    }
+
+    function onFileSending (file) {
+        var uuid = file.upload.uuid
+        if (files[uuid]) {
+            files[uuid].sending = true
+        }
+    }
+
+    function onFileComplete (file) {
+        var response = JSON.parse(file.xhr.response)
+        var uuid = file.upload.uuid
+        if (files[uuid]) {
+            files[uuid].complete = true
+            files[uuid].url = response.http_referer + response.file
+        }
+        if (allFilesComplete()) {
+            var formData = {}
+            formData.artistName = $('input[name="artistName"]').val()
+            formData.artistPhone = $('input[name="artistPhone"]').val()
+            formData.artistEmail = $('input[name="artistEmail"]').val()
+            formData.images = getImages()
+            $.post('submit.php', formData, function (res) {
+                $('#submissionLoader').hide()
+                showResults()
+            })
+        }
+    }
+
+    function showResults () {
+        $('#formContainer').hide()
+        $('#formResults').show()
+    }
+
+    function getImages () {
+        var prefix = 'http://inmanparkfestival.com/art/submissions/uploads/'
+        var images = []
+        var keys = Object.keys(files)
+        for(var i=0; i<keys.length; i++) {
+            images.push(files[keys[i]].url)
+        }
+        return images
+    }
+
+    function allFilesComplete () {
+        var keys = Object.keys(files)
+        if (keys) {
+            for(var i=0; i<keys.length; i++) {
+                if (!files[keys[i]].complete) {
+                    return false
+                }
+            }
+            return true
+        } else {
+            return null
+        }
     }
 
     initialize()
