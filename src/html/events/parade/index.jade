@@ -34,10 +34,12 @@ block contents
 
         blockquote Take in a parade with personality. (Intown Atlanta) Inman Park Spring Festival's parade is a people watching paradise. Colorful costumes, creative themes, and the Seed & Feed Marching Abominable invite spring with sass and funk.
 
-        //- p 
-        //-     a(href="#{globals.events.parade.application}") Download the Parade Application
-        //-     = ' '
-        //-     | if you'd like to register to march in the parade.
+        if globals.events.parade.applicationActive
+            h2 Want to March in the Parade?
+            p 
+                a(href="#{globals.events.parade.application}") Download the Parade Application
+                = ' '
+                | if you'd like to register to march in the parade.
 
 block scripts
     script.
