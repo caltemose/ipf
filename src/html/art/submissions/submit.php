@@ -39,7 +39,7 @@ if (!$validPhone || !$validEmail) {
   sendError("You must supply a valid phone number or email address.");
 }
 
-$emailMsg = "Art submitted:\n\n";
+$emailMsg = "Art submitted:" . "\n" . "\n";
 $emailMsg .= 'Name: ' . $artistName . "\n";
 $emailMsg .= 'Phone: ' . $artistPhone . "\n";
 $emailMsg .= 'Email: ' . $artistEmail . "\n";
@@ -61,7 +61,7 @@ $domain = "inmanparkfestival.org";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
     'from'    => 'Site Admin' . ' <' . 'support@inmanparkfestival.org' . '>',
-    'to'      => 'chad@chadzilla.com',
+    'to'      => 'chad@chadzilla.com,ipnamarketing@gmail.com',
     'subject' => 'Email from Festival Contact Form',
     'text'    => $emailMsg
 ));

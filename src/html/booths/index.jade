@@ -12,7 +12,7 @@ mixin boothWinnerHonorable(name, type, url)
     .BoothWinner-name= name
     .BoothWinner-type= type
     .BoothWinner-url
-        a(href=url target="_blank") url
+        a(href=url target="_blank")= url
 
 block pageVars
     - var selectedNav = 'booths'
