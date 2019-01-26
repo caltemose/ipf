@@ -25,6 +25,10 @@
         font-size: 1.75em;
     }
 
+    ul {
+        padding-left: 1em;
+    }
+
     &.alt-primary, &.alt-secondary {
         padding-bottom: $promotion-padding-sm;
 

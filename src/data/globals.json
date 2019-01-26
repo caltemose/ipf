@@ -22,7 +22,7 @@
             }
         }
     },
-    "offseason": true,
+    "offseason": false,
     "tour": {
         "active": false,
         "cost": {

@@ -30,15 +30,15 @@ block contents
         //-             a.u-blockCentered.Button(href=globals.volunteerSite) Sign Up
 
         // festival art submission slide
-        div
-            .HeroSlidePromo
-                .HeroSlidePromo-banner
-        
-                .HeroSlidePromo-copy
-                    h3 Call For Entries!
-                    p <a href="/art/submissions">Submit your artwork</a> for this year's festival. Be part of an in-town tradition and put your talent on display for the Inman Park Festival attendees. 
-        
-                    a.u-blockCentered.Button(href="/art/submissions") Learn More
+        //- div
+        //-     .HeroSlidePromo
+        //-         .HeroSlidePromo-banner
+        //- 
+        //-         .HeroSlidePromo-copy
+        //-             h3 Call For Entries!
+        //-             p <a href="/art/submissions">Submit your artwork</a> for this year's festival. Be part of an in-town tradition and put your talent on display for the Inman Park Festival attendees. 
+        //- 
+        //-             a.u-blockCentered.Button(href="/art/submissions") Learn More
 
 
         div
@@ -63,10 +63,10 @@ block contents
             .PageIntro-copy
                 p During the last full weekend in April each year, Inman Park proudly presents a neighborhood festival widely regarded as Atlanta&rsquo;s most spirited and eclectic.
                 
-                p Thanks to some fantastic weather, this past festival was wonderful. Looking forward to next year...
+                //- p Thanks to some fantastic weather, this past festival was wonderful. Looking forward to next year...
                 
-                //- p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
-                //- p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
+                p Please join us for the #{globals.ipf.date.annual}th Inman Park Spring Festival and Tour Of Homes.
+                p The #{globals.ipf.date.year} Inman Park Festival takes place on Saturday #{globals.ipf.date.saturday.date} &amp; Sunday #{globals.ipf.date.sunday.date} with a Tour of Homes preview on Friday #{globals.ipf.date.friday.date}.
 
     .PromotionItemHero.u-container.u-container--noPad
         .PromotionItemHero-image.image--art-2018
@@ -93,12 +93,12 @@ block contents
                     a.u-blockCentered.Button(href="https://www.zapplication.org/event-info.php?ID=6787") Apply Now
             
 
-        li.PromotionItem
-            section
-                h3 Festival 2019 Art
-                p Call for entries is live! Learn how to submit your artwork for this year's design competition.
-                p
-                    a(href="/art/submissions") Learn More
+        //- li.PromotionItem
+        //-     section
+        //-         h3 Festival 2019 Art
+        //-         p Call for entries is live! Learn how to submit your artwork for this year's design competition.
+        //-         p
+        //-             a(href="/art/submissions") Learn More
             
 
         //- li.PromotionItem
@@ -115,6 +115,15 @@ block contents
         //-     section
         //-         h3 #{globals.ipf.date.year} Art Contest
         //-         p The call for artwork entries deadline has passed. Check back for details on this year's winning artwork.
+        //-         
+        
+        li.PromotionItem
+            section
+                h3 Festival Dates #{globals.ipf.date.year}
+                ul
+                    li Friday #{globals.ipf.date.friday.date} (Tour of Homes only) 
+                    li Saturday #{globals.ipf.date.saturday.date} 
+                    li Sunday #{globals.ipf.date.sunday.date}
 
 
         //- li.PromotionItem
