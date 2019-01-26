@@ -118,7 +118,7 @@
     },
     "art": {
         "submissions": {
-            "active": true
+            "active": false
         }
     },
     "contacts": [
